@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="msg" placeholder="Tapez un message">
+    <button onclick="envoyer()">Envoyer</button>
+    <div id="reponse"></div>
+
+    <script>
+      function envoyer() {
+        const msg = document.getElementById("msg").value;
+        fetch("http://localhost:5005/webhooks/rest/webhook", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ sender: "web_user", message: msg }),
+        })
+        .then(res => res.json())
+        .then(data => {
+          const réponse = data.map(r => r.text).join("<br>");
+          document.getElementById("reponse").innerHTML = réponse;
+        });
+      }
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

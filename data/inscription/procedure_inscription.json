@@ -1,0 +1,47 @@
+{
+    "universite": "Université de Dschang",
+    "plateforme": "http://sigesonline.univ-dschang.org",
+    "processus": [
+        {
+            "etape": "Étape 0",
+            "titre": "Création de l'adresse électronique du candidat",
+            "description": "Avant toute chose, la préinscription requiert une adresse électronique valide. Celle-ci est indispensable pour faciliter l’échange entre l’étudiant et l’Université de Dschang. Tout candidat ne disposant pas d’une adresse email devra en créer une (ce qui est facile et rapide à faire) avant d'entamer son inscription sur la plateforme de préinscription. L'adresse email permettra de recevoir toutes les notifications et documents importants relatifs à l’inscription."
+        },
+        {
+            "etape": "Étape 1",
+            "titre": "Accès à la plateforme de préinscription",
+            "description": "L’étudiant ouvre un navigateur Internet de son choix (Firefox, Internet Explorer, Opera, Chrome…) et saisit l’adresse suivante dans la barre de navigation : http://sigesonline.univ-dschang.org. C’est sur cette plateforme qu’il effectuera tout le processus de préinscription à distance."
+        },
+        {
+            "etape": "Étape 2",
+            "titre": "Choix de la Faculté et remplissage du formulaire de préinscription",
+            "description": "L’étudiant sélectionne la Faculté ou l’École de son choix puis remplit soigneusement le formulaire de préinscription en ligne. Ce formulaire inclut le choix du parcours de formation souhaité, les informations personnelles du candidat, ainsi que la sélection du mode de paiement et de l’établissement financier pour le règlement des différents frais."
+        },
+        {
+            "etape": "Étape 3",
+            "titre": "Téléchargement des documents de préinscription",
+            "description": "Après avoir validé le formulaire, l’étudiant télécharge les quitus nécessaires pour effectuer les paiements (frais de préinscription, médicaux, etc.) ainsi que la fiche de préinscription à inclure dans son dossier physique. Un espace personnel sécurisé est automatiquement créé pour l’étudiant sur la plateforme, lui permettant de suivre l’évolution de son dossier et d'accéder à divers services (documents, état des paiements…). Tous ces documents sont également envoyés automatiquement par email."
+        },
+        {
+            "etape": "Étape 4",
+            "titre": "Paiement des frais",
+            "description": "Le lendemain de la génération des quitus, l’étudiant peut se rendre dans l’établissement financier choisi pour payer les frais correspondants. Ce paiement peut aussi être effectué par un parent grâce au numéro inscrit sur le quitus. Les paiements peuvent se faire dans toutes les agences du réseau bancaire concerné à travers le pays."
+        },
+        {
+            "etape": "Étape 5",
+            "titre": "Confirmation de paiement et constitution du dossier physique",
+            "description": "Après paiement, l’étudiant reçoit un email de confirmation accompagné des détails des pièces à fournir pour la constitution du dossier physique. Ce dossier doit être déposé à la scolarité de la faculté concernée à l’arrivée de l’étudiant à Dschang."
+        },
+        {
+            "etape": "Étape 6",
+            "titre": "Étude du dossier par la faculté",
+            "description": "Une fois le dossier physique déposé, la Faculté examine la candidature. Un email est ensuite envoyé à chaque candidat pour l’informer de la décision (acceptation ou rejet) prise concernant son dossier."
+        },
+        {
+            "etape": "Étape 7",
+            "titre": "Visite médicale et attente du début des cours",
+            "description": "Les candidats retenus peuvent se rendre au Centre Médico-social de l’Université de Dschang pour effectuer leur visite médicale. Ils attendront ensuite le début effectif des cours dans l’établissement choisi, sous réserve de la présentation des originaux des diplômes."
+        }
+    ],
+    "remarque_finale": "Ce processus d'inscription ne s'arrête pas à la phase administrative. Il permet également à l’étudiant et à ses parents de consulter en ligne la situation académique, les résultats d’examens, l’état disciplinaire, la confirmation des paiements et d’autres informations importantes."
+}

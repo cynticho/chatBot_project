@@ -1,0 +1,107 @@
+[
+    {
+        "filiere": "fsjp",
+        "statut": "accessible",
+        "conditions": [
+            "Une fiche de pré-inscription téléchargée et imprimée lors de la pré-inscription en ligne sur la plateforme, https://sigesonline.univ-dschang.org",
+            "Une photocopie certifiée conforme de l´acte de naissance datant de moins de trois mois",
+            "Une photocopie du relevé de notes du baccalauréat, General Certificate Advance Level ou de tout autre diplôme équivalent certifié",
+            "Photocopies des bulletins de notes de 1er, 2nd, et 3ème trimestre la classe Terminale (facultatif)",
+            "Une enveloppe format A4 timbrée à 250 Frs. CFA portant l´adresse du candidat",
+            "Un reçu de paiement des frais médicaux",
+            "Un reçu de paiement des frais de pré-inscription",
+            "Un certificat médical établi au centre médico-social de l´Université de Dschang",
+            "Pour les titulaires de la Capacité en Droit, les relevés des notes des 1ère et 2ème Années",
+            "(NB: Une moyenne cumulée d´au moins 12/20 sur les deux années est exigée pour l´admission en 1ère année de Licence)",
+            "Deux photos couleur et identiques 4x4",
+            "relevés des notes des 1ère et 2ème Années (NB: Une moyenne cumulée d´au moins 12/20 sur les deux années est exigée pour l´admission en 1ère année de Licence)"
+        ],
+        "source": "https://sigesonline.univ-dschang.org"
+    },
+    {
+        "filiere": "fs",
+        "statut": "accessible",
+        "conditions": [
+            "Une fiche de pré-inscription téléchargée et imprimée lors de la pré-inscription en ligne sur la plateforme, https://sigesonline.univ-dschang.org",
+            "Une photocopie certifiée conforme du baccalauréat ou General Certificate Advanced Level",
+            "Une photocopie certifiée conforme des relevés de notes du baccalauréat ou General Certificate Advanced Level",
+            "Une photocopie certifiée conforme des relevés de notes du probatoire ou General Certificate ordinary Level",
+            "Une photocopie certifiée conforme de l´acte de naissance",
+            "Un reçu de paiement des frais de pré-inscription",
+            "Un reçu de paiement des frais médicaux",
+            "Un certificat médical établi au centre médico-social de l´Université de Dschang",
+            "Les bulletins de notes de la classe de terminale",
+            "Une enveloppe A4 timbrée à 500 Frs. CFA",
+            "Deux photos couleur 4x4"
+        ],
+        "source": "https://sigesonline.univ-dschang.org"
+    },
+    {
+        "filiere": "fseg",
+        "statut": "accessible",
+        "conditions": [
+
+            "Une fiche de pré-inscription téléchargée et imprimée lors de la pré-inscription en ligne sur la plateforme, https://sigesonline.univ-dschang.org",
+            "Une copie certifiée conforme de l´acte de naissance datant de moins de trois mois",
+            "Une copie du relevé de notes du baccalauréat, General Certificate Advance Level ou de tout autre diplôme équivalent certifié",
+            "Une copie du relevé de notes du probatoire, General Certificate ordinary Level ou de tout autre diplôme équivalent certifié",
+            "Une enveloppe format A4 timbrée à 250 Frs. CFA portant l´adresse du candidat",
+            "Un relevé de notes certifié de la précédente université en cas de transfert",
+            "Un reçu de paiement des frais médicaux",
+            "Un reçu de paiement des frais de pré-inscription",
+            "Un certificat médical établi au centre médico-social de l´Université de Dschang",
+            "Deux photos couleur 4x4"
+            ],
+        "source": "https://sigesonline.univ-dschang.org"
+    },
+    {
+        "filiere": "flsh",
+        "statut": "accessible",
+        "conditions": [
+            "Une fiche de pré-inscription téléchargée et imprimée lors de la pré-inscription en ligne sur la plateforme, https://sigesonline.univ-dschang.org",
+            "Une photocopie certifiée conforme de l´acte de naissance datant de moins de trois mois",
+            "Deux copies certifiées du baccalauréat, General Certificate Advance Level ou de tout autre diplôme équivalent certifié",
+            "Les bulletins de notes de 1er, 2nd, et 3ème trimestre la classe Terminale (certifiés par l´autorité académique)",
+            "Un relevé de notes de la précédente université en cas de transfert",
+            "Une enveloppe format A4 timbrée à 250 Frs. CFA portant l´adresse du candidat",
+            "Un reçu de paiement des frais médicaux",
+            "Un reçu de paiement des frais de pré-inscription",
+            "Un certificat médical établi au centre médico-social de l´Université de Dschang",
+            "Trois photos couleur et identiques 4x4 (inscrire nom, niveau et filière au verso)",
+            "NB: Seul le General Certificate Advanced Level en deux matiès au moins obtenues à la session d´examen donne droit à la pré-inscription Le General Certificate Advanced Level en deux matières : Religion + toute autre matière n´est pas accepté"
+        ],
+        "source": "https://sigesonline.univ-dschang.org"
+    },
+    {
+        "filiere": "fasa",
+        "statut": "non accessible",
+        "conditions": "admission sur concours",
+        "motif": "Site non disponible ou données non publiées à ce jour",
+        "prochaine_mise_a_jour_estimee": "après publication des résultats du concours",
+        "source": "http://sigesonline.univ-dschang.org"
+    },
+    {
+        "filiere": "ibaf",
+        "statut": "non accessible",
+        "conditions": "admission sur concours",
+        "motif": "Site non disponible ou données non publiées à ce jour",
+        "prochaine_mise_a_jour_estimee": "après publication des résultats du concours",
+        "source": "https://sigesonline.univ-dschang.org"
+    },
+    {
+        "filiere": "iut",
+        "statut": "non accessible",
+        "conditions": "admission sur concours",
+        "motif": "Site non disponible ou données non publiées à ce jour",
+        "prochaine_mise_a_jour_estimee": "après publication des résultats du concours",
+        "source": "https://sigesonline.univ-dschang.org"
+    },
+    {
+        "filiere": "fmsp",
+        "statut": "non accessible",
+        "conditions": "admission sur concours",
+        "motif": "Site non disponible ou données non publiées à ce jour",
+        "prochaine_mise_a_jour_estimee": "après publication des résultats du concours",
+        "source": "https://sigesonline.univ-dschang.org"
+    }
+]

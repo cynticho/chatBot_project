@@ -1,0 +1,2732 @@
+{
+  "myEntities": [
+    {
+      "name": "Entrée campus, Université de Dschang",
+      "description": "Situé au Portail donnant directement accès au Campus A de l'Université de Dschang",
+      "image": "img_1_entree_campus",
+      "steps": [
+        "img_1_entree_campus"
+      ]
+    },
+    {
+      "name": "Campus A, Université de Dschang",
+      "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
+      "image": "img_1_entree_campus",
+      "steps": [
+        "img_1_entree_campus"
+      ]
+    },
+    {
+      "name": "Navette, Campus A",
+      "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
+      "image": "img_4_navette_2",
+      "steps": [
+        "img_4_navette_2"
+      ]
+    },
+    {
+      "name": "Boutique Universitaire, Campus A",
+      "description": "Situé à quelques mètres de l'Entrée campus apres la navette, Campus A",
+      "image": "img_6_boutique_universitaire",
+      "steps": [
+        "img_6_boutique_universitaire"
+      ]
+    },
+    {
+      "name": "Première Salle Entrée campus",
+      "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
+      "image": "img_7_premiere_salle_entree_campus",
+      "steps": [
+        "img_7_premiere_salle_entree_campus"
+      ]
+    },
+    {
+      "name": "Deuxième Salle Entrée campus",
+      "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
+      "image": "img_8_deuxieme_salle_entree_campus",
+      "steps": [
+        "img_8_deuxieme_salle_entree_campus"
+      ]
+    },
+    {
+      "name": "Troisième Salle Entrée campus",
+      "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
+      "image": "img_10_troisieme_salle_entree_campus",
+      "steps": [
+        "img_10_troisieme_salle_entree_campus"
+      ]
+    },
+    {
+      "name": "Quatrième Salle Entrée campus",
+      "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
+      "image": "img_10_troisieme_salle_entree_campus",
+      "steps": [
+        "img_10_troisieme_salle_entree_campus"
+      ]
+    },
+    {
+      "name": "Orange Digital Center",
+      "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
+      "image": "img_14_orange_digital_1",
+      "steps": [
+        "img_11_route_orange_digital_center",
+        "img_14_orange_digital_1"
+      ]
+    },
+    {
+      "name": "Salle des Aumôneries",
+      "description": "Situé derrière Orange Digital Center Dschang, Campus A",
+      "image": "img_13_salle_des_aumones",
+      "steps": [
+        "img_11_vue_gauche_orange_digital_center",
+        "img_13_salle_des_aumones"
+      ]
+    },
+    {
+      "name": "Barbillard Navette Campus A, UDS ",
+      "description": "Situé à la navette, Campus A",
+      "image": "img_12_barbillard_orange_digital",
+      "steps": [
+        "img_12_barbillard_orange_digital"
+      ]
+    },
+    {
+      "name": "Ancien Décanat FSJP, Faculté des sciences juridiques et politique",
+      "description": "Situé à quelques mètres de Orange Digital Center Campus A",
+      "image": "img_146_decanat_fsjp_main",
+      "steps": [
+        "img_20_route_carrefour_donate_blood",
+        "img_147_decanat_fsjp_second",
+        "img_146_decanat_fsjp_main"
+      ]
+    },
+    {
+      "name": "Point Orange Money, Campus A",
+      "description": "Situé avant du mât du drapeau du Campus A",
+      "image": "img_19_orange_money",
+      "steps": [
+        "img_20_route_carrefour_donate_blood",
+        "img_19_orange_money"
+      ]
+    },
+    {
+      "name": "Bancs Public, Campus A",
+      "description": "Situé près du mât du drapeau, c'est le lieu de détente et d'échanges de la communauté universitaire",
+      "image": "img_22_bancs_public_campus_a",
+      "steps": [
+        "img_21_carrefour_donate_blood_2",
+        "img_22_bancs_public_campus_a",
+        "img_22_bancs_public_campus_a_second"
+      ]
+    },
+    {
+      "name": "Parking, Campus A",
+      "description": "Situé en face du mât du drapeau du Campus A",
+      "image": "img_17_parking_campus_a",
+      "steps": [
+        "img_18_route_bancs_public_campus_a",
+        "img_17_parking_campus_a"
+      ]
+    },
+    {
+      "name": "Bâtiment 1, Campus A",
+      "description": "Situé près du mât du drapeau du Campus A, il inclut le Block B1 et le Block SN1",
+      "image": "img_23_trois_batiments_123_1",
+      "steps": [
+        "img_23_trois_batiments_123_1",
+        "img_24_trois_batiments_123_2",
+        "img_25_batiment_1_1"
+      ]
+    },
+    {
+      "name": "Amphi 452, Campus A",
+      "description": "Situé à l'étage du bâtiment 1 Campus A",
+      "image": "img_30_amphi_452_main",
+      "steps": [
+        "img_26_batiment_1_face_1",
+        "img_28_batiment_1_escalier_1",
+        "img_30_amphi_452_main"
+      ]
+    },
+    {
+      "name": "Toillete Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1 Campus A",
+      "image": "img_35__toilettes_batiment_1",
+      "steps": [
+        "img_25_batiment_1_1",
+        "img_28_batiment_1_escalier_1",
+        "img_35__toilettes_batiment_1"
+      ]
+    },
+    {
+      "name": " Amphi 453, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1 Campus A",
+      "image": "img_31_amphi_453_main",
+      "steps": [
+        "img_26_batiment_1_face_1",
+        "img_29_batiment_1_escalier_etage",
+        "img_31_amphi_453_main"
+      ]
+    },
+    {
+      "name": "CATII, Bâtiment 1, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 1 campus A",
+      "image": "img_36_ctii",
+      "steps": [
+        "img_29_batiment_1_escalier_etage",
+        "img_36_ctii"
+      ]
+    },
+    {
+      "name": "Salle de formation, CATII, Bâtiment 1, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 1 campus A",
+      "image": "img_37_ctii_salle_de_formation",
+      "steps": [
+        "img_29_batiment_1_escalier_etage",
+        "img_37_ctii_salle_de_formation"
+      ]
+    },
+    {
+      "name": "Salle B1 1",
+      "description": "Situé au rez-de-chaussée du bâtiment 1 campus A",
+      "image": "img_39_salle_b1_1_main",
+      "steps": [
+        "img_25_batiment_1_1",
+        "img_39_salle_b1_1_main"
+      ]
+    },
+    {
+      "name": "Mat du Drapeau, Campus A ",
+      "description": "Situé au coeur du campus A",
+      "image": "img_40_mat_du_drapeau_campus_a",
+      "steps": [
+        "img_40_mat_du_drapeau_campus_a"
+      ]
+    },
+    {
+      "name": "Salle 2 FSJP",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_47_salle_2_fsjp_1",
+      "steps": [
+        "img_48_salle_2_fsjp_main",
+        "img_47_salle_2_fsjp_1"
+      ]
+    },
+    {
+      "name": "Porte SN1 123, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 124, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 120, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 118, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 121, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 116, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 119, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 115, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 114, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 112, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 113, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 111, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 108, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 109, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_1_entree_campus",
+        "img_5_route_entree_campus_2",
+        "img_11_route_orange_digital_center",
+        "img_16_route_goyavier",
+        "img_20_carrefour_donate_blood",
+        "img_18_route_bancs_public_campus_a",
+        "img_40_mat_du_drapeau_campus_a",
+        "img_44_batiment_1_block_sn1",
+        "img_47_salle_2_fsjp_1",
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 106, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 107, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 105, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 104, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 103, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 102, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Porte SN1 101, Bureau, Bâtiment 1, Campus A ",
+      "description": "Situé à l'étage du bâtiment 1, au block SN1, Campus A, Bureau",
+      
+      "image": "img_50_couloir_portes_bureaux_batiment_1",
+      "steps": [
+        "img_49_escalier_portes_bureaux_batiment_1",
+        "img_50_couloir_portes_bureaux_batiment_1"
+      ]
+    },
+    {
+      "name": " Bâtiment 2, Campus A ",
+      "description": "Situé près du mât du drapeau du Campus A",
+      "image": "img_53_batiment_2_aller",
+      "steps": [
+        "img_23_trois_batiments_123_1",
+        "img_53_batiment_2_aller"
+      ]
+    },
+    {
+      "name": "Salle B2 15, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_57_batiment_2_salle_b2_15",
+      "steps": [
+        "img_56_batiment_2_escalier_1",
+        "img_57_batiment_2_salle_b2_15"
+      ]
+    },
+    {
+      "name": "Salle B2 14, Laboratoire de chimie ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_58_salle_b2_14",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_58_salle_b2_14"
+      ]
+    },
+    {
+      "name": "Salle B2 13, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_59_salle_b2_13",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_59_salle_b2_13"
+      ]
+    },
+    {
+      "name": "Salle B2 12, Laboratoire d’Électrotechnique",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_60_salle_b2_12",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_60_salle_b2_12"
+      ]
+    },
+    {
+      "name": "Salle B2 11, Salle de préparation",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_61_salle_b2_11",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_61_salle_b2_11"
+      ]
+    },
+    {
+      "name": "Salle B2 10, Département de génie rural",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_62_salle_b2_10",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_62_salle_b2_10"
+      ]
+    },
+    {
+      "name": "Salle B2 9, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_63_salle_b2_9",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_63_salle_b2_9"
+      ]
+    },
+    {
+      "name": "Salle B2 8, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_64_salle_b2_8",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_64_salle_b2_8"
+      ]
+    },
+    {
+      "name": "Salle B2 7, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_65_salle_b2_7",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_65_salle_b2_7"
+      ]
+    },
+    {
+      "name": "Salle B2 6, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_66_salle_b2_6",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_66_salle_b2_6"
+      ]
+    },
+    {
+      "name": "Salle B2 5, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_67_salle_b2_5",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_67_salle_b2_5",
+        "img_68_salle_b2_5_second"
+      ]
+    },
+    {
+      "name": "Salle B2 4, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_68_salle_b2_4",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_68_salle_b2_4"
+      ]
+    },
+    {
+      "name": "Salle B2 3, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_69_salle_b2_3",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_69_salle_b2_3"
+      ]
+    },
+    {
+      "name": "Salle B2 2, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_70_salle_b2_2",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_70_salle_b2_2"
+      ]
+    },
+    {
+      "name": "Salle B2 1, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      
+      "image": "img_70_salle_b2_2",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_70_salle_b2_2"
+      ]
+    },
+    {
+      "name": "Salle de spectacle, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_74_inter_salle_des_spectacles",
+      "steps": [
+        "img_72_entree_salle_des_spectacles_1",
+        "img_73_entree_salle_des_spectacles_2",
+        "img_74_inter_salle_des_spectacles"
+      ]
+    },
+    {
+      "name": "Salle SN2 007, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_75_b2_sn2_007_006",
+      "steps": [
+        "img_75_b2_sn2_007_006"
+      ]
+    },
+    {
+      "name": "Salle SN2 006, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_75_b2_sn2_007_006",
+      "steps": [
+        "img_75_b2_sn2_007_006"
+      ]
+    },
+    {
+      "name": "Salle SN2 005, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_76_b2_sn2_005",
+      "steps": [
+        "img_77_b2_sn2_005_second"
+      ]
+    },
+    {
+      "name": "Salle SN2 004, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_78_b2_sn2_004",
+      "steps": [
+        "img_78_b2_sn2_004"
+      ]
+    },
+    {
+      "name": "Salle SN2 003, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_79_b2_sn2_003",
+      "steps": [
+        "img_79_b2_sn2_003"
+      ]
+    },
+    {
+      "name": "Salle SN2 002, Centre d’enseignement à distance en agriculture",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      "image": "img_80_b2_sn2_002_centre_enseignement_distance",
+      "steps": [
+        "img_80_b2_sn2_002_centre_enseignement_distance"
+      ]
+    },
+    {
+      "name": "Salle SN2 001, Bâtiment 2, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A",
+      
+      "image": "img_82_b2_sn2_001_main",
+      "steps": [
+        "img_82_b2_sn2_001_main"
+      ]
+    },
+    {
+      "name": "Amphi 450, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2 Campus A",
+      "image": "img_84_amphi_450",
+      "steps": [
+        "img_56_batiment_2_escalier_1",
+        "img_84_amphi_450"
+      ]
+    },
+    {
+      "name": "Toilettes, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2 Campus A",
+      "image": "img_85_toilettes_batiment_2_amphi_453",
+      "steps": [
+        "img_56_batiment_2_escalier_1",
+        "img_85_toilettes_batiment_2_amphi_453"
+      ]
+    },
+    {
+      "name": "Amphi 451, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2 Campus A",
+      "image": "img_86_amphi_451_main",
+      "steps": [
+        "img_55_batiment_2_vue_gauche",
+        "img_86_amphi_451_main"
+      ]
+    },
+    {
+      "name": "Porte SN2 101, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Porte SN2 102, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Porte SN2 103, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Porte SN2 104, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Porte SN2 105, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Porte SN2 106, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Porte SN2 107, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Porte SN2 108, Bureau, Bâtiment 2, Campus A ",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A",
+      "image": "img_90_cote_gauche_portes_bureaux_b2",
+      "steps": [
+        "img_88_escalier_portes_bureaux_b2",
+        "img_90_cote_gauche_portes_bureaux_b2",
+        "img_91_couloir_portes_bureaux_b2",
+        "img_92_couloir_droite_portes_bureaux_b2"
+      ]
+    },
+    {
+      "name": "Bâtiment 3, Campus A",
+      "description": "Situé à quelques mètres du mât du drapeau du Campus A, après le bâtiment 2, il inclut le Block B3 et le Block SN3",
+      "image": "img_95_batiment_3_b",
+      "steps": [
+        "img_94_batiment_3_a",
+        "img_95_batiment_3_b"
+      ]
+    },
+    {
+      "name": "Salle B3 13, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_96_b3_13",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_96_b3_13"
+      ]
+    },
+    {
+      "name": "Salle B3 12, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_98_b3_12",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_98_b3_12"
+      ]
+    },
+    {
+      "name": "Salle B3 11, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_97_b3_11",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_97_b3_11"
+      ]
+    },
+    {
+      "name": "Salle B3 8, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_99_b3_8",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_99_b3_8"
+      ]
+    },
+    {
+      "name": "Salle B3 7, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_100_b3_7",
+      "steps": [
+        "img_108_batiment_3_etage_1",
+        "img_100_b3_7"
+      ]
+    },
+    {
+      "name": "Salle B3 6, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_102_b3_6_second",
+      "steps": [
+        "img_108_batiment_3_etage_1",
+        "img_102_b3_6_second"
+      ]
+    },
+    {
+      "name": "Salle B3 5, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_103_b3_5",
+      "steps": [
+        "img_108_batiment_3_etage_1",
+        "img_103_b3_5"
+      ]
+    },
+    {
+      "name": "Salle B3 4, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_104_b3_4",
+      "steps": [
+        "img_108_batiment_3_etage_1",
+        "img_104_b3_4"
+      ]
+    },
+    {
+      "name": "Salle B3 3, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_105_b3_3",
+      "steps": [
+        "img_108_batiment_3_etage_1",
+        "img_105_b3_3"
+      ]
+    },
+    {
+      "name": "Salle B3 2, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_106_b3_2",
+      "steps": [
+        "img_108_batiment_3_etage_1",
+        "img_106_b3_2"
+      ]
+    },
+    {
+      "name": "Salle B3 1, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_107_b3_1",
+      "steps": [
+        "img_108_batiment_3_etage_1",
+        "img_107_b3_1"
+      ]
+    },
+    {
+      "name": "Salle SN3 006, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_112_b3_sn3_006_second",
+      "steps": [
+        "img_118_b3_sn3_etage",
+        "img_112_b3_sn3_006_second"
+      ]
+    },
+    {
+      "name": "Salle SN3 005, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_113_b3_sn3_005_main",
+      "steps": [
+        "img_118_b3_sn3_etage",
+        "img_113_b3_sn3_005_main"
+      ]
+    },
+    {
+      "name": "Salle SN3 004, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_115_b3_sn3_004_main",
+      "steps": [
+        "img_118_b3_sn3_etage",
+        "img_115_b3_sn3_004_main"
+      ]
+    },
+    {
+      "name": "Salle SN3 003, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_116_b3_sn3_003_main",
+      "steps": [
+        "img_118_b3_sn3_etage",
+        "img_116_b3_sn3_003_main"
+      ]
+    },
+    {
+      "name": "Salle SN3 002, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_117_b3_sn3_002_main",
+      "steps": [
+        "img_118_b3_sn3_etage",
+        "img_117_b3_sn3_002_main"
+      ]
+    },
+    {
+      "name": "Salle SN3 001, Bâtiment 3, Campus A ",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_117_b3_sn3_002_main",
+      "steps": [
+        "img_118_b3_sn3_etage",
+        "img_117_b3_sn3_002_main"
+      ]
+    },
+    {
+      "name": "Garage, Campus A ",
+      "description": "Situé en face du bâtiment 3, Campus A",
+      "image": "img_121_garage_1",
+      "steps": [
+        "img_120_entree_garage",
+        "img_121_garage_1"
+      ]
+    },
+    {
+      "name": "DASA, Campus A ",
+      "description": "Situé au Campus A, apres les aires de jeu",
+      "image": "img_126_dasa",
+      "steps": [
+        "img_126_dasa"
+      ]
+    },
+    {
+      "name": "Restaurant A, Campus A ",
+      "description": "Situé à côté de la DASA, en haut du restaurant universitaire, Campus A",
+      "image": "img_131_restaurant_campus_a_main",
+      "steps": [
+        "img_129_restaurant_campus_a",
+        "img_131_restaurant_campus_a_main"
+      ]
+    },
+    {
+      "name": "Terrain de Handball, Campus A ",
+      "description": "Situé à côté de la DASA, en haut du restaurant universitaire, Campus A",
+      "image": "img_134_stade_handball",
+      "steps": [
+        "img_132_route_stade_basket_restaurant_campus_a_2",
+        "img_134_stade_handball"
+      ]
+    },
+    {
+      "name": "Terrain de Basketball, Campus A ",
+      "description": "Situé à côté de la DASA, en haut du restaurant universitaire, Campus A",
+      "image": "img_138_stade_basket_2",
+      "steps": [
+        "img_132_route_stade_basket_restaurant_campus_a_2",
+        "img_138_stade_basket_2"
+      ]
+    },
+    {
+      "name": "Terrain de volleyball, Campus A ",
+      "description": "Situé à côté de la DASA, en haut du restaurant universitaire, Campus A",
+      "image": "img_136_stade_volleyball_2",
+      "steps": [
+        "img_132_route_stade_basket_restaurant_campus_a_2",
+        "img_136_stade_volleyball_2"
+      ]
+    },
+    {
+      "name": "Amphi 351, Campus A ",
+      "description": "Situé après le restaurant Campus A en allant vers la Faculté de Médecine",
+      "image": "img_144_amphi_351",
+      "steps": [
+        "img_141_route_amphi_351_352",
+        "img_142_route_amphi_351_352_2",
+        "img_143_route_amphi_351_352_3",
+        "img_144_amphi_351"
+      ]
+    },
+    {
+      "name": "Amphi 352, Campus A ",
+      "description": "Situé après le restaurant Campus A en allant vers la Faculté de Médecine",
+      "image": "img_145_amphi_352",
+      "steps": [
+        "img_141_route_amphi_351_352",
+        "img_142_route_amphi_351_352_2",
+        "img_143_route_amphi_351_352_3",
+        "img_145_amphi_352"
+      ]
+    },
+    {
+      "name": "Terrain de Football, Campus A ",
+      "description": "Situé après l'amphi 351 après le restaurant, Campus A",
+      "image": "img_149_stade_football",
+      "steps": [
+        "img_147_5_monte_devant_dasa_vers_stade_football",
+        "img_147_6_arrivee_stade_football_campus_a",
+        "img_149_stade_football"
+      ]
+    },
+    {
+      "name": "Faculté de médecine et des sciences pharmaceutiques, Campus A ",
+      "description": "Situé au Campus A, apres l'amphi 351",
+      "image": "img_152_fac_medecine",
+      "steps": [
+        "img_150_route_fac_medecine_1",
+        "img_151_route_fac_medecine_2",
+        "img_152_fac_medecine"
+      ]
+    },
+    {
+      "name": "Porte 101, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_154_fac_medecine_porte_101",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_154_fac_medecine_porte_101"
+      ]
+    },
+    {
+      "name": "Porte 102, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_155_fac_medecine_porte_102",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_157_fac_medecine_couloir_1",
+        "img_155_fac_medecine_porte_102"
+      ]
+    },
+    {
+      "name": "Porte 103, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_156_fac_medecine_porte_103",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_157_fac_medecine_couloir_1",
+        "img_156_fac_medecine_porte_103"
+      ]
+    },
+    {
+      "name": "Porte 104, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_157_fac_medecine_porte_104",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_157_fac_medecine_couloir_1",
+        "img_157_fac_medecine_porte_104"
+      ]
+    },
+    {
+      "name": "Porte 105 106, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_158_fac_medecine_porte_105_106",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_157_fac_medecine_couloir_1",
+        "img_158_fac_medecine_porte_105_106"
+      ]
+    },
+    {
+      "name": "Porte 108, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_159_fac_medecine_porte_108",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_157_fac_medecine_couloir_1",
+        "img_159_fac_medecine_porte_108"
+      ]
+    },
+    {
+      "name": "Porte 112, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_160_fac_medecine_porte_112",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_157_fac_medecine_couloir_1",
+        "img_160_fac_medecine_porte_112"
+      ]
+    },
+    {
+      "name": "Porte 202, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_161_fac_medecine_porte_202",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_162_fac_medecine_couloir_etage",
+        "img_161_fac_medecine_porte_202"
+      ]
+    },
+    {
+      "name": "Porte 203, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_163_fac_medecine_porte_203",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_162_fac_medecine_couloir_etage",
+        "img_163_fac_medecine_porte_203"
+      ]
+    },
+    {
+      "name": "Porte 204, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_164_fac_medecine_porte_205",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_162_fac_medecine_couloir_etage",
+        "img_164_fac_medecine_porte_205"
+      ]
+    },
+    {
+      "name": "Porte 205, Fac de Médecine",
+      "image": "img_164_fac_medecine_porte_205",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_162_fac_medecine_couloir_etage",
+        "img_164_fac_medecine_porte_205"
+      ]
+    },
+    {
+      "name": "Porte 207, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_165_fac_medecine_porte_207",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_162_fac_medecine_couloir_etage",
+        "img_165_fac_medecine_porte_207"
+      ]
+    },
+    {
+      "name": "Porte 208, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_166_fac_medecine_porte_208",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_162_fac_medecine_couloir_etage",
+        "img_166_fac_medecine_porte_208"
+      ]
+    },
+    {
+      "name": "Porte 209, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
+      "image": "img_167_fac_medecine_porte_209",
+      "steps": [
+        "img_151_route_fac_medecine_2",
+        "img_153_fac_medecine_vue_gauche",
+        "img_162_fac_medecine_couloir_etage",
+        "img_167_fac_medecine_porte_209"
+      ]
+    },
+    {
+      "name": "NS1, Campus A ",
+      "description": "Situé à l'aile droite de l'amphi 353, Campus A",
+      "image": "img_170_ns1",
+      "steps": [
+        "img_169_route_entree_amphi_353",
+        "img_170_ns1"
+      ]
+    },
+    {
+      "name": "Amphi 353, Campus A ",
+      "description": "Situé à 20 mètres du resaturant A, avant l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A",
+      "image": "img_171_amphi_353",
+      "steps": [
+        "img_169_route_entree_amphi_353",
+        "img_171_amphi_353"
+      ]
+    },
+    {
+      "name": "NS2, Campus A ",
+      "description": "Situé à l'aile droite de l'amphi 353, Campus A",
+      "image": "img_172_ns2",
+      "steps": [
+        "img_169_route_entree_amphi_353",
+        "img_172_ns2"
+      ]
+    },
+    {
+      "name": "Amphi 1000, Campus A ",
+      "description": "Située à 100 mètres du mât du drapeau du campus A, cette salle sert de salle de cours, de salle de conférences et de salle de projection",
+      "image": "img_173_amphi_1000_main",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_173_amphi_1000_main"
+      ]
+    },
+    {
+      "name": "École doctorale, Campus A ",
+      "description": "Situé près  de l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A",
+      "image": "img_174_face_ecole_doctorale_main",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_entree_ecole_doctorale",
+        "img_174_face_ecole_doctorale_main"
+      ]
+    },
+    {
+      "name": "Parking École doctorale, Campus A ",
+      "description": "Situé en face de l'École doctorale, Campus A",
+      "image": "img_183_parking_ecole_doctorale_2",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_175_parking_ecole_doctorale",
+        "img_183_parking_ecole_doctorale_2"
+      ]
+    },
+    {
+      "name": "Dschang School of Science and Technology, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_179_dschang_school_of_science_and_technology",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_176_entree_ecole_doctorale_1",
+        "img_177_entree_ecole_doctorale_2",
+        "img_178_couloir_ecole_doctorale_etage",
+        "img_179_dschang_school_of_science_and_technology"
+      ]
+    },
+    {
+      "name": "Dschang School of Arts and Social Science, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_180_dschang_school_of_arts_and_social_science",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_175_parking_ecole_doctorale",
+        "img_176_entree_ecole_doctorale_1",
+        "img_177_entree_ecole_doctorale_2",
+        "img_178_couloir_ecole_doctorale_etage",
+        "img_180_dschang_school_of_arts_and_social_science"
+      ]
+    },
+    {
+      "name": "Dschang School of Economics and Management, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_181_dschang_school_of_economics_and_management",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_175_parking_ecole_doctorale",
+        "img_176_entree_ecole_doctorale_1",
+        "img_177_entree_ecole_doctorale_2",
+        "img_178_couloir_ecole_doctorale_etage",
+        "img_181_dschang_school_of_economics_and_management"
+      ]
+    },
+    {
+      "name": "Toilettes École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_182_toilette_ecole_doctorale_etage",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_175_parking_ecole_doctorale",
+        "img_176_entree_ecole_doctorale_1",
+        "img_177_entree_ecole_doctorale_2",
+        "img_178_couloir_ecole_doctorale_etage",
+        "img_182_toilette_ecole_doctorale_etage"
+      ]
+    },
+    {
+      "name": "Dschang School of Agriculture and Environmental Science, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_184_dschang_school_of_agriculture_and_environmental_science",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_184_dschang_school_of_agriculture_and_environmental_science"
+      ]
+    },
+    {
+      "name": "Dschang School of Law and Political Science, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_185_dschang_school_of_law_and_political_science",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_185_dschang_school_of_law_and_political_science"
+      ]
+    },
+    {
+      "name": "Dschang School of Health and Life Sciences, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_186_dschang_school_of_health_and_life_sciences",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_186_dschang_school_of_health_and_life_sciences"
+      ]
+    },
+    {
+      "name": "Bureau, Dschang School of Arts and Social Science, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_187_bureau_dschang_school_of_rts_and_social_science",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_187_bureau_dschang_school_of_rts_and_social_science"
+      ]
+    },
+    {
+      "name": "Bureau, Dschang School of Science and Technology, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_187_bureau_dschang_school_of_rts_and_social_science",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_187_bureau_dschang_school_of_rts_and_social_science"
+      ]
+    },
+    {
+      "name": "Bureau, Director of Post Graduate School, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_189_bureau_schang_school_of_ealth_and_life_sciences",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_188_bureau_director_of_ost_graduate_school",
+        "img_189_bureau_schang_school_of_ealth_and_life_sciences"
+      ]
+    },
+    {
+      "name": "Bureau, Dschang School of Health and Life Sciences, École doctorale, Campus A ",
+      "description": "Situé au sein de l'École doctorale, Campus A",
+      "image": "img_189_bureau_schang_school_of_ealth_and_life_sciences",
+      "steps": [
+        "img_173_amphi_1000",
+        "img_174_face_ecole_doctorale_main",
+        "img_188_bureau_director_of_ost_graduate_school",
+        "img_189_bureau_schang_school_of_ealth_and_life_sciences"
+      ]
+    },
+    {
+      "name": "Décanat, Faculté des lettres et sciences humaines, Campus A ",
+      "description": "Situé après l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A",
+      "image": "img_198_decanat_seco",
+      "steps": [
+        "img_193_entree_decanat_seco",
+        "img_196_entree_decanat_seco_2",
+        "img_198_decanat_seco"
+      ]
+    },
+    {
+      "name": "Décanat, Faculté des sciences Économiques et de Gestion, Campus A ",
+      "description": "Situé après l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A",
+      "image": "img_198_decanat_seco",
+      "steps": [
+        "img_193_entree_decanat_seco",
+        "img_196_entree_decanat_seco_2",
+        "img_198_decanat_seco"
+      ]
+    },
+    {
+      "name": "Décanat, Faculté des sciences Juridiques et Politiques, Campus A ",
+      "description": "Situé après l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A",
+      "image": "img_198_decanat_seco",
+      "steps": [
+       "img_193_entree_decanat_seco",
+        "img_196_entree_decanat_seco_2",
+        "img_198_decanat_seco"
+      ]
+    },
+    {
+      "name": "Cafétaria, Décanat FASEG FSJP, Campus A",
+      "description": "Situé au Campus A, à coté du Décanat FASEG FSJP",
+      "image": "img_197_cafetaria_restaurant_decanat_seco",
+      "steps": [
+        "img_193_entree_decanat_seco",
+        "img_196_entree_decanat_seco_2",
+        "img_197_cafetaria_restaurant_decanat_seco"
+      ]
+    },
+    {
+      "name": "Navette, Campus B, Sommet",
+      "description": "Situé au Campus C ",
+      "image": "img_212_navette_sommet_2",
+      "steps": [
+        "img_212_navette_sommet_2"
+      ]
+    },
+    {
+      "name": "Decanat FASA",
+      "description": "Situé au Campus C tout près de la Navette Campus C, Sommet",
+      "image": "img_213_entree_decanat_phasa",
+      "steps": [
+        "img_213_entree_decanat_phasa"
+      ]
+    },
+    {
+      "name": "Amphi 2 FASA",
+      "description": "Situé au sein du décanat de la FASA au Sommet Campus B ",
+      "image": "img_217_entree_amphi_2_phasa_main_3",
+      "steps": [
+        "img_213_entree_decanat_phasa",
+        "img_216_entree_amphi_2_phasa_2",
+        "img_217_entree_amphi_2_phasa_main_3",
+        "img_218_porte_amphi_2_phasa"
+      ]
+    },
+    {
+      "name": "Parking FASA",
+      "description": "Situé à côté du décanat de la FASA au Sommet Campus B ",
+      "image": "img_215_parking_decanat_phasa",
+      "steps": [
+        "img_213_entree_decanat_phasa",
+        "img_226_plaque_amphi_1_phasa"
+      ]
+    },
+    {
+      "name": "Restaurant B",
+      "description": "Situé au sein du décanat de la FASA au Sommet Campus B",
+      "image": "img_220_restaurant_b",
+      "steps": [
+        "img_214_entree_amphi_2_phasa",
+        "img_216_entree_amphi_2_phasa_2",
+        "img_217_entree_amphi_2_phasa_main_3",
+        "img_219_route_phasa_restaurant_b",
+        "img_220_route_phasa_restaurant_b_2",
+        "img_220_restaurant_b"
+      ]
+    },
+    {
+      "name": "Amphi 1 FASA",
+      "image": "img_232_amphi_1_phasa_vue_disatante",
+      "description": "Situé au sein du décanat de la FASA au Sommet Campus B",
+      "steps": [
+        "img_213_entree_decanat_phasa",
+        "img_227_route_amphi_1_phasa",
+        "img_229_route_amphi_1_phasa_3",
+        "img_231_amphi_1_phasa",
+        "img_232_amphi_1_phasa_vue_disatante"
+      ]
+    },
+    {
+      "name": "Centre Medico Social",
+      "description": "Situé derrière la cité universitaire du Campus B au Sommet",
+      "image": "img_235_vue_arriere_centre_medical",
+      "steps": [
+        "img_235_vue_arriere_centre_medical",
+        "img_260_carrefour_centre_medical_vue_arriere",
+        "img_261_plaque_centre_medical_vue_arriere",
+        "img_261_centre_medical_vue_arriere_batiment_a",
+        "img_262_aller_centre_medical_vue_arriere_batiment_b",
+        "img_262_entree_centre_medical_vue_arriere_batiment_b",
+        "img_264_centre_medical_vue_arriere_batiment_b"
+      ]
+    },
+    {
+      "name": "Bancs Public Campus B",
+      "description": "Lieu de détente et d'échanges des étudiants situé au  Campus B, Sommet",
+      "image": "img_237_bancs_public_phasa",
+      "steps": [
+        "img_237_bancs_public_phasa"
+      ]
+    },
+    {
+      "name": "NS3, Campus B",
+      "description": "Situé à l'aile de l'amphi 354, Campus B, Sommet",
+      "image": "img_241_ns3",
+      "steps": [
+        "img_241_ns3"
+      ]
+    },
+    {
+      "name": "NS4, Campus B",
+      "description": "Situé à l'aile de l'amphi 354, Campus B, Sommet",
+      "image": "img_243_ns4",
+      "steps": [
+        "img_243_ns4"
+      ]
+    },
+    {
+      "name": "Amphi 354, Campus B",
+      "description": "Situé près de la FASA au Sommet, , Campus B",
+      "image": "img_242_amphi_334",
+      "steps": [
+        "img_242_amphi_334"
+      ]
+    },
+    {
+      "name": "Bâtiment Japonais, Campus C",
+      "description": "Situé à côté de l'amphi 354, Campus C",
+      "image": "img_247_plaques_batiment_japonais_2",
+      "steps": [
+        "img_247_plaques_batiment_japonais_2"
+      ]
+    },
+    {
+      "name": "Bibliothèque FASA",
+      "description": "Situé au Bâtiment Japonais, Campus C",
+      "image": "img_247_plaques_batiment_japonais_2",
+      "steps": [
+        "img_253_bibliotheque_phasa_batiment_japonais"
+      ]
+    },
+    {
+      "name": "Salle 1 Bâtiment Japonais",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais, Campus C",
+      "image": "img_248_salle_1_batiment_japonais_2",
+      "steps": [
+        "img_247_plaques_batiment_japonais_2",
+        "img_248_salle_1_batiment_japonais_2"
+      ]
+    },
+    {
+      "name": "Salle 2 Bâtiment Japonais",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais, Campus C",
+      "image": "img_250_salle_2_batiment_japonais",
+      "steps": [
+        "img_247_plaques_batiment_japonais_2",
+        "img_250_salle_2_batiment_japonais"
+      ]
+    },
+    {
+      "name": "Salle 3 Bâtiment Japonais",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais, Campus C",
+      "image": "img_256_salle_3_batiment_japonais_distante",
+      "steps": [
+        "img_247_plaques_batiment_japonais_2",
+        "img_255_salle_3_batiment_japonais"
+      ]
+    },
+    {
+      "name": "Salle 4 Bâtiment Japonais",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais, Campus C",
+      "image": "img_258_salle_4_batiment_japonais",
+      "steps": [
+        "img_247_plaques_batiment_japonais_2",
+        "img_256_salle_3_batiment_japonais_distante",
+        "img_257_aller_salle_4_batiment_japonais",
+        "img_258_salle_4_batiment_japonais"
+      ]
+    },
+    {
+      "name": "Centre multimédia",
+      "description": "Situé derrière le Centre médico-social, campus C",
+      "image": "img_264_centre_multi_media",
+      "steps": [
+        "img_264_centre_multi_media"
+      ]
+    },
+    {
+      "name": "Décanat faculté des sciences, bâtiment principal",
+      "description": "Situé au Campus C",
+      "image": "img_265_decanat_fac_des_sciences",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences"
+      ]
+    },
+    {
+      "name": "Amphi 600, Campus C au Sommet",
+      "description": "Situé en face du décanat de la Faculté des Sciences, Campus C",
+      "image": "img_271_vue_distante_amphi_600",
+      "steps": [
+        "img_267_route_amphi_600",
+        "img_268_mat_du_drapeau_sommet",
+        "img_271_vue_distante_amphi_600"
+      ]
+    },
+    {
+      "name": "Bibliothèque Centrale, Campus C au Sommet",
+      "description": "Situé au rez-de-chaussée du bâtiment du décanat de la Faculté des Sciences, , Campus C",
+      "image": "img_272_bibliotheque_centrale",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_268_mat_du_drapeau_sommet",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_272_bibliotheque_centrale"
+      ]
+    },
+    {
+      "name": "NS 6, Campus C au Sommet",
+      "description": "Situé à l'aile de l'amphi 355, Campus C",
+      "image": "img_279_ns6_main",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_268_mat_du_drapeau_sommet",
+        "img_273_route_escalier_ns5_ns6",
+        "img_275_escalier_ns5_ns6",
+        "img_276_route_apres_escalier_ns5_ns6_1",
+        "img_277_route_apres_escalier_ns5_ns6_2",
+        "img_278_route_ns6",
+        "img_279_ns6_main"
+      ]
+    },
+    {
+      "name": "NS 5, Campus C au Sommet",
+      "description": "Situé à l'aile de l'amphi 355, Campus C",
+      "image": "img_282_ns5",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_268_mat_du_drapeau_sommet",
+        "img_273_route_escalier_ns5_ns6",
+        "img_275_escalier_ns5_ns6",
+        "img_276_route_apres_escalier_ns5_ns6_1",
+        "img_277_route_apres_escalier_ns5_ns6_2",
+        "img_280_route_amphi_355",
+        "img_283_vue_distante_ns5",
+        "img_282_ns5"
+      ]
+    },
+    {
+      "name": "Amphi 355, Campus C au Sommet",
+      "description": "Situé en haut de l'amphi 600, Campus C",
+      "image": "img_282_amphi_355_main",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_268_mat_du_drapeau_sommet",
+        "img_273_route_escalier_ns5_ns6",
+        "img_275_escalier_ns5_ns6",
+        "img_276_route_apres_escalier_ns5_ns6_1",
+        "img_277_route_apres_escalier_ns5_ns6_2",
+        "img_282_amphi_355_main"
+      ]
+    },
+    {
+      "name": "Salle B3 101, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_1_porte_b3_101",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_1_porte_b3_101"
+      ]
+    },
+    {
+      "name": "Salle B3 102, Salle MIMEDEL, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_2_porte_b3_102",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_2_porte_b3_102"
+      ]
+    },
+    {
+      "name": "Salle B3 103, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_3_porte_b3_103",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_3_porte_b3_103"
+      ]
+    },
+    {
+      "name": "Salle B3 104, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_4_porte_b3_104",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_4_porte_b3_104"
+      ]
+    },
+    {
+      "name": "Salle B3 105, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_5_porte_b3_105",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_5_porte_b3_105"
+      ]
+    },
+    {
+      "name": "Salle B3 106, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_6_porte_b3_106",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_6_porte_b3_106"
+      ]
+    },
+    {
+      "name": "Salle B3 107, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_7_porte_b3_107",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_7_porte_b3_107"
+      ]
+    },
+    {
+      "name": "Salle B3 108, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_8_porte_b3_108",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_8_porte_b3_108"
+      ]
+    },
+    {
+      "name": "Salle B3 109, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_9_porte_b3_109",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_9_porte_b3_109"
+      ]
+    },
+    {
+      "name": "Salle B3 110, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_10_porte_b3_110",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_10_porte_b3_110"
+      ]
+    },
+    {
+      "name": "Porte B3 111, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_11_porte_b3_111",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_11_porte_b3_111"
+      ]
+    },
+    {
+      "name": "Porte B3 112, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_12_porte_b3_112",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_12_porte_b3_112"
+      ]
+    },
+    {
+      "name": "Porte B3 113, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_13_porte_b3_113",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_13_porte_b3_113"
+      ]
+    },
+    {
+      "name": "Porte B3 114, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_14_porte_b3_114",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_14_porte_b3_114"
+      ]
+    },
+    {
+      "name": "Porte B3 115, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A",
+      "image": "img_119_ib_15_porte_b3_115",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_15_porte_b3_115"
+      ]
+    },
+    {
+      "name": "Salle SN3 106, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_119_ib_22_salle_sn3_106",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_22_salle_sn3_106"
+      ]
+    },
+    {
+      "name": "Salle SN3 105, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_119_ib_21_salle_sn3_105",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_21_salle_sn3_105"
+      ]
+    },
+    {
+      "name": "Salle SN3 104, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_119_ib_20_salle_sn3_104",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_20_salle_sn3_104"
+      ]
+    },
+    {
+      "name": "Salle SN3 103, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_119_ib_19_salle_sn3_103",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_19_salle_sn3_103"
+      ]
+    },
+    {
+      "name": "Salle SN3 102, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_119_ib_18_salle_sn3_102",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_18_salle_sn3_102"
+      ]
+    },
+    {
+      "name": "Salle SN3 101, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A",
+      "image": "img_119_ib_17_salle_sn3_101",
+      "steps": [
+        "img_95_batiment_3_b",
+        "img_119_ib_17_salle_sn3_101"
+      ]
+    },
+    {
+      "name": "Rectorat de l'Université de Dschang",
+      "description": "Situé à la montée du lycée classiaue",
+      "image": "img_284_rectorat_2",
+      "steps": [
+        "img_284_rectorat_1",
+        "img_284_rectorat_2"
+      ]
+    },
+    {
+      "name": "Porte 202, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_288_porte_202_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_288_porte_202_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 206, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_290_porte_206_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_290_porte_206_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 209, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_291_porte_209_210_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_291_porte_209_210_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 210, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_291_porte_209_210_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_291_porte_209_210_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 215 A, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_292_porte_215_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_292_porte_215_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 218, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_293_porte_218_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_293_porte_218_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 219, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_294_porte_219_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_294_porte_219_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 220, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_295_porte_220_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_295_porte_220_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 221, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_296_porte_221_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_296_porte_221_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 222, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_297_porte_222_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_297_porte_222_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 223, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_298_porte_223_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_298_porte_223_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 224, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_299_porte_224_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_299_porte_224_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 225, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_300_porte_225_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_300_porte_225_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 227, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_301_porte_227_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_301_porte_227_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 228, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_302_porte_228_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_302_porte_228_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 229, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_303_porte_229_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_303_porte_229_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 230, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_304_porte_230_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_304_porte_230_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 231, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_305_porte_231_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_305_porte_231_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 232 A, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_306_porte_232_a_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_306_porte_232_a_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 232 B, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_307_porte_232_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_307_porte_232_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 237 A, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_308_porte_237_a_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_308_porte_237_a_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 237 B, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_309_porte_237_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_309_porte_237_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 240, 2ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 2ème Étage, Décanat Faculté des sciences",
+      "image": "img_310_porte_240_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_286_face_2em_etage_decanat_fac_science",
+        "img_287_couloir_2em_etage_decanat_fac_science",
+        "img_310_porte_240_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 302, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_311_porte_302_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_311_porte_302_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 303, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_312_porte_303_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_312_porte_303_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 304, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_313_porte_304_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_313_porte_304_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 309, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_314_porte_309_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_314_porte_309_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 310, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_314_porte_309_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_314_porte_309_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 311 A, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_315_porte_311_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_315_porte_311_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 311 B, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_316_porte_311_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_316_porte_311_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 312, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_317_porte_312_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_317_porte_312_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 313, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_318_porte_313_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_318_porte_313_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 314 A, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_319_porte_314_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_319_porte_314_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 314 B, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_320_porte_314_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_320_porte_314_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 317 A, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_322_porte_317_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_322_porte_317_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 317 B, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_321_porte_317_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_321_porte_317_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 319, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_322_porte_319_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_322_porte_319_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 320, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_323_porte_320_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_323_porte_320_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 321, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_324_porte_321_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_324_porte_321_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 322, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_325_porte_322_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_325_porte_322_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 323, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_326_porte_323_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_326_porte_323_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 324, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_327_porte_324_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_327_porte_324_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 325, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_328_porte_325_326_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_328_porte_325_326_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 326, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_328_porte_325_326_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_328_porte_325_326_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 330, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_329_porte_330_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_329_porte_330_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 331, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_330_porte_331_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_330_porte_331_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 332 A, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_330_porte_332_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_330_porte_332_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 332 B, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_331_porte_332_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_331_porte_332_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 334, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_332_porte_334_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_332_porte_334_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 335 A, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_333_porte_335_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_333_porte_335_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 335 B, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_334_porte_335_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_334_porte_335_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 335 C, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      "image": "img_336_porte_335_c_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_336_porte_335_c_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 336, 3ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 3ème Étage, Décanat Faculté des sciences",
+      
+      "image": "img_336_porte_336_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_311_couloir_3em_etage_decanat_fac_science",
+        "img_336_porte_336_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 401, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_337_porte_401_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_337_porte_401_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 402, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_338_porte_402_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_338_porte_402_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 403, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_339_porte_403_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_339_porte_403_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 404, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_340_porte_404_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_340_porte_404_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 405, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_340_porte_405_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_340_porte_405_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 407, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_341_porte_407_408_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_341_porte_407_408_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 408, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_341_porte_407_408_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_341_porte_407_408_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 409, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_342_porte_409_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_342_porte_409_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 411, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_343_porte_411_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_343_porte_411_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 417 A, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_344_porte_417_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_344_porte_417_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 417 B, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_345_porte_417_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_345_porte_417_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 419, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_346_porte_419_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_346_porte_419_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 420, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_347_porte_420_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_347_porte_420_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 421, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_348_porte_421_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_348_porte_421_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 424, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_349_porte_424_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_349_porte_424_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 426, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_350_porte_426_distant_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_350_porte_426_distant_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 428 A, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_351_porte_428_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_351_porte_428_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 428 B, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_352_porte_428_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_352_porte_428_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 431 A, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      "image": "img_353_porte_431_a_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_353_porte_431_a_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Porte 431 B, 4ème Étage, Décanat Faculté des sciences",
+      "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
+      
+      "image": "img_354_porte_431_b_decanat_fac_science",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_269_vue_distante_bibliotheque_decanat_fac_des_sciences",
+        "img_285_montee_escalier_decanat_fac_science",
+        "img_337_couloir_4em_etage_decanat_fac_science",
+        "img_354_porte_431_b_decanat_fac_science"
+      ]
+    },
+    {
+      "name": "Cité Universitaire, Campus C, Sommet",
+      "description": "Situé au Campus C, Sommet",
+      "image": "img_360_cite_universitaire",
+      "steps": [
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_355_aller_gauche_amphi_600_1",
+        "img_356_aller_gauche_amphi_600_2",
+        "img_357_aller_gauche_amphi_600_3",
+        "img_358_aller_cite_universitaire_1",
+        "img_359_aller_cite_universitaire_2",
+        "img_360_cite_universitaire"
+      ]
+    }
+  ]
+}

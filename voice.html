@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Webchat Vocal</title>
+  <style>
+    #voice-button {
+      position: absolute;
+      right: 70px;
+      bottom: 18px;
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!-- Webchat container -->
+  <div id="webchat"></div>
+
+  <!-- Script Rasa Webchat CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@rasahq/rasa-webchat@1.0.1/lib/index.min.js"></script>
+
+  <script>
+    // Attendre que le WebChat soit monté
+    window.WebChat.default({
+      initPayload: "/greet",
+      customData: { language: "fr" },
+      socketUrl: "http://localhost:5005",
+      title: "Assistant Vocal",
+      inputTextFieldHint: "Écris ou parle ici...",
+      profileAvatar: "https://cdn-icons-png.flaticon.com/512/4712/4712107.png",
+      openLauncherImage: "https://cdn-icons-png.flaticon.com/512/4712/4712107.png",
+      showFullScreenButton: true
+    }, null).then(function (webchat) {
+      const waitForInput = setInterval(() => {
+        const inputWrapper = document.querySelector("div.rw-send");
+
+        if (inputWrapper && !document.getElementById("voice-button")) {
+          clearInterval(waitForInput);
+
+          // Créer le bouton vocal
+          const micBtn = document.createElement("button");
+          micBtn.id = "voice-button";
+          micBtn.innerText = "🎤";
+          micBtn.title = "Parler";
+
+          micBtn.onclick = () => {
+            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = "fr-FR";
+            recognition.interimResults = false;
+
+            recognition.onresult = (event) => {
+              const transcript = event.results[0][0].transcript;
+              const input = document.querySelector("input.rw-new-message");
+              if (input) {
+                input.value = transcript;
+
+                // Simule un "Enter" pour envoyer automatiquement
+                const enterEvent = new KeyboardEvent('keydown', {
+                  bubbles: true,
+                  cancelable: true,
+                  key: 'Enter',
+                  code: 'Enter'
+                });
+                input.dispatchEvent(enterEvent);
+              }
+            };
+
+            recognition.start();
+          };
+
+          // Injecter le bouton dans la barre d’input
+          inputWrapper.style.position = "relative";
+          inputWrapper.appendChild(micBtn);
+        }
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

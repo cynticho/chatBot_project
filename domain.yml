@@ -1,0 +1,295 @@
+version: "3.1"
+
+intents:
+  - intro
+  - close
+  - confirm
+  - reject
+  - filiere
+  - bac_given
+  - bac_filiere
+  - domain
+  - school
+  - train
+  - ask_info
+  - place
+  - inscription
+  - dossier
+  - fill_form
+
+entities:
+  - filiere
+  - domain
+  - info
+  - work
+  - bac
+  - bacType
+  - school
+  - train
+  - inscription
+  - origine
+  - destination
+  - dossier
+  - form
+
+
+
+slots:
+  inscription:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: inscription
+  origine:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: origine
+  destination:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: destination
+  info:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: info
+  filiere:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: filiere
+  train:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: train
+  school:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: school
+  bac:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: bac
+  bacType:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: bacType
+  domain:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: domain
+  work:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: work
+  dossier:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: dossier
+  form:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: form
+
+forms:
+  filiere_form:
+    required_slots:
+      - filiere
+
+  bac_form:
+    required_slots:
+      - bac
+
+
+responses:
+  utter_ask_filiere:
+    - text: "Quelle filière souhaitez-vous suivre ?"
+    - text: "quelle filière vous interesse ?"
+    - text: "vous etes passionnes de quelle filiere"
+
+  utter_ask_faculty:
+    - text: " ⚠️ désolé, je n'ai pas bien saisi, pouvez vous rapeller la faculté ? ⚠️"
+    - text: " ⚠️ quelle est la faculté que vous envisagez faire ? ⚠️"
+
+  utter_fallback:
+    - text: "Désolé, je n'ai pas compris, pouvez vous reformuler ?"
+    - text: "Oops, je n'ai pas bien, pouvez vous reformuler ?"
+    - text: "Désolé, je n'ai pas bien compris, vous parlez de quoi plus precisement ?"
+
+  utter_ask_place:
+    - text: "Quel lieu voulez-vous atteindre ?"
+    - text: "où voulez-vous aller ?"
+
+  utter_ask_bac:
+  - text: "quel bac as-tu ?"
+  - text: "Quel bac avez-vous passé ?"
+  - text: "nature de votre baccalaureat ?"
+  - text: "voyons ensemble ce que tu peux faire. quel est ta serie au bac ?"
+
+  utter_train:
+  - text: "Tu peux te diriger vers des études professionnelles, académiques ou technologiques, selon ce qui te correspond le mieux."
+  - text: "Après le bac, plusieurs options sont possibles : un parcours académique pour continuer à l’université, professionnel pour apprendre un métier, ou technologique si tu veux un peu des deux."
+  - text: "Il existe des parcours professionnels, technologiques et académiques. Tout dépend de ton projet et de ton envie d’étudier ou de travailler rapidement."
+  - text: "Tu hésites ? On peut explorer ensemble les parcours académiques, professionnels ou technologiques selon tes préférences."
+  - text: "Trois grandes voies sont possibles après le bac : les études académiques, les formations professionnelles, ou les filières technologiques."
+  - text: "Tu as envie de faire des études longues, d’apprendre un métier rapidement, ou d’avoir un mix des deux ? Il existe les parcours académiques, professionnels et technologiques."
+  - text: "En fonction de ton profil, tu peux choisir une voie académique (université), professionnelle (CAP, BTS...), ou technologique (BUT, bac techno...)."
+  - text: "Les parcours après le bac se divisent en trois grands types : pro, techno ou académique. On peut les explorer ensemble !"
+  - text: "Tu peux viser un parcours universitaire (académique), une formation pro pour entrer vite dans le monde du travail, ou une voie technologique qui reste polyvalente."
+  - text: "Il existe différentes possibilités : des études longues à l’université (académiques), des formations métiers (professionnelles), ou des parcours plus pratiques (technologiques)."
+  - text: "Après le bac, tu peux choisir un parcours professionnel, académique ou technologique, selon tes objectifs."
+  - text: "Il existe trois grands types de parcours après le bac : professionnel pour entrer rapidement dans la vie active, académique pour les études universitaires, et technologique pour un équilibre entre théorie et pratique."
+  - text: "Tu as plusieurs options : un parcours professionnel (BTS, CAP...), un académique (licence, master...) ou un technologique (bac techno suivi de DUT, BUT...)."
+  - text: "Selon tes centres d'intérêt, tu peux opter pour un parcours technologique, professionnel ou universitaire."
+  - text: "Les choix possibles après le bac sont : la voie professionnelle pour apprendre un métier, l'académique pour aller à l'université, ou le technologique pour une formation équilibrée."
+  - text: "Tu peux t’orienter vers un parcours pro, académique ou technologique. Chacun a ses avantages selon ton projet."
+  - text: "Trois grandes voies s'offrent à toi : professionnelle, académique ou technologique. As-tu déjà une préférence ?"
+  - text: "Après ton bac, tu peux suivre un cursus professionnel, académique (universitaire), ou technologique selon ce que tu veux faire."
+  - text: "La formation professionnelle est plus pratique, l'académique est plus théorique, et le parcours technologique combine les deux."
+  - text: "Tu veux une formation pratique, théorique ou équilibrée ? Cela correspond à un parcours pro, académique ou techno !"
+
+  utter_school:
+  - text: " 8 établissements sont disponibles, comprenant l'Institut des Beaux-Arts de Foumban (IBAF), l'Institut Universitaire de Technologie (IUT) Fotso Victor de Bandjoun, la Faculté d’Agronomie et des Sciences Agricoles (FASA), la Faculté des Sciences Économiques et de Gestion (FSEG), la Faculté des Sciences (FS), ainsi que la Faculté des Lettres et Sciences Humaines (FLSH), couvrant des domaines variés allant des arts, des sciences humaines, des sciences économiques et agricoles, aux sciences techniques et médicales."
+  - text: " l'Université de Dschang couvre un large éventail de domaines d'études Avec ses 8 facultés et instituts, y compris la médecine, l'agronomie, les sciences économiques, les sciences juridiques, et les arts. Que ce soit à travers la Faculté des Lettres et Sciences Humaines, la Faculté des Sciences, la Faculté des Sciences Juridiques et Politiques, ou l'Institut Universitaire de Technologie, les étudiants ont accès à une formation de qualité dans diverses spécialités."
+  - text: " L'Université de Dschang se distingue par la diversité de ses formations réparties entre 8 établissements académiques, comprenant l'Institut des Beaux-Arts de Foumban (IBAF) pour les arts, l'IUT Fotso Victor pour les formations techniques, et des facultés telles que la Faculté des Sciences Économiques et de Gestion, la Faculté des Sciences, la Faculté des Lettres et Sciences Humaines, la Faculté des Sciences Juridiques et Politiques, et la Faculté d’Agronomie et des Sciences Agricoles."
+
+  utter_intro:
+  - text: " Salut, Que puis-je faire pour vous ?"
+  - text: " salut, Comment puis-je vous aider ?"
+  - text: " bienvenu, En quoi puis-je vous aider ?"
+  - text: " hey, Dites-moi ce que vous recherchez !"
+  - text: " Parfait, besoin d'une orientation en quoi plus précisement ?"
+  - text: " Salut à vous, Par où souhaitez-vous commencer ?"
+
+  utter_confirm:
+  - text: "Bien sûr,  Que veux-tu savoir ?"
+  - text: "D’accord, je t’en prie pose ta préoccupation."
+  - text: "Parfait, Dis-moi ce qui t’intéresse."
+  - text: "pas de soucis. Nous Commençons par quoi ?"
+  - text: "Je peux t’aider. Pourrais-tu préciser ta demande ?"
+  - text: "Avec plaisir ! Dis-m'en un peu plus pour que je puisse t'aider."
+  - text: "Aucun problème, je vais faire de mon mieux pour t’aider."
+  - text: " bien ! posez votre question."
+  - text: "Que puis-je donc faire pour vous ?"
+  - text: "Aucun souci, je vais vous guider."
+  - text: "Avec plaisir. Dites-moi ce dont vous avez besoin."
+  - text: "Très bien. Pourriez-vous me préciser votre demande ?"
+  - text: "Je suis à votre écoute. Comment puis-je vous assister ?"
+  - text: "Je comprends. Comment puis-je vous assister ?"
+
+
+
+
+  utter_filiere:
+  - text: "voici la filiere"
+
+  utter_domain:
+  - text: "voici le domain"
+
+  utter_work:
+  - text: "voici le work"
+
+  utter_bac:
+  - text: "voici le bac"
+
+  utter_help:
+  - text: "y'a t-il une autre question ?"
+    buttons:
+    - title: " Oui, j'ai une autre question"
+      payload: "/intro"
+    - title: " Non, merci ça ira"
+      payload: "/close"
+  - text: "autres préoccupation ?"
+    buttons:
+    - title: " Oui, j'ai une autre question"
+      payload: "/intro"
+    - title: " Non, merci ça ira"
+      payload: "/close"
+  - text: "d'autres soucis ?"
+    buttons:
+    - title: " Oui, j'ai une autre question"
+      payload: "/intro"
+    - title: " Non, merci ça ira"
+      payload: "/close"
+  - text: "une autre orientation ?"
+    buttons:
+    - title: " Oui, j'ai une autre question"
+      payload: "/intro"
+    - title: " Non, merci ça ira"
+      payload: "/close"
+  - text: "Y a-t-il autre chose sur laquelle je peux vous aider ?"
+    buttons:
+    - title: " Oui, j'ai une autre question"
+      payload: "/intro"
+    - title: " Non, merci ça ira"
+      payload: "/close"
+  - text: "Si vous avez d'autres questions, n'hésitez pas à me le faire savoir !"
+    buttons:
+    - title: " Oui, j'ai une autre question"
+      payload: "/intro"
+    - title: " Non, merci ça ira"
+      payload: "/close"
+  - text: "Avez-vous d'autres questions ou des précisions à demander ?"
+    buttons:
+    - title: " Oui, j'ai une autre question"
+      payload: "/intro"
+    - title: " Non, merci ça ira"
+      payload: "/close"
+
+
+
+  utter_close:
+  - text: "Bien, C'était un plaisir de vous aider, à bientôt !"
+  - text: "D'accord, Je suis ravi d'avoir pu vous assister. À la prochaine !"
+  - text: "Parfait, N'hésitez pas à revenir si vous avez d'autres questions !"
+  - text: "Sans soucis, nous sommes toujours a votre disposition !"
+  - text: "D'accord, C'était un plaisir pour nous !"
+  - text: "Parfait, Je suis content d'avoir pu vous aider. À la prochaine fois !"
+  - text: "Bien, Merci de nous avoir donné l'opportunité de vous aider."
+  - text: "Parfait, cela fait plaisir de vous aider."
+  - text: "ok, c'était un plaisir de vous assister !"
+  - text: "Surtout n'hésitez pas à revenir si besoin."
+  - text: "bon, Au revoir et à bientôt !"
+  - text: "Merci d'avoir utilisé notre service, à bientôt !"
+  - text: "Revenez quand vous voulez, prenez soin de vous !"
+
+actions:
+  - action_inscription
+  - action_dossier
+  - action_fill_form
+  - action_given_bac
+  - action_school
+  - action_filiere
+  - action_domain
+  - action_train
+  - action_bac_filiere
+  - action_ask_info
+  - action_place
+  - action_default_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

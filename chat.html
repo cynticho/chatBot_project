@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="webchat"></div>
+<!-- <script type="module" src="index.js"></script> -->
+ <style>
+  :root {
+    --rasa-chat-primary: #2e7d32; /* couleur principale (header, bouton...) */
+    --rasa-chat-background: #f9f9f9; /* arrière-plan */
+    --rasa-chat-bubble-bg: #2e7d32; /* bulle de l’assistant */
+    --rasa-chat-bubble-text: #fff; /* texte de la bulle */
+    --rasa-chat-user-bubble-bg: #e0e0e0; /* bulle de l'utilisateur */
+    --rasa-chat-user-bubble-text: #000;
+  }
+  .rw-conversation-container .rw-header{background-color: hsl(250, 36%, 34%);}
+  .rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: hsl(250, 40%, 49%); border: #2e7d32;}
+  .rw-launcher{background-color: hsl(250, 40%, 49%);}
+  .rw-conversation-container .rw-reply{background-color: hsl(250, 40%, 49%);}
+</style>
+
+<script>!(function () {
+  let e = document.createElement("script"),
+    t = document.head || document.getElementsByTagName("head")[0];
+  (e.src =
+    "./index.js"),
+    // Replace 1.x.x with the version that you want
+    (e.async = !0),
+    (e.onload = () => {
+      window.WebChat.default(
+        {
+          initPayload:"/greet",
+          customData: { language: "en" },
+          socketUrl: "http://localhost:5005",
+          title: "🧠Easy School🧠",
+          subtitle: "⚙️free Orientation for all⚙️",
+          inputTextFieldHint: "Posez vos questions ici .....",
+          showFullScreenButton: true,
+          userAvatar: "./logo dschang.PNG",
+          profileAvatar: "./logo dschang.PNG",
+          showCloseButton: true,
+          showMessageDate: true,
+          tooltipPayload: "/help",
+          tooltipText: "Dis bonjour à l’assistant !",
+          // add other props here
+        },
+        null
+      );
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+</script>
+
+</body>
+</html>

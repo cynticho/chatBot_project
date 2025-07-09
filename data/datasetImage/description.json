@@ -1,0 +1,848 @@
+{
+  "myEntities": [
+    {
+      "name": "Entrée campus, Université de Dschang",
+      "description": "Portail donnant directement accès au Campus A de l'Université de Dschang"
+    },
+    {
+      "name": "Navette inter-campus, Campus A",
+      "description": "Situé directement après l'entrée du campus A, c'est un moyen de transport mise en place par l'Université de Dschang pour alléger le coût du transport du Campus A au Campus C"
+    },
+    {
+      "name": "Rectorat de l'Université de Dschang",
+      "description": "Situé à la montée du Lycée Classique de Dschang"
+    },
+    {
+      "name": "Boutique universitaire, Campus A",
+      "description": "Situé à l'entrée du campus principal après la navette inter-campus, le centre commercial de la Dynamique Collective offre aux invités la possibilité d'acheter et de conserver des souvenirs de l'UDs grâce à des gadgets tels que des t-shirts, des polos, des casquettes, des parapluies, des porte-clés, des vuvuzelas, des tasses à thé, des assiettes et bien d'autres articles, tous estampillés du logo de l'institution et de la mascotte des jeux universitaires. La boutique propose également des articles portant sur les jeux et les tissus universitaires."
+    },
+    {
+      "name": "Orange Digital Center",
+      "description": "Situé à 100 mètres de la boutique universitaire, c'est un centre qui offre aux étudiants et jeunes entrepreneurs un cadre propice au développement des compétences numériques, à la créativité et à l'innovation."
+    },
+    {
+      "name": "Ancien décanat de la Faculté des sciences juridiques et politiques",
+      "description": "Situé à quelques mètres de Orange Digital Center, ce bâtiment comporte aujourd'hui certains bureaux de la FSJP depuis la délocalisation du décanat"
+    },
+    {
+      "name": "Amphi 1000, Campus A: Centre International des Conférences Mathias DJOUMESSI",
+      "description": "Située à 100 mètres du mât du drapeau du campus A, cette salle sert de salle de cours, de salle de conférences et de salle de projection"
+    },
+    {
+      "name": "École doctorale, Campus A",
+      "description": "Située près de l'Amphi 1000, Campus A: Centre International des Conférences Mathias DJOUMESSI, c'est l'organe en charge de la gestion administrative et scientifique des étudiants de Master 2 et Doctorat Ph.D"
+    },
+    {
+      "name": "Mât du drapeau, Campus A",
+      "description": "Situé à quelques mètres de l'ancien décanat de la FSJP, c'est le lieu où trône le drapeau de notre beau pays"
+    },
+    {
+      "name": "Bancs publics, Campus A",
+      "description": "Situé près du mât du drapeau, c'est le lieu de détente et d'échanges de la communauté universitaire"
+    },
+    {
+      "name": "Restaurant A, Campus A",
+      "description": "Situé à 100 mètres du mât du drapeau du campus A, c'est le lieu de restauration de la communauté universitaire"
+    },
+    {
+      "name": "Décanat de la FASA: Faculté d'Agronomie et des Sciences Agricoles, Campus C",
+      "description": "Situé au Campus C tout près de la Navette Campus C, c'est le centre Administratif de la FASA"
+    },
+    {
+      "name": "Campus A, Université de Dschang",
+      "description": "Campus comprenant quelques salles de cours et les décanats de trois Facultés : FLSH, FSEG, FMSP et FSJP"
+    },
+    {
+      "name": "Amphi 2 (II) FASA, Campus C, Sommet",
+      "description": "Situé au sein du décanat de la FASA, c'est une des salles de cours de la dite Faculté"
+    },
+    {
+      "name": "Bâtiment 1, Campus A",
+      "description": "Situé près du mât du drapeau du Campus A, il inclut le Block B1 et le Block SN1"
+    },
+    {
+      "name": "Bâtiment 2, Campus A",
+      "description": "Situé près du mât du drapeau du Campus A, entre les bâtiments 1 et 3, il inclut le Block B2 et le Block SN2"
+    },
+    {
+      "name": "Bâtiment 3, Campus A",
+      "description": "Situé près du mât du drapeau du Campus A, après le bâtiment 2, il inclut le Block B3 et le Block SN3"
+    },
+    {
+      "name": "Amphi 452, Campus A",
+      "description": "Situé à l'étage du bâtiment 1 Campus A"
+    },
+    {
+      "name": "Amphi 453, Campus A",
+      "description": "Situé à l'étage du bâtiment 1 Campus A"
+    },
+    {
+      "name": "CATII, Bâtiment 1, Campus A",
+      "description": "Situé au bâtiment 1 Campus A"
+    },
+    {
+      "name": "Salle de formation, CATII, Bâtiment 1, Campus A",
+      "description": "Situé au bâtiment 1 Campus A"
+    },
+    {
+      "name": "Salle B1 1",
+      "description": "Situé au bâtiment 1 Campus A"
+    },
+    {
+      "name": "Amphi 450, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2 Campus A"
+    },
+    {
+      "name": "Toilettes, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2 Campus A"
+    },
+    {
+      "name": "Amphi 451, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2 Campus A"
+    },
+    {
+      "name": "Amphi 351, Campus A",
+      "description": "Situé après le restaurant Campus A en allant vers la Faculté de Médecine"
+    },
+    {
+      "name": "Amphi 352, Campus A",
+      "description": "Situé après le restaurant Campus A en allant vers la Faculté de Médecine"
+    },
+    {
+      "name": "Terrain de football, Campus A",
+      "description": "Situé après l'amphi 351"
+    },
+    {
+      "name": "Faculté de médecine et des sciences pharmaceutiques, Campus A",
+      "description": "Situé après l'amphi 351"
+    },
+    {
+      "name": "Garage, Campus A",
+      "description": "Situé en face du bâtiment 3"
+    },
+    {
+      "name": "La DASA, Campus A",
+      "description": "Situé en face du bâtiment 3"
+    },
+    {
+      "name": "NS1, Campus A",
+      "description": "Situé à l'aile gauche de l'amphi 353"
+    },
+    {
+      "name": "Amphi 353, Campus A",
+      "description": "Situé avant l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A"
+    },
+    {
+      "name": "NS2, Campus A",
+      "description": "Situé à l'aile droite de l'amphi 353"
+    },
+    {
+      "name": "Décanat, Faculté des lettres et sciences humaines, Campus A",
+      "description": "Situé après l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A"
+    },
+    {
+      "name": "Décanat, Faculté des sciences économiques et de gestion, Campus A",
+      "description": "Situé après l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A"
+    },
+    {
+      "name": "Décanat, Faculté des sciences juridiques et politiques, Campus A",
+      "description": "Situé après l'Amphi 1000 (Centre International des Conférences Mathias DJOUMESSI), Campus A"
+    },
+    {
+      "name": "Cafétéria du Décanat FASEG-FSJP, Campus A",
+      "description": "Situé à côté du décanat FASEG-FSJP"
+    },
+    {
+      "name": "Navette inter-campus, Campus C, Sommet",
+      "description": "Situé au Campus C sommet"
+    },
+    {
+      "name": "Parking FASA, Campus B, Sommet",
+      "description": "Situé à côté du décanat de la FASA au Sommet"
+    },
+    {
+      "name": "Restaurant B, Campus B, Sommet",
+      "description": "Situé au sein du décanat de la FASA au Sommet"
+    },
+    {
+      "name": "Amphi 1 FASA, Campus B, Sommet",
+      "description": "Situé au sein du décanat de la FASA au Sommet"
+    },
+    {
+      "name": "Centre médico-social, Sommet",
+      "description": "Situé derrière la cité universitaire du Campus B au Sommet"
+    },
+    {
+      "name": "Bancs Publics, Campus B, Sommet",
+      "description": "Lieu de détente et d'échanges des étudiants situé au Sommet"
+    },
+    {
+      "name": "NS3, Campus B, Sommet",
+      "description": "Situé à l'aile de l'amphi 354"
+    },
+    {
+      "name": "NS4, Campus B, Sommet",
+      "description": "Situé à l'aile de l'amphi 354"
+    },
+    {
+      "name": "Amphi 354, Campus B, Sommet",
+      "description": "Situé près de la FASA au Sommet"
+    },
+    {
+      "name": "Bâtiment japonais, Campus C, Sommet",
+      "description": "Situé à côté de l'amphi 354"
+    },
+    {
+      "name": "Bibliothèque FASA, Campus C, Sommet",
+      "description": "Situé au Bâtiment Japonais"
+    },
+    {
+      "name": "Salle 1 Bâtiment Japonais, Campus C, Sommet",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais"
+    },
+    {
+      "name": "Salle 2 Bâtiment Japonais, Campus C, Sommet",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais"
+    },
+    {
+      "name": "Salle 3 Bâtiment Japonais, Campus C, Sommet",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais"
+    },
+    {
+      "name": "Salle 4 Bâtiment Japonais, Campus C, Sommet",
+      "description": "Situé à côté de l'amphi 354 au Bâtiment Japonais"
+    },
+    {
+      "name": "Centre multimédia, Sommet",
+      "description": "Situé derrière le Centre médico-social"
+    },
+    {
+      "name": "Décanat, Faculté des sciences, Bâtiment principal, Campus C, Sommet",
+      "description": "Situé au Campus C, au Sommet"
+    },
+    {
+      "name": "Amphi 600, Campus C au Sommet",
+      "description": "Situé en face du décanat de la Faculté des Sciences"
+    },
+    {
+      "name": "Bibliothèque centrale, Campus C au Sommet",
+      "description": "Situé au rez-de-chaussée du bâtiment du décanat de la Faculté des Sciences"
+    },
+    {
+      "name": "NS 6, Campus C au Sommet",
+      "description": "Situé à l'aile de l'amphi 355"
+    },
+    {
+      "name": "NS 5, Campus C au Sommet",
+      "description": "Situé à l'aile de l'amphi 355"
+    },
+    {
+      "name": "Amphi 355, Campus C au Sommet",
+      "description": "Situé en haut de l'amphi 600"
+    },
+    {
+      "name": "Première Salle, Entrée campus",
+      "description": "Situé à gauche après l'entrée principale"
+    },
+    {
+      "name": "Deuxième Salle, Entrée campus",
+      "description": "Situé à gauche après l'entrée principale"
+    },
+    {
+      "name": "Troisième Salle, Entrée campus",
+      "description": "Situé à gauche après l'entrée principale"
+    },
+    {
+      "name": "Quatrième Salle, Entrée campus",
+      "description": "Situé à gauche après l'entrée principale"
+    },
+    {
+      "name": "Salle des Aumôneries, Campus A",
+      "description": "Situé derrière Orange Digital Center Dschang"
+    },
+    {
+      "name": "Point Orange Money, Campus A",
+      "description": "Situé avant le mât du drapeau campus A"
+    },
+    {
+      "name": "Terrain de Handball, Campus A",
+      "description": "Situé à côté de la DASA"
+    },
+    {
+      "name": "Terrain de Basketball, Campus A",
+      "description": "Situé à côté de la DASA"
+    },
+    {
+      "name": "Terrain de volleyball, Campus A",
+      "description": "Situé à côté de la DASA"
+    },
+    {
+      "name": "Parking, Campus A",
+      "description": "Situé en face du mât du drapeau campus A"
+    },
+    {
+      "name": "Toilettes Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1"
+    },
+    {
+      "name": "Salle 2 FSJP",
+      "description": "Situé au bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B2 15, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 14, Laboratoire de chimie, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 13, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 12, Laboratoire d'Électrotechnique, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 11, Salle de préparation, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 10, Département de génie rural, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 9, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 8, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 7, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 6, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 5, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 4, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 3, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 2, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B2 1, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle des spectacles, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle SN2 007, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle SN2 006, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle SN2 005, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle SN2 004, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle SN2 003, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle SN2 002, Centre d'enseignement à distance en agriculture, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle SN2 001, Bâtiment 2, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 2 campus A"
+    },
+    {
+      "name": "Salle B3 13, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 12, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 11, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 8, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 7, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 6, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 5, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 4, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 3, Département de génie rural, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 2, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 1, Laboratoire des énergies renouvelables, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle SN3 006, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle SN3 005, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle SN3 004, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle SN3 003, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle SN3 002, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle SN3 001, Bâtiment 3, Campus A",
+      "description": "Situé au rez-de-chaussée du bâtiment 3 campus A"
+    },
+    {
+      "name": "Salle B3 101, Bâtiment 3, Campus A",
+      "description": "Première porte de la première salle du bâtiment 3 situé au campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 102, Salle MIMEDEL, Bâtiment 3, Campus A",
+      "description": "Deuxième porte de la deuxième salle du bâtiment 3 situé au campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 103, Bâtiment 3, Campus A",
+      "description": "Troisième salle du bâtiment 3 situé au campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 104, Bâtiment 3, Campus A",
+      "description": "Quatrième salle du bâtiment 3 situé au campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 105, Bâtiment 3, Campus A",
+      "description": "Cinquième salle du bâtiment 3 situé au campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 106, Bâtiment 3, Campus A",
+      "description": "Sixième salle du bâtiment 3 situé au campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 107, Bâtiment 3, Campus A",
+      "description": "Septième salle du bâtiment 3 situé au campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 108, Bâtiment 3, Campus A",
+      "description": "Situé au bâtiment 3 du campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 109, Bâtiment 3, Campus A",
+      "description": "Situé au bâtiment 3 du campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Salle B3 110, Bâtiment 3, Campus A",
+      "description": "Situé au bâtiment 3 du campus A. cette salle se trouve à l'étage."
+    },
+    {
+      "name": "Porte B3 111, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A"
+    },
+    {
+      "name": "Porte B3 112, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A"
+    },
+    {
+      "name": "Porte B3 113, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A"
+    },
+    {
+      "name": "Porte B3 114, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A"
+    },
+    {
+      "name": "Porte B3 115, Bureau, Bâtiment 3, Campus A",
+      "description": "Situé à l'étage du bâtiment 3, campus A"
+    },
+    {
+      "name": "Porte SN1 123, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 124, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 120, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 118, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 121, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 116, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 119, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 115, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 114, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 113, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 111, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 108, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 109, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 107, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 106, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 105, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 104, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 103, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 102, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN1 101, Bureau, Bâtiment 1, Campus A",
+      "description": "Situé à l'étage du bâtiment 1, au Block SN1, Campus A"
+    },
+    {
+      "name": "Porte SN2 101, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte SN2 102, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte SN2 103, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte SN2 104, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte SN2 105, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte SN2 106, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte SN2 107, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte SN2 108, Bureau, Bâtiment 2, Campus A",
+      "description": "Situé à l'étage du bâtiment 2, au Block SN2, Campus A"
+    },
+    {
+      "name": "Porte 202, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 206, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 209, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 210, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 215 A, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 218, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 219, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 220, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 221, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 222, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 223, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 224, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 227, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 228, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 229, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 230, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 231, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 232, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 233, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 234, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 235, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 236, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 237, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 238, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 239, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 240, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 241, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 242, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 243, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 244, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 245, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 246, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 247, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 248, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 249, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 250, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 251, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 252, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 253, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 254, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 255, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 256, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 257, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 258, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 259, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 260, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 261, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 262, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 263, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 264, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 265, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 266, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 267, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 268, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Porte 269, 2ème Étage, Décanat Faculté des sciences",
+      "description": ""
+    },
+    {
+      "name": "Citée Universitaire, Campus C, Sommet",
+      "description": ""
+    }
+  ]
+}

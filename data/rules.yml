@@ -1,0 +1,93 @@
+version: "3.1"
+
+rules:
+
+# - rule: Formulaire bac terminé
+#   condition:
+#     - active_loop: bac_form
+#   steps:
+#     - action: bac_form
+#     - active_loop: null
+#     - action: utter_bac
+
+- rule: Répondre avec les options selon le bac
+  steps:
+    - intent: bac_given
+    - action: action_given_bac
+
+- rule: toujours repondre a la salutation
+  steps:
+    - intent: intro
+    - action: utter_intro
+
+- rule: toujours demander la preoccupation.
+  steps:
+    - intent: confirm
+    - action: utter_confirm
+
+- rule: Montrer la procédure d'inscription.
+  steps:
+    - intent: inscription
+    - action: action_inscription
+
+- rule: toujours repondre a la constitution.
+  steps:
+    - intent: dossier
+    - action: action_dossier
+
+- rule: repondre a la preoccupation.
+  steps:
+    - intent: fill_form
+    - action: action_fill_form
+
+
+- rule: toujours conclure
+  steps:
+  - intent: reject
+  - action: utter_close
+
+- rule: place.
+  steps:
+    - intent: place
+    - action: action_place
+
+- rule: fallback.
+  steps:
+    - intent: nlu_fallback
+    - action: action_default_fallback
+
+- rule: info.
+  steps:
+    - intent: ask_info
+    - action: action_ask_info
+
+- rule: verification bac filiere.
+  steps:
+    - intent: bac_filiere
+    - action: action_bac_filiere
+
+- rule: toujours reagir apres le bye
+  steps:
+  - intent: close
+  - action: utter_close
+
+- rule: toujours repondre a la formation
+  steps:
+  - intent: train
+  - action: action_train
+
+- rule: toujours  repondre au demande d'ecole
+  steps:
+  - intent: school
+  - action: action_school
+
+- rule: toujours  repondre au domaine
+  steps:
+  - intent: domain
+  - action: action_domain
+
+- rule: toujours  repondre au filiere
+  steps:
+  - intent: filiere
+  - action: action_filiere
+

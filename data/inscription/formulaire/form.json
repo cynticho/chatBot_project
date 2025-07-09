@@ -1,0 +1,36 @@
+{
+    "form": [
+        {
+            "name": "choix de l'etablisement",
+            "image": "fs0"
+        },
+        {
+            "name": "preciser son bac et choisir le type de formation",
+            "image": "fs1"
+        },
+        {
+            "name": "remplir ses infos",
+            "image": "fs2"
+        },
+        {
+            "name": "fournir son adresse",
+            "image": "fs3"
+        },
+        {
+            "name": "entrez ses notes",
+            "image": "fs4"
+        },
+        {
+            "name": "fornir des infos parentales",
+            "image": "fs5"
+        },
+        {
+            "name": "verifier si les infos sont correctes",
+            "image": "fs6"
+        },
+        {
+            "name": "choix de l'etablisement financier",
+            "image": "fs7"
+        }
+    ]
+}

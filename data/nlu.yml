@@ -1,0 +1,1284 @@
+version: "3.1"
+
+nlu:
+- intent: inscription
+  examples: |
+    - je souhaite me [pre-inscrire](inscription)
+    - je veux faire des [pre-inscription](inscription)
+    - comment faire les [inscriptions](inscription) a l'université apres le bac ?
+    - [inscription](inscription)
+    - besoin d'aide pour [inscrire](inscription)
+    - processus de [pre-inscription](inscription)
+    - comment se font les [pre-inscription](inscription) a l'université
+    - j’aimerai faire des [inscription](inscription)
+    - comment se passe les [inscription](inscription)
+    - deroulement des [pre-inscription](inscription)
+    - que faire pour me [pre-inscrire](inscription) a l-université
+    - comment m'[inscrire](inscription) a l'université
+
+- intent: dossier
+  examples: |
+    - quelle est la constitution du [dossier](dossier)
+    - je veux faire le  [dossier](dossier) de pre-inscription
+    - comment faire le [dossiers](dossier) a l'université apres le bac ?
+    - [dossiers](dossier) d'incription
+    - [dossiers](dossier)
+    - constitution du [dossier](dossier) de pre-inscription
+    - comment constituer le  [dossier](dossier) de pre-inscription
+    - quels sont les element du [dossier](dossier) de pre-inscription
+    - comment se fait la constitution du [dossier](dossier) de pre-inscription
+    - quoi mettre dans le [dossier](dossier) de inscription
+
+- intent: fill_form
+  examples: |
+    - comment se fait le remplissage du [formulaire](form)
+    - comment remplire la  [fiche](form) de pre-inscription
+    - comment faire pour remplire le [document](form) de pre-inscription ?
+    - remplissage du [formulaire](form) d'incription
+    - quoi mettre dans le champ du [formulaire](form)
+    - je ne sais pas commment remplir  la  [fiche d'inscription](form) 
+    - j'ai des difficultés pour remplire le   [document](form) de pre-inscription
+   
+
+- intent: bac_given
+  examples: |
+    - Mon [bac](bac) est [bacType](bacType)
+    - j'ai un [bac](bac) [C](bacType)
+    - [bac](bac) [E](bacType)
+    - un [baccalaureat](bac) [scientifique](bacType)
+    - je suis titulaire d’un [bac](bac) [A4 esp](bacType)
+    - j'ai fait un [bac](bac) [F4](bacType)
+    - le [bac](bac) est du type [TI](bacType)
+    - j’ai eu un [bac](bac) [G1](bacType)
+    - [G1](bacType)
+    - [A4 ESP](bacType)
+    - [D](bacType)
+    - [literraire](bacType)
+
+- intent: intro
+  examples: |
+    - Bonjour
+    - Bjr
+    - slt
+    - Bsr
+    - bonjour !
+    - bonjour Monsieur !
+    - Salut, comment ça va ?
+    - Bonsoir !
+    - Hello !
+    - Hey
+    - yo
+    - yo frerot
+    - yo bro
+    - Bon apres midi
+    - Pouvez vous  m'aider ?
+    - Aidez-moi s’il te plaît
+    - Tu peux m’assister ?
+    - J’ai besoin d’un coup de main
+    - Je ne sais pas quoi faire
+    - Que dois-je faire ?
+    - Tu peux m’orienter ?
+    - J’ai besoin d’un conseil
+    - Bonjour je voudrais des infos !
+    
+- intent: filiere
+  examples: |
+    - [filiere](filiere)
+    - Que puis-je faire comme [filiere](filiere) après le [bac](bac) ?
+    - je voudrais des infos
+    - [filiere](filiere) a envisager après le baccalauréat ?
+    - [filiere](filiere) possibles ?
+    - après le bac, Quelles [filiere](filiere) me sont accessibles  ?
+    - J’ai mon bac, je veux une [filiere](filiere) ?
+    - C’est quoi les [filiere](filiere) possibles après le [bac](bac) ?
+    - Quelles sont les [filiere](filiere) que je peux faire après le [bac](bac) ?
+    - Vers quelle [filiere](filiere) puis-je me diriger  ?
+    - que me proposes-tu comme [filiere](filiere) après mon [bac](bac) ?
+
+- intent: school
+  examples: |
+    - [ecoles](school)
+    - Quelles [ecoles](school) sont disponibles ?
+    - Quelles [ecoles](school) puis-je intégrer après le bac ?
+    - Quels [ecoles](school) peuvent m'accepter après le bac ?
+    - [ecoles](school) après le bac ?
+    - Quels types d'[ecoles](school) existent après le bac ?
+
+- intent: close
+  examples: |
+    - text: "bye"
+    - text: "au revoir"
+    - text: "a plus"
+    - text: "a la prochaine"
+    - text: "Merci !"
+    - text: "vraiment reconnaissant pour votre soutien."
+    - text: "merci pour toutes vos informations."
+    - text: "Merci pour votre réponse rapide et utile."
+
+- intent: confirm
+  examples: |
+    - oui
+    - o
+    - bien sur
+    - confirmer
+    - admettre
+    - pourquoi pas
+    - j'admes
+    - d'accord
+    - s'engager
+    - accepter
+    - correct
+    - vrai
+    - avec plaisir
+    - Tout a fait
+
+- intent: reject
+  examples: |
+    - non
+    - no
+    - abandonner
+    - n
+    - jamais
+    - refuser
+    - je n'aime pas
+    - faux
+    - annuler
+    - impossible
+    - je ne veux pas
+
+- intent: domain
+  examples: |
+    - [domaines](domain)
+    - [domaines](domain) pour jeune bachechier ?
+    - Quels sont les [domaines](domain) disponibles après le baccalaureat ?
+    - Que puis-je faire dans la vie ?
+    - Quelles [domaines](domain) me sont accessibles ?
+    - [domaines](domain) envisager après le [bac](bac) ?
+    - Je cherche un [domaine](domain) à suivre
+    - Donne-moi les [domaines](domain) possibles
+    - Quelles orientations ?
+    - Quels [domaines](domain) choisir  ?
+
+- intent: train
+  examples: |
+    - [parcours](train)
+    - Quels sont les [parcours](train) disponibles après le baccalauréat ?
+    - Quelles sont les [filières](train) après le bac ?
+    - Je veux connaître les [voies](train) disponibles après le bac
+    - Qu'est-ce qu'on peut faire après le bac ?
+    - Montre-moi les [parcours](train) possibles après le baccalauréat
+    - Quels types de [parcours](train) peut-on suivre après le bac ?
+
+
+- intent: bac_filiere
+  examples: |
+    - la [chimie](work) est-elle envisageable avec un [bac](bac) [D](bacType) ?
+    - puis-je m'inscrire en [physique](work) avec un [bac](bac) [D](bacType) ?
+    - le [bac](bac) [A4 esp](bacType) accède-t-il à [infirmier diplômé d'état](work) ?
+    - ai-je la possibilité de faire [chimie](work) avec un [bac](bac) [Ti](bacType) ?
+    - quelles filières sont accessibles avec un [bac](bac) [C](bacType) ?
+    - est-ce que le [bac](bac) [G2](bacType) permet d'étudier [marketing](work) ?
+    - avec un [bac](bac) [A1](bacType), puis-je faire [droit](work) ?
+    - peut-on accéder à [génie civil](work) après un [bac](bac) [F4](bacType) ?
+    - est-ce que [sciences économiques](work) est compatible avec le [bac](bac) [B](bacType) ?
+    - je m'intéresse à la [biologie animale](work) ?
+    - la [chimie](work) est-elle envisageable avec un [bac](bac) [D](bacType) ?
+    - puis-je m'inscrire en [physique](work) avec un [bac](bac) [D](bacType) ?
+    - je peux faire [comptabilité et gestion des entreprises](work) avec un [bac](bac) [D](bacType) ?
+    - le [bac](bac) [F3](bacType) permet-il de faire [architecture de réseaux](work) ?
+    - le [bac](bac) [A4 esp](bacType) accède-t-il à [infirmier diplômé d'état](work) ?
+    - ai-je la possibilité de faire [chimie](work) avec un [bac](bac) [Ti](bacType) ?
+    - est-ce qu'on peut faire [arts technologique et patrimoine](work) avec le [bac](bac) [E](bacType) ?
+    - est-il possible d'envisager [économie et gestion des exploitations agricoles](work) avec un [bac](bac) [mise](bacType) ?
+    - le [bac](bac) [F4](bacType) accède à [travaux publics](work) ?
+    - quelles filières sont accessibles avec un [bac](bac) [C](bacType) ?
+    - est-ce que le [bac](bac) [G2](bacType) permet d'étudier [marketing](work) ?
+    - avec un [bac](bac) [A1](bacType), puis-je faire [droit](work) ?
+    - peut-on accéder à [génie civil](work) après un [bac](bac) [F4](bacType) ?
+    - est-ce que [sciences économiques](work) est compatible avec le [bac](bac) [B](bacType) ?
+    - est-ce que je peux m'orienter vers [santé publique](work) avec un [bac](bac) [C](bacType) ?
+    - est-il possible de faire [géologie](work) après un [bac](bac) [D](bacType) ?
+    - peut-on faire [électronique](work) avec un [bac](bac) [E](bacType) ?
+    - est-ce que le [bac](bac) [F1](bacType) donne accès à [maintenance industrielle](work) ?
+    - un [bac](bac) [A2](bacType) permet-il de faire [journalisme](work) ?
+    - je veux faire [chimie](work)
+    - puis-je m'inscrire en [biologie végétale](work) ?
+    - la [biochimie](work) est-elle compatible avec un bac D ?
+    - je peux faire [marketing commerce vente](work) avec un bac G ?
+    - le bac F3 permet-il d'accéder à [génie électrique](work) ?
+    - est-ce que [sciences de l'environnement](work) est accessible avec un bac C ?
+    - peut-on envisager [génie civil](work) avec un bac E ?
+    - est-il possible d'étudier [énergies renouvelables](work) avec un bac Ti ?
+    - je suis intéressé par [arts technologique et patrimoine](work), est-ce possible avec un bac A ?
+    - le bac mise permet-il de faire [économie et gestion des exploitations agricoles](work) ?
+    - puis-je faire [relations internationales](work) avec un bac D ?
+    - est-ce que [aide-soignant](work) est accessible avec un bac pro ?
+    - [géologie appliquée](work) est-elle une option pour moi avec un bac S ?
+    - peut-on faire [informatique & réseaux](work) après un bac scientifique ?
+    - est-ce que [comptabilité et gestion des entreprises](work) est accessible après un bac G2 ?
+    - je veux faire [chimie](work)
+    - puis-je m'inscrire en [biologie végétale](work) ?
+    - la [biochimie](work) est-elle compatible avec un [bac](bac) [D](bacType) ?
+    - je peux faire [marketing](work) avec un [bac](bac) [G](bacType) ?
+    - le [bac](bac) [F3](bacType) permet-il d'accéder à [physique appliquée](work) ?
+    - est-ce que [sciences de l'environnement](work) est accessible avec un [bac](bac) [C](bacType) ?
+    - peut-on envisager [physique fondamentale](work) avec un [bac](bac) [E](bacType) ?
+    - est-il possible d'étudier [énergies renouvelables](work) avec un [bac](bac) [Ti](bacType) ?
+    - je suis intéressé par [numérique](work), est-ce possible avec un [bac](bac) [A](bacType) ?
+    - le [bac](bac) [mise](bacType) permet-il de faire [production animale](work) ?
+    - puis-je faire [finance-comptabilité](work) avec un [bac](bac) [G2](bacType) ?
+    - est-ce que [entretien des machines](work) est accessible avec un [bac](bac) [F4](bacType) ?
+    - [statistique](work) est-elle une option pour moi avec un [bac](bac) [S](bacType) ?
+    - peut-on faire [informatique](work) après un [bac](bac) [scientifique](bacType) ?
+    - est-ce que [qualité alimentaire](work) est accessible après un [bac](bac) [BTSA](bacType) ?
+    - est-ce que [analyse et politiques economiques](work) est ouverte aux [bac](bac) [ES](bacType) ?
+    - je m'interesse à la [biologie animale](work) ?
+    - la [chimie](work) est t-elle envisageable avec un [bac](bac) [D](bacType) ?
+    - puis je m'incrire en [physique](work) avec un [bac](bac) [D](bacType) ?
+    - je peux faire [comptabilité et gestion des entreprises](work)  avec un [bac](bac) [D](bacType) ?
+    - le [bac](bac) [F3](bacType) permet il de faire [architecture de réseaux](work)  ?
+    - le [bac](bac) [A4 esp](bacType)  accede t'il à [infirmier diplômé d'état](work) ?
+    - ai Je la possibilité de faire [chimie](work)  avec [bac](bac) [Ti](bacType) ?
+    - est-ce qu'on peut faire [arts technologique et patrimoine](work)  avec le [bac](bac) [E](bacType) ?
+    - est-il possible d'envisager [économie et gestion des exploitations agricoles](work)  ayant un [bac](bac) [mise](bacType) ?
+    - le [bac](bac) [bacType](bacType) accede a [travaux publics](work)  ?
+
+- intent: place
+  examples: |
+    - où se trouve [quatrième salle entrée campus](destination) ?
+    - Montrer le chemin du [Terrain de Football](destination) à partir de [dschang school of agriculture and environmental science](origine)
+    - Je veux aller à la [ns1](destination) quittant [Terrain de Football](origine)
+    - Je veux aller à [Boutique Universitaire](destination) Depuis [porte 232 b](origine)
+    - Montre-moi le chemin vers [dschang school of agriculture and environmental science](destination)
+    - Comment aller à [Navette](destination) étant  à [Amphi 450](origine)
+    - Donne-moi les étapes pour aller à [ns 5](destination) à partir de la [Porte SN2 101](origine)
+    - Peux-tu me guider vers [Porte 209](destination) en debutant à la [Porte SN1 106](origine)
+    - Quelle est la route pour [Décanat FASA](destination)
+    - Je cherche [Amphi 1000](destination) et je suis au  [Mat du Drapeau](origine)
+    - Où se trouve [Centre Medico Social](destination) en commencant à la [navette](origine)
+    - Comment puis-je me rendre à [rectorat de l'université de dschang](destination)
+    - Je dois aller à [salle b3 1](destination) à partir de [Point Orange Money](origine)
+    - je cherche la [porte 232 b](destination)
+    - Je suis à [porte 209](origine), je cherche [Amphi 1000](destination)
+    - Je suis à la [Cafetéria](origine), comment aller au [Centre Medico Social](destination) ?
+    - Depuis [porte 232 b](origine), montre-moi le chemin vers [ns1](destination)
+    - Je suis à [Amphi 450](origine) et je veux aller au [Décanat FASA](destination)
+    - Je me trouve à la [Navette](origine), comment faire pour aller à la [Boutique Universitaire](destination)
+    - Je suis devant [quatrième salle entrée campus](origine), comment aller à [ns 5](destination) ?
+    - Depuis [Terrain de Football](origine), je veux aller à [dschang school of agriculture and environmental science](destination)
+    - Je suis à [rectorat de l'université de dschang](origine), je cherche [salle b3 1](destination)
+    - Comment aller de [Bibliothèque](origine) à la [Salle SN3 102](destination) ?
+    - Je suis à la [Porte SN2 101](origine), je veux aller au [Salle 1 Bâtiment Japonais](destination)
+
+- intent: ask_info
+  examples: |
+    - je veux les catalogue de la [fasa](info)
+    - donne-moi les options pour la [fsjp](info)
+    - info sur la [fs](info) ?
+    - info sur la [institut universitaire et technologique fotso victor](info) ?
+    - info sur la [faculté de medecine et science paramedicale](info) ?
+    - info sur la [faculté d'agronomie et des sciences agricoltes](info) ?
+    - detail de la [fseg](info) stp
+    - detail de la [institutut des beaux arts](info) stp
+    - comment entrer a la [faculté des sciences](info)
+    - donne-moi les options de la [faculté de medecine et science paramedicale](info) stp
+    - detail de la [fseg](info) stp
+    - je cherche le catalogue pour la faculté des sciences
+    - il y'a  quoi du cote de la [fasa](info)
+    - j’ai besoin du catalogue de l’[institut universitaire et technologique fotso victor](info) 
+    - puis-je voir les filieres a  [IUTFV](info) ?
+    - je veux le catalogue de la [faculté de médecine](info)
+    - je veux les informations de la [FLSH](info)
+    - donne-moi des details sur la [FSEG](info)
+    - comment acceder a la [FSJP](info)
+    - je cherche les informations de la [FS](info)
+    - combien de filieres compte la [institut universitaire et technologique fotso victor](info) ?
+    - Quelles sont les filieres de la [IUTFV](info)
+    - je veux le document pour la [IBA](info)
+    - comment entrer a la [FMSP](info)
+    - fliere [FLSH](info)
+    - information de la [fseg](info)
+    - c'est quoi la [fs](info)
+    - description de [iba](info) stp
+    - [fsjp](info)
+    - [flsh](info)
+    - [fasa](info)
+    - [institutut des beaux arts](info)
+    - [institut universitaire et technologique fotso victor](info)
+    - [faculté des sciences economiques et de gestion](info)
+    - [faculté des letres et des sciences humaines](info)
+    - [faculté des sciences juridiques et politiques](info)
+    - [faculté des sciences](info)
+    - [faculté d'agronomie et des sciences agricoltes](info)
+    - [faculté de medecine et science paramedicale](info)
+
+- lookup: inscription
+  examples: |
+    - inscription
+    - inscriptions
+    - inscrire
+    - pre-inscrire
+    - pre-inscriptions
+    - pre-inscription
+
+- lookup: dossier
+  examples: |
+    - dossier
+    - dossiers
+    - Dosier
+    - dosier
+
+- lookup: form
+  examples: |
+    - formulaire
+    - formulaires
+    - fiche
+    - document
+    - fiche d'inscriptions
+    - fiche de pre-inscription
+
+- lookup: info
+  examples: |
+    - flsh
+    - fseg
+    - fsjp
+    - fs
+    - fasa
+    - iutfv
+    - iba
+    - ibaf
+    - fmsp
+    - faculté des letres et des sciences humaines
+    - faculté des sciences economiques et de gestion
+    - faculté des sciences juridiques et politiques
+    - faculté des sciences
+    - faculté d'agronomie et des sciences agricoltes
+    - institut universitaire et technologique fotso victor
+    - institutut des beaux arts
+    - faculté de medecine et science paramedicale
+
+- lookup: train
+  examples: |
+    - formation
+    - formations
+    - etude
+    - etudes
+    - orientation
+    - orientations
+    - parcours
+    - debouches
+    - debouche
+    - debouché
+    - debouchés
+    - parcours
+    - cursus
+    - type
+    - voie
+    - voies
+    - secteurs
+    - Secteur
+
+- lookup: work
+  examples: |
+    - chimie
+    - technologies alimentaires
+    - finances
+    - architecture de réseaux
+    - communication
+    - géographie
+    - électronique
+    - soins paramédicaux
+    - informatique
+    - géologie
+    - ressources naturelles
+    - cartographie
+    - droit administratif
+    - agroalimentaire
+    - production végétale
+    - santé animale
+    - politiques publiques
+    - circuits
+    - gestion des ressources
+    - durabilité
+    - politiques agricoles
+    - bâtiment
+    - reproduction
+    - innovation
+    - innovation technologique
+    - pharmacie
+    - soutien moral
+    - gouvernance
+    - infrastructure
+    - kinésithérapie
+    - management
+    - peinture
+    - conservation des aliments
+    - thérapie par le mouvement
+    - biologie
+    - stratégie commerciale
+    - génie électrique
+    - conception technique
+    - institutions publiques
+    - service public
+    - géospatial
+    - blessures musculosquelettiques
+    - vente
+    - environnement
+    - systèmes embarqués
+    - développement rural
+    - fiscalité
+    - automatisation
+    - transformation agroalimentaire
+    - cybersécurité
+    - sciences médicales
+    - musique
+    - dessin
+    - accompagnement des dépendants
+    - systèmes électriques
+    - danse
+    - froid
+    - sociologie rurale
+    - agroécologie
+    - administration
+    - transformation alimentaire
+    - gestion durable
+    - systèmes politiques
+    - maintenance
+    - biologie humaine
+    - machinisme agricole
+    - organisation
+    - blessures neurologiques
+    - marketing
+    - analyse politique
+    - cinéma
+    - événements culturels
+    - agriculture
+    - énergies
+    - production respectueuse de l'environnement
+    - soins postnataux
+    - comptabilité
+    - bases de données
+    - politique
+    - finance
+    - comptabilité des entreprises
+    - décoration
+    - gestion des institutions publiques
+    - mines
+    - santé
+    - enseignement
+    - physique
+    - économie agricole
+    - installations artistiques
+    - diagnostic de laboratoire
+    - théâtre
+    - composants électroniques
+    - design graphique
+    - restauration
+    - utilisation des équipements médicaux
+    - soutien psychologique
+    - architecture
+    - orthophonie
+    - génie rural
+    - gestion des ressources naturelles
+    - gestion des exploitations
+    - pharmaceutique
+    - soins quotidiens
+    - diplomatie
+    - travaux publics
+    - économie
+    - systèmes de communication
+    - programmation
+    - produits locaux
+    - systèmes
+    - gestion des échantillons
+    - nutrition animale
+    - soins prénatals
+    - biotechnologie
+    - aménagement intérieur
+    - recherche
+    - réparation
+    - histoire de l'art
+    - mise en valeur des biens culturels
+    - commerce
+    - gestion des sols
+    - santé publique
+    - ingénierie
+    - télécommunications
+    - changement socio-économique
+    - gestion des urgences
+    - analyses biologiques
+    - climat
+    - construction
+    - fidélisation
+    - biologie clinique
+    - conservation
+    - énergie
+    - rééducation physique
+    - matériaux
+    - statistique
+    - sciences
+    - équipements agricoles
+    - systèmes énergétiques
+    - optimisation
+    - relation client
+    - écologie
+    - agriculture durable
+    - dynamique du pouvoir
+    - production artisanale
+    - organisations internationales
+    - diagnostic
+    - gestion
+    - techniques biomédicales
+    - urbanisme
+    - climatisation
+    - arts visuels
+    - pathologies
+    - coopération internationale
+    - mathématiques
+    - technologies du patrimoine
+    - gestion financière
+    - sculpture
+    - design
+    - accompagnement psychologique
+    - réfrigération
+    - biologie animale
+    - productique
+    - génie civil
+    - industrie alimentaire
+    - relations internationales
+    - systèmes agricoles
+    - infrastructures rurales
+    - agronomie
+    - industrie
+    - banque
+    - élevage
+    - soins aux patients
+    - hygiène hospitalière
+    - gestion des entreprises agricoles
+    - gestion des exploitations animales
+    - podologie
+    - accouchement
+    - réseaux
+    - stylisme
+    - topographie
+    - aménagements hydrauliques
+    - géomatique
+    - coordination
+    - géopolitique
+    - production animale
+    - numérique
+    - qualité alimentaire
+    - entretien des machines
+    - analyse et politiques economiques (ape)
+    - sciences de gestion (sg)
+    - marketing (mkt)
+    - finance-comptabilité (fc)
+    - biologie végétale
+    - biotechnologie végétale
+    - biologie animale
+    - biochimie
+    - chimie
+    - mathématiques fondamentales
+    - mathématiques appliquées
+    - statistique
+    - informatique
+    - physique fondamentale
+    - physique appliquée
+    - énergies renouvelables
+    - sciences de la terre
+    - sciences de l'environnement
+    - géologie appliquée
+    - assistant manager
+    - banque et finance
+    - bâtiment
+    - comptabilité et gestion des entreprises
+    - électronique
+    - froid et climatisation
+    - maintenance des systèmes électroniques
+    - marketing commerce vente
+    - travaux publics
+    - génie civil
+    - génie électrique
+    - génie géomatique
+    - gestion et maintenance des installations énergétiques
+    - informatique & réseaux
+    - ingénierie des réseaux et télécommunications
+    - maintenance industrielle & productique
+    - gestion administrative
+    - management des organisations
+    - gestion des relations clientèle
+    - agronomie générale
+    - agriculture durable
+    - génie rural
+    - machinisme agricole
+    - économie et gestion des exploitations agricoles
+    - sociologie rurale et développement
+    - sciences animales
+    - productions animales
+    - sciences et technologies alimentaires
+    - transformation des produits agricoles
+    - science politique
+    - relations internationales
+    - administration publique
+    - sciences biomédicales
+    - architecture et l'art de l'ingénieur
+    - arts plastiques
+    - arts décoratifs
+    - arts du spectacle
+    - arts technologique et patrimoine
+    - infirmier diplômé d'état
+    - sage-femme
+    - aide-soignant
+
+
+- lookup: bacType
+  examples: |
+    - C
+    - c
+    - D
+    - d
+    - TI
+    - ti
+    - A4
+    - a4
+    - F4
+    - f4
+    - E
+    - e
+    - GCE
+    - gce
+    - A1
+    - a1
+    - A2
+    - a2
+    - A3
+    - a3
+    - A4 ESP
+    - a4 esp
+    - A4 Esp
+    - a4 Esp
+    - A4 esp
+    - a4 ESP
+    - A4 Esp
+    - a4 Esp
+    - A4 all
+    - a4 all
+    - A4 ALL
+    - a4 All
+    - A4 all
+    - a4 ALL
+    - A4 All
+    - a4 All
+    - G1
+    - g1
+    - G2
+    - g2
+    - G3
+    - g3
+    - G4
+    - g4
+    - F1
+    - f1
+    - F2
+    - f2
+    - F3
+    - f3
+    - F5
+    - f5
+    - F6
+    - f6
+    - F8
+    - f8
+    - IS
+    - is
+    - IH
+    - ih
+    - MISE
+    - mise
+    - technique
+    - literraire
+    - scientifique
+    - techniques
+    - literraires
+    - scientifiques
+
+
+- lookup: bac
+  examples: |
+    - bac
+    - bacc
+    - diplôme
+    - diplome
+    - baccalaureat
+    - baccalauréat
+    - serie
+    - série
+
+
+- lookup: school
+  examples: |
+    - ecoles
+    - école
+    - ecole
+    - écoles
+    - faculté
+    - facultés
+    - etablissements
+    - etablissement
+    - établissement
+    - établissements
+    - institut
+    - institutions
+    - instituts
+    - institution
+
+- lookup: filiere
+  examples: |
+    - filiere
+    - filière
+    - spécialisations
+    - spécialisation
+    - specialisation
+    - disciplines
+    - discipline
+    - options
+    - option
+
+- lookup: domain
+  examples: |
+    - domaines
+    - domaine
+    - secteur
+    - spécialité
+    - filière
+    - orientation
+    - discipline
+    - branche
+    - champ
+    - travail
+    - travails
+    - catégorie
+    - domaine d’étude
+    - domaine professionnel
+    - domaine universitaire
+    - domaine académique
+
+- lookup: destination
+  examples: |
+    - entrée campus
+    - campus a
+    - navette
+    - boutique universitaire
+    - première salle entrée campus
+    - deuxième salle entrée campus
+    - troisième salle entrée campus
+    - quatrième salle entrée campus
+    - orange digital center
+    - salle des aumôneries
+    - barbillard navette campus a
+    - ancien décanat fsjp
+    - point orange money
+    - bancs public
+    - parking
+    - batiment 1
+    - amphi 452
+    - toillete batiment 1
+    - amphi 453
+    - catii
+    - salle de formation
+    - salle b1 1
+    - mat du drapeau
+    - salle 2 fsjp
+    - porte sn1 123
+    - porte sn1 124
+    - porte sn1 120
+    - porte sn1 118
+    - porte sn1 121
+    - porte sn1 116
+    - porte sn1 119
+    - porte sn1 115
+    - porte sn1 114
+    - porte sn1 112
+    - porte sn1 113
+    - porte sn1 111
+    - porte sn1 108
+    - porte sn1 109
+    - porte sn1 106
+    - porte sn1 107
+    - porte sn1 105
+    - porte sn1 104
+    - porte sn1 103
+    - porte sn1 102
+    - porte sn1 101
+    - batiment 2
+    - salle b2 15
+    - salle b2 14
+    - salle b2 13
+    - salle b2 12
+    - salle b2 11
+    - salle b2 10
+    - salle b2 9
+    - salle b2 8
+    - salle b2 7
+    - salle b2 6
+    - salle b2 5
+    - salle b2 4
+    - salle b2 3
+    - salle b2 2
+    - salle b2 1
+    - salle de spectacle
+    - salle sn2 007
+    - salle sn2 006
+    - salle sn2 005
+    - salle sn2 004
+    - salle sn2 003
+    - salle sn2 002
+    - salle sn2 001
+    - amphi 450
+    - toilettes
+    - amphi 451
+    - porte sn2 101
+    - porte sn2 102
+    - porte sn2 103
+    - porte sn2 104
+    - porte sn2 105
+    - porte sn2 106
+    - porte sn2 107
+    - porte sn2 108
+    - batiment 3
+    - salle b3 13
+    - salle b3 12
+    - salle b3 11
+    - salle b3 8
+    - salle b3 7
+    - salle b3 6
+    - salle b3 5
+    - salle b3 4
+    - salle b3 3
+    - salle b3 2
+    - salle b3 1
+    - salle sn3 006
+    - salle sn3 005
+    - salle sn3 004
+    - salle sn3 003
+    - salle sn3 002
+    - salle sn3 001
+    - garage
+    - dasa
+    - restaurant a
+    - terrain de handball
+    - terrain de basketball
+    - terrain de volleyball
+    - amphi 351
+    - amphi 352
+    - terrain de football
+    - faculté de médecine et des sciences pharmaceutiques
+    - porte 101
+    - porte 102
+    - porte 103
+    - porte 104
+    - porte 105 106
+    - porte 108
+    - porte 112
+    - porte 202
+    - porte 203
+    - porte 204
+    - porte 205
+    - porte 207
+    - porte 208
+    - porte 209
+    - ns1
+    - amphi 353
+    - ns2
+    - amphi 1000
+    - école doctorale
+    - parking école doctorale
+    - dschang school of science and technology
+    - dschang school of arts and social science
+    - dschang school of economics and management
+    - toilettes école doctorale
+    - dschang school of agriculture and environmental science
+    - dschang school of law and political science
+    - dschang school of health and life sciences
+    - bureau
+    - cafétaria
+    - navette
+    - decanat fasa
+    - amphi 2 fasa
+    - parking fasa
+    - restaurant b
+    - amphi 1 fasa
+    - centre medico social
+    - bancs public campus b
+    - ns3
+    - ns4
+    - amphi 354
+    - batiment japonais
+    - bibliothèque fasa
+    - salle 1 batiment japonais
+    - salle 2 batiment japonais
+    - salle 3 batiment japonais
+    - salle 4 batiment japonais
+    - centre multi media
+    - décanat faculté des sciences
+    - amphi 600
+    - bibliothèque centrale
+    - ns 6
+    - ns 5
+    - amphi 355
+    - salle b3 101
+    - salle b3 102
+    - salle b3 103
+    - salle b3 104
+    - salle b3 105
+    - salle b3 106
+    - salle b3 107
+    - salle b3 108
+    - salle b3 109
+    - salle b3 110
+    - porte b3 111
+    - porte b3 112
+    - porte b3 113
+    - porte b3 114
+    - porte b3 115
+    - salle sn3 106
+    - salle sn3 105
+    - salle sn3 104
+    - salle sn3 103
+    - salle sn3 102
+    - salle sn3 101
+    - rectorat de l'université de dschang
+    - porte 202
+    - porte 206
+    - porte 209
+    - porte 210
+    - porte 215 a
+    - porte 218
+    - porte 219
+    - porte 220
+    - porte 221
+    - porte 222
+    - porte 223
+    - porte 224
+    - porte 225
+    - porte 227
+    - porte 228
+    - porte 229
+    - porte 230
+    - porte 231
+    - porte 232 a
+    - porte 232 b
+    - porte 237 a
+    - porte 237 b
+    - porte 240
+    - porte 302
+    - porte 303
+    - porte 304
+    - porte 309
+    - porte 310
+    - porte 311 a
+    - porte 311 b
+    - porte 312
+    - porte 313
+    - porte 314 a
+    - porte 314 b
+    - porte 317 a
+    - porte 317 b
+    - porte 319
+    - porte 320
+    - porte 321
+    - porte 322
+    - porte 323
+    - porte 324
+    - porte 325
+    - porte 326
+    - porte 330
+    - porte 331
+    - porte 332 a
+    - porte 332 b
+    - porte 334
+    - porte 335 a
+    - porte 335 b
+    - porte 335 c
+    - porte 336
+    - porte 401
+    - porte 402
+    - porte 403
+    - porte 404
+    - porte 405
+    - porte 407
+    - porte 408
+    - porte 409
+    - porte 411
+    - porte 417 a
+    - porte 417 b
+    - porte 419
+    - porte 420
+    - porte 421
+    - porte 424
+    - porte 426
+    - porte 428 a
+    - porte 428 b
+    - porte 431 a
+    - porte 431 b
+    - cité universitaire
+
+- lookup: origine
+  examples: |
+    - entrée campus
+    - campus a
+    - navette
+    - boutique universitaire
+    - première salle entrée campus
+    - deuxième salle entrée campus
+    - troisième salle entrée campus
+    - quatrième salle entrée campus
+    - orange digital center
+    - salle des aumôneries
+    - barbillard navette campus a
+    - ancien décanat fsjp
+    - point orange money
+    - bancs public
+    - parking
+    - batiment 1
+    - amphi 452
+    - toillete batiment 1
+    - amphi 453
+    - catii
+    - salle de formation
+    - salle b1 1
+    - mat du drapeau
+    - salle 2 fsjp
+    - porte sn1 123
+    - porte sn1 124
+    - porte sn1 120
+    - porte sn1 118
+    - porte sn1 121
+    - porte sn1 116
+    - porte sn1 119
+    - porte sn1 115
+    - porte sn1 114
+    - porte sn1 112
+    - porte sn1 113
+    - porte sn1 111
+    - porte sn1 108
+    - porte sn1 109
+    - porte sn1 106
+    - porte sn1 107
+    - porte sn1 105
+    - porte sn1 104
+    - porte sn1 103
+    - porte sn1 102
+    - porte sn1 101
+    - batiment 2
+    - salle b2 15
+    - salle b2 14
+    - salle b2 13
+    - salle b2 12
+    - salle b2 11
+    - salle b2 10
+    - salle b2 9
+    - salle b2 8
+    - salle b2 7
+    - salle b2 6
+    - salle b2 5
+    - salle b2 4
+    - salle b2 3
+    - salle b2 2
+    - salle b2 1
+    - salle de spectacle
+    - salle sn2 007
+    - salle sn2 006
+    - salle sn2 005
+    - salle sn2 004
+    - salle sn2 003
+    - salle sn2 002
+    - salle sn2 001
+    - amphi 450
+    - toilettes
+    - amphi 451
+    - porte sn2 101
+    - porte sn2 102
+    - porte sn2 103
+    - porte sn2 104
+    - porte sn2 105
+    - porte sn2 106
+    - porte sn2 107
+    - porte sn2 108
+    - batiment 3
+    - salle b3 13
+    - salle b3 12
+    - salle b3 11
+    - salle b3 8
+    - salle b3 7
+    - salle b3 6
+    - salle b3 5
+    - salle b3 4
+    - salle b3 3
+    - salle b3 2
+    - salle b3 1
+    - salle sn3 006
+    - salle sn3 005
+    - salle sn3 004
+    - salle sn3 003
+    - salle sn3 002
+    - salle sn3 001
+    - garage
+    - dasa
+    - restaurant a
+    - terrain de handball
+    - terrain de basketball
+    - terrain de volleyball
+    - amphi 351
+    - amphi 352
+    - terrain de football
+    - faculté de médecine et des sciences pharmaceutiques
+    - porte 101
+    - porte 102
+    - porte 103
+    - porte 104
+    - porte 105 106
+    - porte 108
+    - porte 112
+    - porte 202
+    - porte 203
+    - porte 204
+    - porte 205
+    - porte 207
+    - porte 208
+    - porte 209
+    - ns1
+    - amphi 353
+    - ns2
+    - amphi 1000
+    - école doctorale
+    - parking école doctorale
+    - dschang school of science and technology
+    - dschang school of arts and social science
+    - dschang school of economics and management
+    - toilettes école doctorale
+    - dschang school of agriculture and environmental science
+    - dschang school of law and political science
+    - dschang school of health and life sciences
+    - bureau
+    - cafétaria
+    - navette
+    - decanat fasa
+    - amphi 2 fasa
+    - parking fasa
+    - restaurant b
+    - amphi 1 fasa
+    - centre medico social
+    - bancs public campus b
+    - ns3
+    - ns4
+    - amphi 354
+    - batiment japonais
+    - bibliothèque fasa
+    - salle 1 batiment japonais
+    - salle 2 batiment japonais
+    - salle 3 batiment japonais
+    - salle 4 batiment japonais
+    - centre multi media
+    - décanat faculté des sciences
+    - amphi 600
+    - bibliothèque centrale
+    - ns 6
+    - ns 5
+    - amphi 355
+    - salle b3 101
+    - salle b3 102
+    - salle b3 103
+    - salle b3 104
+    - salle b3 105
+    - salle b3 106
+    - salle b3 107
+    - salle b3 108
+    - salle b3 109
+    - salle b3 110
+    - porte b3 111
+    - porte b3 112
+    - porte b3 113
+    - porte b3 114
+    - porte b3 115
+    - salle sn3 106
+    - salle sn3 105
+    - salle sn3 104
+    - salle sn3 103
+    - salle sn3 102
+    - salle sn3 101
+    - rectorat de l'université de dschang
+    - porte 202
+    - porte 206
+    - porte 209
+    - porte 210
+    - porte 215 a
+    - porte 218
+    - porte 219
+    - porte 220
+    - porte 221
+    - porte 222
+    - porte 223
+    - porte 224
+    - porte 225
+    - porte 227
+    - porte 228
+    - porte 229
+    - porte 230
+    - porte 231
+    - porte 232 a
+    - porte 232 b
+    - porte 237 a
+    - porte 237 b
+    - porte 240
+    - porte 302
+    - porte 303
+    - porte 304
+    - porte 309
+    - porte 310
+    - porte 311 a
+    - porte 311 b
+    - porte 312
+    - porte 313
+    - porte 314 a
+    - porte 314 b
+    - porte 317 a
+    - porte 317 b
+    - porte 319
+    - porte 320
+    - porte 321
+    - porte 322
+    - porte 323
+    - porte 324
+    - porte 325
+    - porte 326
+    - porte 330
+    - porte 331
+    - porte 332 a
+    - porte 332 b
+    - porte 334
+    - porte 335 a
+    - porte 335 b
+    - porte 335 c
+    - porte 336
+    - porte 401
+    - porte 402
+    - porte 403
+    - porte 404
+    - porte 405
+    - porte 407
+    - porte 408
+    - porte 409
+    - porte 411
+    - porte 417 a
+    - porte 417 b
+    - porte 419
+    - porte 420
+    - porte 421
+    - porte 424
+    - porte 426
+    - porte 428 a
+    - porte 428 b
+    - porte 431 a
+    - porte 431 b
+    - cité universitaire

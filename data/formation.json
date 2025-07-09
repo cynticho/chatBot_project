@@ -1,0 +1,916 @@
+{
+  "filiere": [
+    {
+      "nom": "Analyse et Politiques Economiques (APE)",
+      "description": "Formation universitaire générale visant à fournir les connaissances et méthodes nécessaires à l’insertion professionnelle ou à la poursuite en Master.",
+      "conditionAdmission": "Baccalauréat A4, B, C, D, G2, G3 ou GCE A Level avec au moins 2 matières (hors 'religious knowledge') ou tout diplôme équivalent.",
+      "domaines": ["économie", "politique", "gestion"],
+      "debouches": [
+        "Analyste économique",
+        "Consultant en politiques publiques",
+        "Chercheur en économie",
+        "Responsable des affaires économiques"
+      ]
+    },
+    {
+      "nom": "Sciences de Gestion (SG)",
+      "description": "Formation professionnalisante axée sur les fonctions comptables, financières et de trésorerie, avec insertion rapide en entreprise ou poursuite en Master professionnel ou en expertise comptable.",
+      "conditionAdmission": "BAC G2, B, C, D, GCE A Level (hors 'religious knowledge'). Accès direct en LP III possible avec DEUP2 MCV ou BTS CG sur étude de dossier.",
+      "domaines": ["gestion", "comptabilité", "finance"],
+      "debouches": [
+        "Contrôleur de gestion",
+        "Expert-comptable",
+        "Responsable financier",
+        "Auditeur interne"
+      ]
+    },
+    {
+      "nom": "Marketing (MKT)",
+      "description": "Formation universitaire générale visant à fournir les connaissances et méthodes nécessaires à l’insertion professionnelle ou à la poursuite en Master, avec spécialisation en Analyse et Politiques Économiques (APE) ou en Sciences de Gestion (SG) à partir du niveau III.",
+      "conditionAdmission": "Baccalauréat A4, B, C, D, G2, G3 ou GCE A Level avec au moins 2 matières (hors 'religious knowledge') ou tout diplôme équivalent.",
+      "domaines": ["marketing", "gestion", "économie"],
+      "debouches": [
+        "Chef de produit",
+        "Responsable marketing",
+        "Consultant en marketing",
+        "Directeur commercial"
+      ]
+    },
+    {
+      "nom": "Finance-Comptabilité (FC)",
+      "description": "Formation professionnalisante axée sur les fonctions comptables, financières et de trésorerie, avec insertion rapide en entreprise ou poursuite en Master professionnel ou en expertise comptable.",
+      "conditionAdmission": "BAC G2, B, C, D, GCE A Level (hors 'religious knowledge'). Accès direct en LP III possible avec DEUP2 MCV ou BTS CG sur étude de dossier.",
+      "domaines": ["finance", "comptabilité", "gestion"],
+      "debouches": [
+        "Comptable",
+        "Auditeur",
+        "Contrôleur de gestion",
+        "Expert-comptable"
+      ]
+    },
+    {
+      "nom": "Biologie Végétale",
+      "description": "Formation centrée sur l’étude du monde végétal, de la cellule aux écosystèmes, en vue d’une insertion en recherche, agriculture ou environnement.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Biologie et/ou Chimie ou tout diplôme équivalent.",
+      "domaines": ["biologie", "environnement", "agriculture"],
+      "debouches": [
+        "Chercheur en biologie végétale",
+        "Ingénieur agronome",
+        "Spécialiste en gestion des écosystèmes",
+        "Consultant en agriculture durable"
+      ]
+    },
+    {
+      "nom": "Biotechnologie Végétale",
+      "description": "Formation pluridisciplinaire en biologie moléculaire et génie végétal, orientée vers les applications en agriculture, santé ou industrie.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Biologie et/ou Chimie ou tout diplôme équivalent.",
+      "domaines": ["biotechnologie", "agriculture", "santé", "industrie"],
+      "debouches": [
+        "Ingénieur en biotechnologie",
+        "Chercheur en biotechnologie végétale",
+        "Technicien en production biologique",
+        "Responsable en R&D dans l’agriculture"
+      ]
+    },
+    {
+      "nom": "Biologie Animale",
+      "description": "Étude des organismes animaux, de la biologie cellulaire à l’écologie, avec des débouchés en recherche, santé animale ou environnement.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Biologie et/ou Chimie ou tout diplôme équivalent.",
+      "domaines": ["biologie", "santé", "environnement"],
+      "debouches": [
+        "Chercheur en biologie animale",
+        "Vétérinaire",
+        "Spécialiste en écologie",
+        "Conseiller en gestion de faune"
+      ]
+    },
+    {
+      "nom": "Finance-Comptabilité (FC)",
+      "description": "Formation professionnalisante axée sur les fonctions comptables, financières et de trésorerie, avec insertion rapide en entreprise ou poursuite en Master professionnel ou en expertise comptable.",
+      "conditionAdmission": "BAC G2, B, C, D, GCE A Level (hors 'religious knowledge'). Accès direct en LP III possible avec DEUP2 MCV ou BTS CG sur étude de dossier.",
+      "domaines": ["finance", "comptabilité", "gestion"],
+      "debouches": [
+        "Comptable",
+        "Auditeur",
+        "Contrôleur de gestion",
+        "Expert-comptable"
+      ]
+    },
+    {
+      "nom": "Biologie Végétale",
+      "description": "Formation centrée sur l’étude du monde végétal, de la cellule aux écosystèmes, en vue d’une insertion en recherche, agriculture ou environnement.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Biologie et/ou Chimie ou tout diplôme équivalent.",
+      "domaines": ["biologie", "environnement", "agriculture"],
+      "debouches": [
+        "Chercheur en biologie végétale",
+        "Ingénieur agronome",
+        "Spécialiste en gestion des écosystèmes",
+        "Consultant en agriculture durable"
+      ]
+    },
+    {
+      "nom": "Biotechnologie Végétale",
+      "description": "Formation pluridisciplinaire en biologie moléculaire et génie végétal, orientée vers les applications en agriculture, santé ou industrie.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Biologie et/ou Chimie ou tout diplôme équivalent.",
+      "domaines": ["biotechnologie", "agriculture", "santé", "industrie"],
+      "debouches": [
+        "Ingénieur en biotechnologie",
+        "Chercheur en biotechnologie végétale",
+        "Technicien en production biologique",
+        "Responsable en R&D dans l’agriculture"
+      ]
+    },
+    {
+      "nom": "Biologie Animale",
+      "description": "Étude des organismes animaux, de la biologie cellulaire à l’écologie, avec des débouchés en recherche, santé animale ou environnement.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Biologie et/ou Chimie ou tout diplôme équivalent.",
+      "domaines": ["biologie", "santé", "environnement"],
+      "debouches": [
+        "Chercheur en biologie animale",
+        "Vétérinaire",
+        "Spécialiste en écologie",
+        "Conseiller en gestion de faune"
+      ]
+    },
+    {
+      "nom": "Biochimie",
+      "description": "Formation en chimie du vivant, orientée vers les secteurs médicaux, pharmaceutiques et agroalimentaires.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Chimie et/ou Biologie ou tout diplôme équivalent.",
+      "domaines": ["chimie", "santé", "pharmaceutique", "agroalimentaire"],
+      "debouches": [
+        "Chercheur en biochimie",
+        "Technicien de laboratoire",
+        "Ingénieur en biotechnologie",
+        "Responsable qualité dans l'industrie pharmaceutique"
+      ]
+    },
+    {
+      "nom": "Chimie",
+      "description": "Étude des substances, leurs réactions et applications industrielles, médicales ou environnementales.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Chimie ou tout diplôme équivalent.",
+      "domaines": ["chimie", "industrie", "santé", "environnement"],
+      "debouches": [
+        "Ingénieur chimiste",
+        "Responsable de production",
+        "Chercheur en chimie",
+        "Consultant en environnement"
+      ]
+    },
+    {
+      "nom": "Mathématiques Fondamentales",
+      "description": "Approfondissement des concepts mathématiques pour la recherche, l’enseignement ou les études avancées.",
+      "conditionAdmission": "Baccalauréat C ou GCE A Level avec Mathématiques ou tout diplôme équivalent.",
+      "domaines": ["mathématiques", "recherche", "enseignement"],
+      "debouches": [
+        "Chercheur en mathématiques",
+        "Professeur de mathématiques",
+        "Analyste en recherche scientifique",
+        "Consultant en modélisation mathématique"
+      ]
+    },
+    {
+      "nom": "Mathématiques Appliquées",
+      "description": "Utilisation des outils mathématiques pour résoudre des problèmes concrets en économie, physique, ingénierie ou informatique.",
+      "conditionAdmission": "Baccalauréat C ou GCE A Level avec Mathématiques ou tout diplôme équivalent.",
+      "domaines": ["mathématiques", "économie", "ingénierie", "informatique"],
+      "debouches": [
+        "Analyste de données",
+        "Ingénieur en optimisation",
+        "Consultant en économie quantitative",
+        "Développeur en modélisation informatique"
+      ]
+    },
+    {
+      "nom": "Statistique",
+      "description": "Formation en analyse de données, probabilités et modélisation, avec des débouchés en économie, santé, recherche et industrie.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Mathématiques ou tout diplôme équivalent.",
+      "domaines": ["statistique", "économie", "santé", "recherche", "industrie"],
+      "debouches": [
+        "Statisticien",
+        "Data scientist",
+        "Analyste en santé publique",
+        "Consultant en analyse de données"
+      ]
+    },
+    {
+      "nom": "Informatique",
+      "description": "Formation en algorithmique, programmation, bases de données et systèmes, orientée vers les métiers du numérique.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Mathématiques ou Informatique ou tout diplôme équivalent.",
+      "domaines": ["numérique", "informatique", "programmation", "bases de données", "systèmes"],
+      "debouches": [
+        "Développeur logiciel",
+        "Ingénieur en systèmes d'information",
+        "Analyste en sécurité informatique",
+        "Consultant en informatique"
+      ]
+    },
+    {
+      "nom": "Physique Fondamentale",
+      "description": "Étude des lois fondamentales de la nature, base pour les carrières scientifiques et techniques.",
+      "conditionAdmission": "Baccalauréat C ou D ou GCE A Level avec Physique ou tout diplôme équivalent.",
+      "domaines": ["physique", "sciences", "recherche", "enseignement"],
+      "debouches": [
+        "Physicien",
+        "Chercheur scientifique",
+        "Professeur en physique",
+        "Consultant en ingénierie"
+      ]
+    },
+    {
+      "nom": "Physique Appliquée",
+      "description": "Formation axée sur les applications de la physique dans l’ingénierie, l’électronique ou les matériaux.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Physique ou tout diplôme équivalent.",
+      "domaines": ["physique", "ingénierie", "électronique", "matériaux"],
+      "debouches": [
+        "Ingénieur en physique appliquée",
+        "Ingénieur en électronique",
+        "Chercheur en matériaux",
+        "Consultant en technologies physiques"
+      ]
+    },
+    {
+      "nom": "Énergies Renouvelables",
+      "description": "Étude des technologies et systèmes énergétiques durables, avec une forte orientation vers l’environnement et l’innovation.",
+      "conditionAdmission": "Baccalauréat C, D, E ou F ou GCE A Level scientifique ou tout diplôme équivalent.",
+      "domaines": ["énergies", "environnement", "durabilité", "innovation"],
+      "debouches": [
+        "Ingénieur en énergies renouvelables",
+        "Consultant en efficacité énergétique",
+        "Chercheur en technologies durables",
+        "Responsable des énergies renouvelables"
+      ]
+    },
+    {
+      "nom": "Sciences de la Terre",
+      "description": "Formation sur les phénomènes géologiques, climatiques et environnementaux, avec applications en géologie, gestion des ressources et risques naturels.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Physique, Chimie ou Sciences de la Terre ou tout diplôme équivalent.",
+      "domaines": ["géologie", "environnement", "climat", "ressources naturelles"],
+      "debouches": [
+        "Géologue",
+        "Consultant en gestion des risques naturels",
+        "Chercheur en géophysique",
+        "Ingénieur en gestion des ressources"
+      ]
+    },
+    {
+      "nom": "Sciences de l'Environnement",
+      "description": "Approche interdisciplinaire des problématiques environnementales, incluant l’écologie, la chimie, la géographie et la gestion durable.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Biologie, Chimie ou Sciences de la Terre ou tout diplôme équivalent.",
+      "domaines": ["environnement", "écologie", "gestion durable", "chimie", "géographie"],
+      "debouches": [
+        "Consultant en gestion de l'environnement",
+        "Chercheur en écologie",
+        "Spécialiste en gestion durable",
+        "Ingénieur en protection de l'environnement"
+      ]
+    },
+    {
+      "nom": "Géologie Appliquée",
+      "description": "Étude appliquée des sols, roches et ressources minières, avec débouchés dans les industries extractives, construction et environnement.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Sciences de la Terre, Physique ou Chimie ou tout diplôme équivalent.",
+      "domaines": ["géologie", "mines", "construction", "environnement"],
+      "debouches": [
+        "Géologue",
+        "Ingénieur en géotechnique",
+        "Consultant en ressources naturelles",
+        "Expert en environnement"
+      ]
+    },
+    {
+      "nom": "Assistant Manager",
+      "description": "Formation professionnelle orientée vers la gestion administrative, la coordination d’équipe et l’assistance à la direction dans une entreprise ou organisation.",
+      "conditionAdmission": "Baccalauréat G1, G2, A4 ou tout diplôme équivalent. Sélection sur dossier ou concours possible.",
+      "domaines": ["gestion", "administration", "management", "coordination"],
+      "debouches": [
+        "Assistant de direction",
+        "Coordinateur de projet",
+        "Responsable administratif",
+        "Chef de projet"
+      ]
+    },
+    {
+      "nom": "Banque et Finance",
+      "description": "Formation axée sur les opérations bancaires, la gestion financière et la comptabilité, avec des débouchés dans les institutions financières et les entreprises.",
+      "conditionAdmission": "Baccalauréat G2, C, D, ou GCE A Level avec Mathématiques ou Economie ou tout diplôme équivalent.",
+      "domaines": ["finance", "banque", "comptabilité", "gestion"],
+      "debouches": [
+        "Banquier",
+        "Conseiller financier",
+        "Analyste financier",
+        "Comptable"
+      ]
+    },
+    {
+      "nom": "Bâtiment",
+      "description": "Formation technique orientée vers la conception, la construction et la gestion de projets de bâtiments.",
+      "conditionAdmission": "Baccalauréat F4, C, D, E, ou GCE A Level avec Physique ou Mathématiques ou tout diplôme équivalent.",
+      "domaines": ["bâtiment", "construction", "architecture", "ingénierie"],
+      "debouches": [
+        "Ingénieur en bâtiment",
+        "Conducteur de travaux",
+        "Architecte",
+        "Chef de projet en construction"
+      ]
+    },
+    {
+      "nom": "Comptabilité et Gestion des Entreprises",
+      "description": "Formation en comptabilité générale, gestion financière et fiscalité, avec un fort ancrage professionnel.",
+      "conditionAdmission": "Baccalauréat G2, G3, ou GCE A Level avec Mathématiques ou Comptabilité ou tout diplôme équivalent.",
+      "domaines": ["comptabilité", "gestion", "finances", "fiscalité"],
+      "debouches": [
+        "Comptable",
+        "Contrôleur de gestion",
+        "Auditeur",
+        "Responsable financier"
+      ]
+    },
+    {
+      "nom": "Électronique",
+      "description": "Formation orientée vers l’analyse, la conception et la maintenance des systèmes électroniques et circuits embarqués.",
+      "conditionAdmission": "Baccalauréat C, D, E, F3 ou GCE A Level avec Physique ou tout diplôme équivalent.",
+      "domaines": ["électronique", "ingénierie", "systèmes embarqués", "maintenance"],
+      "debouches": [
+        "Ingénieur en électronique",
+        "Technicien en électronique",
+        "Développeur en systèmes embarqués",
+        "Responsable de maintenance électronique"
+      ]
+    },
+    {
+      "nom": "Froid et Climatisation",
+      "description": "Formation technique sur les systèmes de réfrigération, climatisation, maintenance thermique et énergétique.",
+      "conditionAdmission": "Baccalauréat F, C, D ou GCE A Level technique ou tout diplôme équivalent. Sélection possible.",
+      "domaines": ["réfrigération", "climatisation", "maintenance", "énergie"],
+      "debouches": [
+        "Technicien en froid et climatisation",
+        "Ingénieur en énergie thermique",
+        "Responsable maintenance climatique",
+        "Consultant en systèmes thermiques"
+      ]
+    },
+    {
+      "nom": "Maintenance des Systèmes Électroniques",
+      "description": "Spécialisation dans le diagnostic, la réparation et la maintenance des équipements électroniques industriels ou domestiques.",
+      "conditionAdmission": "Baccalauréat F3, C, D ou GCE A Level technique ou tout diplôme équivalent.",
+      "domaines": ["électronique", "maintenance", "industrie", "réparation"],
+      "debouches": [
+        "Technicien en maintenance électronique",
+        "Ingénieur en électronique industrielle",
+        "Responsable de maintenance",
+        "Technicien en diagnostic électronique"
+      ]
+    },
+    {
+      "nom": "Marketing Commerce Vente",
+      "description": "Formation axée sur la stratégie marketing, la relation client, la négociation commerciale et la vente.",
+      "conditionAdmission": "Baccalauréat G, A, ou GCE A Level en sciences économiques ou sociales ou tout diplôme équivalent.",
+      "domaines": ["marketing", "commerce", "vente", "gestion"],
+      "debouches": [
+        "Responsable marketing",
+        "Chef de produit",
+        "Conseiller commercial",
+        "Directeur de la vente"
+      ]
+    },
+    {
+      "nom": "Travaux Publics",
+      "description": "Formation en ingénierie des infrastructures (routes, ponts, réseaux), avec une forte composante pratique sur chantier.",
+      "conditionAdmission": "Baccalauréat F, C, D ou GCE A Level avec Mathématiques ou Physique ou tout diplôme équivalent.",
+      "domaines": ["ingénierie", "construction", "infrastructure", "travaux publics"],
+      "debouches": [
+        "Ingénieur travaux publics",
+        "Chef de chantier",
+        "Responsable de projet en infrastructures",
+        "Technicien en génie civil"
+      ]
+    },
+    {
+      "nom": "Génie Civil",
+      "description": "Formation technique et professionnelle orientée vers la conception, la réalisation et la gestion des ouvrages de BTP (bâtiment et travaux publics).",
+      "conditionAdmission": "Baccalauréat C, D, E, F4 ou GCE A Level avec Mathématiques ou Physique ou tout diplôme équivalent.",
+      "domaines": ["génie civil", "bâtiment", "construction", "ingénierie"],
+      "debouches": [
+        "Ingénieur civil",
+        "Conducteur de travaux",
+        "Chef de projet BTP",
+        "Responsable d'agence de génie civil"
+      ]
+    },
+    {
+      "nom": "Génie Électrique",
+      "description": "Formation spécialisée dans l’étude, la conception et la maintenance des systèmes électriques industriels et domestiques.",
+      "conditionAdmission": "Baccalauréat C, D, E, F3 ou GCE A Level avec Physique ou Mathématiques ou tout diplôme équivalent.",
+      "domaines": ["génie électrique", "électronique", "maintenance", "systèmes électriques"],
+      "debouches": [
+        "Ingénieur électricien",
+        "Technicien en électricité industrielle",
+        "Responsable de maintenance électrique",
+        "Spécialiste en systèmes électriques"
+      ]
+    },
+    {
+      "nom": "Génie Géomatique",
+      "description": "Formation alliant cartographie, topographie, télédétection et systèmes d'information géographique pour l’analyse et la gestion de l’espace.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Mathématiques ou Sciences de la Terre ou tout diplôme équivalent.",
+      "domaines": ["géomatique", "topographie", "cartographie", "géospatial"],
+      "debouches": [
+        "Géomètre",
+        "Ingénieur en systèmes géographiques",
+        "Analyste en géomatique",
+        "Consultant en SIG"
+      ]
+    },
+    {
+      "nom": "Gestion et Maintenance des Installations Énergétiques",
+      "description": "Formation axée sur la gestion, la maintenance et l’optimisation des systèmes énergétiques (thermiques, solaires, etc.).",
+      "conditionAdmission": "Baccalauréat C, D, E ou GCE A Level avec Mathématiques ou Physique ou tout diplôme équivalent.",
+      "domaines": ["énergie", "maintenance", "optimisation", "systèmes énergétiques"],
+      "debouches": [
+        "Responsable de la gestion énergétique",
+        "Technicien en maintenance énergétique",
+        "Consultant en efficacité énergétique",
+        "Ingénieur en systèmes énergétiques"
+      ]
+    },
+    {
+      "nom": "Informatique & Réseaux",
+      "description": "Formation orientée vers la programmation, les systèmes d’information, les réseaux et la cybersécurité.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec Mathématiques ou Informatique ou tout diplôme équivalent.",
+      "domaines": ["informatique", "réseaux", "cybersécurité", "programmation"],
+      "debouches": [
+        "Développeur informatique",
+        "Administrateur réseaux",
+        "Ingénieur en cybersécurité",
+        "Consultant en systèmes d'information"
+      ]
+    },
+    {
+      "nom": "Ingénierie des Réseaux et Télécommunications",
+      "description": "Formation technique sur les architectures de réseaux, les transmissions de données et les systèmes de communication.",
+      "conditionAdmission": "Baccalauréat C, D, E ou GCE A Level avec Mathématiques ou Physique ou tout diplôme équivalent.",
+      "domaines": ["réseaux", "télécommunications", "systèmes de communication", "architecture de réseaux"],
+      "debouches": [
+        "Ingénieur télécom",
+        "Technicien réseaux",
+        "Responsable des infrastructures télécom",
+        "Consultant en réseaux"
+      ]
+    },
+    {
+      "nom": "Maintenance Industrielle & Productique",
+      "description": "Formation spécialisée dans la maintenance des systèmes de production automatisés et des équipements industriels.",
+      "conditionAdmission": "Baccalauréat F1, F2, F3, F4, C, D ou GCE A Level technique ou tout diplôme équivalent.",
+      "domaines": ["maintenance", "industrie", "productique", "automatisation"],
+      "debouches": [
+        "Technicien de maintenance industrielle",
+        "Ingénieur en productique",
+        "Responsable de production",
+        "Technicien en automatisation"
+      ]
+    },
+    {
+      "nom": "Assistant Manager",
+      "description": "Formation professionnelle axée sur les techniques de gestion, d'organisation et d'assistance à la direction dans une entreprise ou une organisation.",
+      "conditionAdmission": "Baccalauréat toutes séries ou GCE A Level avec au moins 2 matières, ou tout diplôme équivalent.",
+      "domaines": ["gestion", "management", "organisation", "administration"],
+      "debouches": [
+        "Assistant de direction",
+        "Responsable administratif",
+        "Coordinateur d'équipe",
+        "Chef de projet junior"
+      ]
+    },
+    {
+      "nom": "Banque et Finance",
+      "description": "Formation spécialisée dans les opérations bancaires, les services financiers et la gestion des institutions financières.",
+      "conditionAdmission": "Baccalauréat B, C, D, G2, G3 ou GCE A Level avec Mathématiques ou Économie, ou tout diplôme équivalent.",
+      "domaines": ["finance", "banque", "gestion financière", "économie"],
+      "debouches": [
+        "Banquier d'affaires",
+        "Analyste financier",
+        "Conseiller en gestion de patrimoine",
+        "Trader"
+      ]
+    },
+    {
+      "nom": "Comptabilité et Gestion des Entreprises",
+      "description": "Formation axée sur la tenue des comptes, la gestion financière, et l’administration comptable des organisations.",
+      "conditionAdmission": "Baccalauréat G2, G3, C, D ou GCE A Level avec Mathématiques ou Économie, ou tout diplôme équivalent.",
+      "domaines": ["comptabilité", "gestion financière", "administration", "comptabilité des entreprises"],
+      "debouches": [
+        "Comptable",
+        "Chef comptable",
+        "Responsable financier",
+        "Auditeur interne"
+      ]
+    },
+    {
+      "nom": "Électronique",
+      "description": "Formation technique spécialisée dans les circuits électroniques, les composants, et les systèmes embarqués.",
+      "conditionAdmission": "Baccalauréat F3, C, D ou GCE A Level avec Physique ou Électronique, ou tout diplôme équivalent.",
+      "domaines": ["électronique", "circuits", "systèmes embarqués", "composants électroniques"],
+      "debouches": [
+        "Technicien en électronique",
+        "Ingénieur en électronique",
+        "Concepteur de circuits électroniques",
+        "Responsable R&D en électronique"
+      ]
+    },
+    {
+      "nom": "Froid et Climatisation",
+      "description": "Formation pratique orientée vers l’installation, la maintenance et le dépannage des systèmes frigorifiques et de climatisation.",
+      "conditionAdmission": "Baccalauréat F4, E, C, D ou GCE A Level technique ou tout diplôme équivalent.",
+      "domaines": ["froid", "climatisation", "maintenance", "réfrigération"],
+      "debouches": [
+        "Technicien en froid et climatisation",
+        "Installateur frigoriste",
+        "Responsable de maintenance thermique",
+        "Technicien en génie climatique"
+      ]
+    },
+    {
+      "nom": "Maintenance des Systèmes Électroniques",
+      "description": "Formation professionnelle visant la maîtrise de l'entretien, du diagnostic et de la réparation des équipements électroniques.",
+      "conditionAdmission": "Baccalauréat F3, C, D ou GCE A Level technique ou tout diplôme équivalent.",
+      "domaines": ["maintenance", "électronique", "réparation", "diagnostic"],
+      "debouches": [
+        "Technicien en maintenance électronique",
+        "Ingénieur en maintenance industrielle",
+        "Spécialiste en réparation de circuits",
+        "Technicien de dépannage électronique"
+      ]
+    },
+    {
+      "nom": "Marketing Commerce Vente",
+      "description": "Formation orientée vers les techniques de vente, la négociation commerciale, le marketing opérationnel et stratégique.",
+      "conditionAdmission": "Baccalauréat A, B, G, D ou GCE A Level toutes matières ou tout diplôme équivalent.",
+      "domaines": ["marketing", "commerce", "vente", "stratégie commerciale"],
+      "debouches": [
+        "Responsable marketing",
+        "Chef des ventes",
+        "Chargé de communication",
+        "Conseiller en stratégie commerciale"
+      ]
+    },
+    {
+      "nom": "Gestion Administrative, Management des Organisations",
+      "description": "Formation axée sur les outils de gestion, d’administration et de management dans les structures publiques ou privées.",
+      "conditionAdmission": "Baccalauréat toutes séries ou GCE A Level avec au moins 2 matières, ou tout diplôme équivalent.",
+      "domaines": ["gestion", "administration", "management", "organisation"],
+      "debouches": [
+        "Gestionnaire administratif",
+        "Chef de projet organisationnel",
+        "Responsable des ressources humaines",
+        "Directeur administratif"
+      ]
+    },
+    {
+      "nom": "Gestion des Relations Clientèle",
+      "description": "Formation spécialisée dans le développement de la relation client, la communication commerciale et la fidélisation.",
+      "conditionAdmission": "Baccalauréat toutes séries ou GCE A Level ou tout diplôme équivalent.",
+      "domaines": ["relation client", "communication", "fidélisation", "stratégie commerciale"],
+      "debouches": [
+        "Responsable de la relation client",
+        "Chargé de clientèle",
+        "Chef de projet relation client",
+        "Responsable fidélisation"
+      ]
+    },
+    {
+      "nom": "Agronomie Générale",
+      "description": "Formation universitaire visant à fournir des connaissances scientifiques et techniques sur la production végétale, la gestion des sols et les systèmes agricoles durables.",
+      "conditionAdmission": "Baccalauréat C, D, E ou tout diplôme équivalent dans les sciences biologiques ou agricoles.",
+      "domaines": ["agronomie", "production végétale", "gestion des sols", "systèmes agricoles"],
+      "debouches": [
+        "Agronome",
+        "Conseiller en production agricole",
+        "Responsable de la gestion des sols",
+        "Chercheur en agronomie"
+      ]
+    },
+    {
+      "nom": "Agriculture Durable (Professionnelle)",
+      "description": "Formation professionnelle axée sur les pratiques agricoles respectueuses de l’environnement, la gestion durable des ressources et la productivité agroécologique.",
+      "conditionAdmission": "Baccalauréat C, D, E ou tout diplôme équivalent, sélection sur dossier ou concours possible.",
+      "domaines": ["agriculture durable", "agroécologie", "gestion des ressources", "production respectueuse de l'environnement"],
+      "debouches": [
+        "Technicien en agriculture durable",
+        "Consultant en agroécologie",
+        "Responsable en gestion des ressources agricoles",
+        "Chargé de mission environnement agricole"
+      ]
+    },
+    {
+      "nom": "Génie Rural",
+      "description": "Formation technique et scientifique sur les aménagements hydrauliques, les infrastructures rurales et la gestion des ressources naturelles en milieu rural.",
+      "conditionAdmission": "Baccalauréat C, D, E ou tout diplôme équivalent, ou GCE A Level avec au moins deux matières scientifiques.",
+      "domaines": ["génie rural", "aménagements hydrauliques", "infrastructures rurales", "gestion des ressources naturelles"],
+      "debouches": [
+        "Ingénieur en génie rural",
+        "Chargé de projets d'aménagements hydrauliques",
+        "Responsable en gestion des ressources rurales",
+        "Consultant en génie rural"
+      ]
+    },
+    {
+      "nom": "Machinisme Agricole (Professionnelle)",
+      "description": "Formation professionnelle orientée vers l’utilisation, l’entretien et l’innovation dans les équipements et machines agricoles.",
+      "conditionAdmission": "Baccalauréat technique ou scientifique (C, D, E, F), ou tout diplôme équivalent.",
+      "domaines": ["machinisme agricole", "équipements agricoles", "entretien des machines", "innovation technologique"],
+      "debouches": [
+        "Technicien en machinisme agricole",
+        "Ingénieur en machines agricoles",
+        "Responsable technique agricole",
+        "Spécialiste en innovation agricole"
+      ]
+    },
+    {
+      "nom": "Économie et Gestion des Exploitations Agricoles",
+      "description": "Formation interdisciplinaire combinant l’économie, la gestion et l’agronomie pour la gestion rationnelle des entreprises agricoles.",
+      "conditionAdmission": "Baccalauréat C, D, B, G2, G3 ou tout diplôme équivalent.",
+      "domaines": ["économie agricole", "gestion des exploitations", "agronomie", "gestion des entreprises agricoles"],
+      "debouches": [
+        "Responsable d'exploitation agricole",
+        "Consultant en gestion agricole",
+        "Manager en agriculture",
+        "Économiste agricole"
+      ]
+    },
+    {
+      "nom": "Sociologie Rurale et Développement",
+      "description": "Formation portant sur les dynamiques sociales en milieu rural, les politiques de développement agricole et les changements socio-économiques.",
+      "conditionAdmission": "Baccalauréat A, B, D ou tout diplôme équivalent.",
+      "domaines": ["sociologie rurale", "développement rural", "politiques agricoles", "changement socio-économique"],
+      "debouches": [
+        "Sociologue rural",
+        "Consultant en développement rural",
+        "Responsable de projets de développement agricole",
+        "Chercheur en sociologie rurale"
+      ]
+    },
+    {
+      "nom": "Sciences Animales",
+      "description": "Formation scientifique orientée vers la biologie animale, la nutrition, la reproduction et la santé des animaux d’élevage.",
+      "conditionAdmission": "Baccalauréat C, D ou tout diplôme équivalent.",
+      "domaines": ["biologie animale", "nutrition animale", "reproduction", "santé animale", "élevage"],
+      "debouches": [
+        "Vétérinaire",
+        "Spécialiste en nutrition animale",
+        "Responsable en gestion des élevages",
+        "Chercheur en sciences animales"
+      ]
+    },
+    {
+      "nom": "Productions Animales (Professionnelle)",
+      "description": "Formation professionnelle spécialisée dans les techniques d’élevage, la production animale et la gestion des exploitations animales.",
+      "conditionAdmission": "Baccalauréat C, D ou diplôme équivalent en sciences agricoles ou biologiques.",
+      "domaines": ["élevage", "production animale", "gestion des exploitations animales"],
+      "debouches": [
+        "Chef d'exploitation agricole",
+        "Responsable en élevage",
+        "Technicien en production animale",
+        "Conseiller en gestion d'élevage"
+      ]
+    },
+    {
+      "nom": "Sciences et Technologies Alimentaires",
+      "description": "Formation scientifique sur la transformation, la conservation et la qualité des produits agroalimentaires.",
+      "conditionAdmission": "Baccalauréat C, D, F7 ou tout diplôme équivalent dans les domaines scientifiques.",
+      "domaines": ["transformation alimentaire", "conservation des aliments", "qualité alimentaire", "technologies alimentaires"],
+      "debouches": [
+        "Ingénieur en technologies alimentaires",
+        "Responsable qualité dans l'agroalimentaire",
+        "Chef de production alimentaire",
+        "Spécialiste en transformation des produits alimentaires"
+      ]
+    },
+    {
+      "nom": "Transformation des Produits Agricoles (Professionnelle)",
+      "description": "Formation professionnelle sur les techniques de transformation artisanale et industrielle des produits agroalimentaires locaux.",
+      "conditionAdmission": "Baccalauréat D, F7 ou tout diplôme équivalent, admission possible sur dossier ou concours.",
+      "domaines": ["transformation agroalimentaire", "produits locaux", "production artisanale", "industrie alimentaire"],
+      "debouches": [
+        "Technicien en transformation alimentaire",
+        "Responsable de production alimentaire",
+        "Entrepreneur en agroalimentaire",
+        "Chef de production dans une unité de transformation"
+      ]
+    },
+    {
+      "nom": "Science Politique",
+      "description": "Formation universitaire visant à comprendre les systèmes politiques, les institutions publiques, la gouvernance et les dynamiques du pouvoir dans les sociétés contemporaines.",
+      "conditionAdmission": "Baccalauréat A4, B, D ou tout diplôme équivalent.",
+      "domaines": ["systèmes politiques", "gouvernance", "institutions publiques", "dynamique du pouvoir", "analyse politique"],
+      "debouches": [
+        "Analyste politique",
+        "Conseiller politique",
+        "Consultant en affaires publiques",
+        "Responsable des politiques publiques"
+      ]
+    },
+    {
+      "nom": "Relations Internationales",
+      "description": "Formation axée sur la diplomatie, la coopération internationale, la géopolitique, et les organisations internationales.",
+      "conditionAdmission": "Baccalauréat A4, B, D ou tout diplôme équivalent, ou GCE A Level avec au moins deux matières pertinentes.",
+      "domaines": ["diplomatie", "coopération internationale", "géopolitique", "relations internationales", "organisations internationales"],
+      "debouches": [
+        "Diplomate",
+        "Analyste en relations internationales",
+        "Conseiller en géopolitique",
+        "Chargé de mission pour des organisations internationales"
+      ]
+    },
+    {
+      "nom": "Administration Publique",
+      "description": "Formation orientée vers la gestion des institutions publiques, le droit administratif, les politiques publiques et le service public.",
+      "conditionAdmission": "Baccalauréat A4, B, C, D ou tout diplôme équivalent.",
+      "domaines": ["gestion des institutions publiques", "droit administratif", "politiques publiques", "service public"],
+      "debouches": [
+        "Administrateur public",
+        "Conseiller en politiques publiques",
+        "Fonctionnaire dans les institutions publiques",
+        "Chargé de mission en service public"
+      ]
+    },
+    {
+      "nom": "Sciences Biomédicales",
+      "description": "Formation académique portant sur l’étude des processus biologiques et pathologiques chez l’humain, en lien avec les sciences médicales et pharmaceutiques.",
+      "conditionAdmission": "Baccalauréat C, D ou GCE A Level avec deux matières scientifiques (Biology, Chemistry, etc.) ou tout diplôme équivalent.",
+      "domaines": ["biologie humaine", "pathologies", "sciences médicales", "pharmacie", "biotechnologie"],
+      "debouches": [
+        "Chercheur en biologie médicale",
+        "Technicien de laboratoire biomédical",
+        "Assistant de recherche en biotechnologie",
+        "Spécialiste en santé publique"
+      ]
+    },
+    {
+      "nom": "Sciences Biomédicales (Licence Professionnelle)",
+      "description": "Formation professionnelle axée sur les techniques biomédicales, le diagnostic de laboratoire, la biologie clinique et la santé publique.",
+      "conditionAdmission": "Accès sur concours pour les titulaires d’un Baccalauréat C, D, ou diplôme équivalent en sciences biologiques.",
+      "domaines": ["techniques biomédicales", "diagnostic de laboratoire", "biologie clinique", "santé publique"],
+      "debouches": [
+        "Technicien en biologie clinique",
+        "Responsable laboratoire de recherche biomédicale",
+        "Spécialiste en diagnostic biomédical",
+        "Consultant en santé publique"
+      ]
+    },
+    {
+      "nom": "Architecture et l'Art de l'Ingénieur",
+      "description": "Formation professionnalisante qui combine les bases de l’architecture avec des compétences en ingénierie et en conception technique.",
+      "conditionAdmission": "Baccalauréat C, D, F4 ou tout diplôme équivalent avec des aptitudes en dessin technique.",
+      "domaines": ["architecture", "ingénierie", "conception technique", "urbanisme"],
+      "debouches": [
+        "Architecte",
+        "Ingénieur en architecture",
+        "Urbaniste",
+        "Consultant en conception technique"
+      ]
+    },
+    {
+      "nom": "Arts Plastiques",
+      "description": "Formation artistique visant à développer la créativité dans les domaines du dessin, de la peinture, de la sculpture et des installations artistiques.",
+      "conditionAdmission": "Baccalauréat A, B, D ou tout diplôme équivalent ; un portfolio peut être requis.",
+      "domaines": ["dessin", "peinture", "sculpture", "installations artistiques", "arts visuels"],
+      "debouches": [
+        "Artiste plasticien",
+        "Exposant en galeries",
+        "Professeur d'arts plastiques",
+        "Designer artistique"
+      ]
+    },
+    {
+      "nom": "Arts Décoratifs",
+      "description": "Formation orientée vers le design, la décoration, le stylisme et les arts appliqués dans le cadre de l’aménagement intérieur et du design graphique.",
+      "conditionAdmission": "Baccalauréat toutes séries artistiques, scientifiques ou techniques ; admission souvent soumise à un test ou un dossier artistique.",
+      "domaines": ["design", "décoration", "stylisme", "aménagement intérieur", "design graphique"],
+      "debouches": [
+        "Designer d'intérieur",
+        "Styliste",
+        "Designer graphique",
+        "Consultant en décoration intérieure"
+      ]
+    },
+    {
+      "nom": "Arts du Spectacle",
+      "description": "Formation axée sur le théâtre, la musique, la danse, le cinéma et l’organisation d’événements culturels.",
+      "conditionAdmission": "Baccalauréat toutes séries, avec un intérêt manifeste pour les disciplines artistiques ; un test de performance ou un entretien peut être requis.",
+      "domaines": ["théâtre", "musique", "danse", "cinéma", "événements culturels"],
+      "debouches": [
+        "Acteur",
+        "Musicien",
+        "Danseur",
+        "Organisateur d'événements culturels",
+        "Producteur de spectacles"
+      ]
+    },
+    {
+      "nom": "Arts Technologique et Patrimoine",
+      "description": "Formation interdisciplinaire centrée sur les technologies du patrimoine, la conservation, la restauration et la mise en valeur des biens culturels.",
+      "conditionAdmission": "Baccalauréat toutes séries ; un intérêt pour l’histoire de l’art et les technologies est souhaité.",
+      "domaines": ["technologies du patrimoine", "conservation", "restauration", "mise en valeur des biens culturels", "histoire de l'art"],
+      "debouches": [
+        "Conservateur de patrimoine",
+        "Restaurateur d'art",
+        "Technicien en conservation du patrimoine",
+        "Chargé de la valorisation des biens culturels",
+        "Expert en gestion du patrimoine culturel"
+      ]
+    },
+      {
+        "nom": "Infirmier Diplômé d'État (IDE)",
+        "description": "Formation professionnelle destinée à la préparation au métier d’infirmier, axée sur les soins aux patients, l’hygiène hospitalière, la gestion des urgences et l’accompagnement psychologique.",
+        "conditionAdmission": "Baccalauréat toutes séries ou diplôme équivalent. Sélection sur dossier ou concours.",
+        "domaines": [
+          "soins aux patients",
+          "hygiène hospitalière",
+          "gestion des urgences",
+          "accompagnement psychologique"
+        ],
+        "debouches": [
+          "Infirmier",
+          "Chef de service en soins infirmiers",
+          "Coordinateur en soins de santé"
+        ]
+      },
+      {
+        "nom": "Sage-Femme",
+        "description": "Formation spécialisée dans les soins aux femmes enceintes, l'accompagnement de la grossesse, l'accouchement et la gestion des soins postnataux.",
+        "conditionAdmission": "Baccalauréat C, D, ou GCE A Level avec matières scientifiques. Sélection sur dossier ou concours.",
+        "domaines": [
+          "soins prénatals",
+          "accouchement",
+          "soins postnataux",
+          "soutien psychologique"
+        ],
+        "debouches": [
+          "Sage-femme",
+          "Conseiller en périnatalité",
+          "Responsable des soins en maternité"
+        ]
+      },
+      {
+        "nom": "Aide-Soignant",
+        "description": "Formation visant à préparer au rôle d’aide-soignant, avec un accent sur l’assistance aux soins quotidiens des patients, le soutien moral et l’accompagnement des personnes dépendantes.",
+        "conditionAdmission": "Baccalauréat ou diplôme équivalent, admission possible sur concours.",
+        "domaines": [
+          "soins quotidiens",
+          "soutien moral",
+          "accompagnement des dépendants"
+        ],
+        "debouches": [
+          "Aide-soignant",
+          "Agent de soins",
+          "Accompagnateur médico-social"
+        ]
+      },
+      {
+        "nom": "Technicien de Laboratoire Médical",
+        "description": "Formation technique axée sur les analyses biologiques, la gestion des échantillons, et l’utilisation des équipements médicaux dans un laboratoire.",
+        "conditionAdmission": "Baccalauréat C, D ou tout diplôme équivalent en sciences.",
+        "domaines": [
+          "analyses biologiques",
+          "gestion des échantillons",
+          "utilisation des équipements médicaux"
+        ],
+        "debouches": [
+          "Technicien de laboratoire",
+          "Analyste en biologie clinique",
+          "Technicien de laboratoire hospitalier"
+        ]
+      },
+      {
+        "nom": "Paramédical",
+        "description": "Formation générale en soins paramédicaux préparant à diverses spécialisations telles que la kinésithérapie, l’orthophonie, ou la podologie.",
+        "conditionAdmission": "Baccalauréat toutes séries ou diplôme équivalent, sélection sur dossier ou concours.",
+        "domaines": [
+          "soins paramédicaux",
+          "kinésithérapie",
+          "orthophonie",
+          "podologie"
+        ],
+        "debouches": [
+          "Kinésithérapeute",
+          "Orthophoniste",
+          "Podologue"
+        ]
+      },
+      {
+        "nom": "Kinésithérapeute",
+        "description": "Formation spécialisée dans la rééducation physique et la thérapie par le mouvement, visant à traiter les blessures musculosquelettiques et neurologiques.",
+        "conditionAdmission": "Baccalauréat C, D, ou GCE A Level avec Mathématiques ou Physique.",
+        "domaines": [
+          "rééducation physique",
+          "thérapie par le mouvement",
+          "blessures musculosquelettiques",
+          "blessures neurologiques"
+        ],
+        "debouches": [
+          "Kinésithérapeute",
+          "Rééducateur en réadaptation physique",
+          "Consultant en rééducation"
+        ]
+      }
+  ]
+}

@@ -1,0 +1,94 @@
+version: "3.1"
+
+# stories:
+
+# - story: bac complet
+#   steps:
+#     - intent: greet
+#     - action: utter_greet
+#     - intent: start_bac_form
+#     - action: bac_form
+#     - active_loop: bac_form
+#     - intent: bac_given
+#     - active_loop: null
+#     - action: utter_bac
+
+stories:
+- story: Répondre avec les options selon le bac
+  steps:
+    - intent: bac_given
+    - action: action_given_bac
+
+- story: toujours repondre a la salutation
+  steps:
+    - intent: intro
+    - action: utter_intro
+    - intent: bac_given
+    - action: action_given_bac
+    - intent: bac_filiere
+    - action: action_bac_filiere
+    - intent: ask_info
+    - action: action_ask_info
+    - intent: filiere
+    - action: action_filiere
+    - intent: place
+    - action: action_place
+    - intent: nlu_fallback
+    - action: action_default_fallback
+    - intent: reject
+    - action: utter_close
+
+- story: toujours demander la preoccupation.
+  steps:
+    - intent: confirm
+    - action: utter_confirm
+
+- story: toujours conclure
+  steps:
+    - intent: reject
+    - action: utter_close
+
+- story: place.
+  steps:
+    - intent: place
+    - action: action_place
+
+- story: fallback.
+  steps:
+    - intent: nlu_fallback
+    - action: action_default_fallback
+
+- story: info.
+  steps:
+    - intent: ask_info
+    - action: action_ask_info
+
+- story: verification bac filiere.
+  steps:
+    - intent: bac_filiere
+    - action: action_bac_filiere
+
+- story: toujours reagir apres le bye
+  steps:
+    - intent: close
+    - action: utter_close
+
+- story: toujours repondre a la formation
+  steps:
+    - intent: train
+    - action: action_train
+
+- story: toujours  repondre au demande d'ecole
+  steps:
+    - intent: school
+    - action: action_school
+
+- story: toujours  repondre au domaine
+  steps:
+    - intent: domain
+    - action: action_domain
+
+- story: toujours  repondre au filiere
+  steps:
+    - intent: filiere
+    - action: action_filiere
