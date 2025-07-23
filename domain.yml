@@ -131,20 +131,20 @@ responses:
     - text: "vous etes passionnes de quelle filiere"
 
   utter_ask_faculty:
-    - text: " ⚠️ désolé, je n'ai pas bien saisi, pouvez vous rapeller la faculté ? ⚠️"
-    - text: " ⚠️ quelle est la faculté que vous envisagez faire ? ⚠️"
+    - text: "  désolé, je n'ai pas bien saisi, pouvez vous rapeller la faculté ? "
+    - text: "  quelle est la faculté que vous envisagez faire ? "
 
   utter_fallback:
     - text: "Désolé, je n'ai pas compris, pouvez vous reformuler ?"
     - text: "Oops, je n'ai pas bien, pouvez vous reformuler ?"
-    - text: "Désolé, je n'ai pas bien compris, vous parlez de quoi plus precisement ?"
+    - text: "Je suis navré, je n'ai pas bien saisi, vous parlez de quoi plus précisement ?"
 
   utter_ask_place:
     - text: "Quel lieu voulez-vous atteindre ?"
     - text: "où voulez-vous aller ?"
 
   utter_ask_bac:
-  - text: "quel bac as-tu ?"
+  - text: "quel bac avez vous ?"
   - text: "Quel bac avez-vous passé ?"
   - text: "nature de votre baccalaureat ?"
   - text: "voyons ensemble ce que tu peux faire. quel est ta serie au bac ?"
@@ -172,17 +172,22 @@ responses:
   - text: "Tu veux une formation pratique, théorique ou équilibrée ? Cela correspond à un parcours pro, académique ou techno !"
 
   utter_school:
-  - text: " 8 établissements sont disponibles, comprenant l'Institut des Beaux-Arts de Foumban (IBAF), l'Institut Universitaire de Technologie (IUT) Fotso Victor de Bandjoun, la Faculté d’Agronomie et des Sciences Agricoles (FASA), la Faculté des Sciences Économiques et de Gestion (FSEG), la Faculté des Sciences (FS), ainsi que la Faculté des Lettres et Sciences Humaines (FLSH), couvrant des domaines variés allant des arts, des sciences humaines, des sciences économiques et agricoles, aux sciences techniques et médicales."
-  - text: " l'Université de Dschang couvre un large éventail de domaines d'études Avec ses 8 facultés et instituts, y compris la médecine, l'agronomie, les sciences économiques, les sciences juridiques, et les arts. Que ce soit à travers la Faculté des Lettres et Sciences Humaines, la Faculté des Sciences, la Faculté des Sciences Juridiques et Politiques, ou l'Institut Universitaire de Technologie, les étudiants ont accès à une formation de qualité dans diverses spécialités."
-  - text: " L'Université de Dschang se distingue par la diversité de ses formations réparties entre 8 établissements académiques, comprenant l'Institut des Beaux-Arts de Foumban (IBAF) pour les arts, l'IUT Fotso Victor pour les formations techniques, et des facultés telles que la Faculté des Sciences Économiques et de Gestion, la Faculté des Sciences, la Faculté des Lettres et Sciences Humaines, la Faculté des Sciences Juridiques et Politiques, et la Faculté d’Agronomie et des Sciences Agricoles."
+  - text: " 8 établissements sont disponibles, comprenant: \n l'Institut des Beaux-Arts de Foumban (IBAF),\n l'Institut Universitaire de Technologie (IUT) Fotso Victor de Bandjoun,\n la Faculté d’Agronomie et des Sciences Agricoles (FASA),\n la Faculté des Sciences Économiques et de Gestion (FSEG),\n la Faculté des Sciences (FS),\n ainsi que la Faculté des Lettres et Sciences Humaines (FLSH),\n couvrant des domaines variés allant des arts, des sciences humaines, des sciences économiques et agricoles, aux sciences techniques et médicales."
+  - text: " l'Université de Dschang couvre un large éventail de domaines d'études Avec ses 8 facultés et instituts, y compris la médecine, l'agronomie, les sciences économiques, les sciences juridiques, et les arts.\n Que ce soit à travers la Faculté des Lettres et Sciences Humaines,\n la Faculté des Sciences,\n la Faculté des Sciences Juridiques et Politiques,\n ou l'Institut Universitaire de Technologie,\n les étudiants ont accès à une formation de qualité dans diverses spécialités."
+  - text: " L'Université de Dschang se distingue par la diversité de ses formations réparties entre 8 établissements académiques, comprenant \n l'Institut des Beaux-Arts de Foumban (IBAF) pour les arts,\n l'IUT Fotso Victor pour les formations techniques,\n et des facultés telles que la Faculté des Sciences Économiques et de Gestion,\n la Faculté des Sciences,\n la Faculté des Lettres et Sciences Humaines,\n la Faculté des Sciences Juridiques et Politiques,\n et la Faculté d’Agronomie et des Sciences Agricoles."
 
   utter_intro:
-  - text: " Salut, Que puis-je faire pour vous ?"
-  - text: " salut, Comment puis-je vous aider ?"
-  - text: " bienvenu, En quoi puis-je vous aider ?"
-  - text: " hey, Dites-moi ce que vous recherchez !"
-  - text: " Parfait, besoin d'une orientation en quoi plus précisement ?"
-  - text: " Salut à vous, Par où souhaitez-vous commencer ?"
+  - text: "quel voulez-vous ?"
+  - text: "Je vous écoute"
+  - text: " Que puis-je faire pour vous ?"
+  - text: "  Comment puis-je vous aider ?"
+  - text: "  En quoi puis-je vous aider ?"
+  - text: "  Dites-moi ce que vous recherchez !"
+  - text: " Comment puis-je vous aider , besoin d'une orientation en quoi plus précisement ?"
+  - text: " Que recherchez vous ?"
+  - text: " Comment je vous assiste ?"
+  - text: " posez votre question !"
+  - text: " Dites-moi ce dont vous avez besoin."
 
   utter_confirm:
   - text: "Bien sûr,  Que veux-tu savoir ?"
@@ -190,7 +195,7 @@ responses:
   - text: "Parfait, Dis-moi ce qui t’intéresse."
   - text: "pas de soucis. Nous Commençons par quoi ?"
   - text: "Je peux t’aider. Pourrais-tu préciser ta demande ?"
-  - text: "Avec plaisir ! Dis-m'en un peu plus pour que je puisse t'aider."
+  - text: "Avec plaisir ! Dis moi un peu plus pour que je puisse t'aider."
   - text: "Aucun problème, je vais faire de mon mieux pour t’aider."
   - text: " bien ! posez votre question."
   - text: "Que puis-je donc faire pour vous ?"
@@ -198,7 +203,7 @@ responses:
   - text: "Avec plaisir. Dites-moi ce dont vous avez besoin."
   - text: "Très bien. Pourriez-vous me préciser votre demande ?"
   - text: "Je suis à votre écoute. Comment puis-je vous assister ?"
-  - text: "Je comprends. Comment puis-je vous assister ?"
+  - text: "Parfait, Comment puis-je vous assister ?"
 
 
 

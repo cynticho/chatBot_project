@@ -29,15 +29,18 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier              # Modèle central : intention + entités
-    epochs: 650
+    epochs: 500
     constrain_similarities: true
+    learning_rate: 0.001
   - name: EntitySynonymMapper         # Pour normaliser les entités extraites
   - name: ResponseSelector            # Pour les réponses basées sur les intents
-    epochs: 650
+    epochs: 500
+    learning_rate: 0.001
     constrain_similarities: true
   - name: FallbackClassifier
     threshold: 0.7
     ambiguity_threshold: 0.1
+    learning_rate: 0.001
 
 # pipeline: null
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
@@ -75,8 +78,8 @@ policies:
     enable_fallback_prediction: True
   - name: UnexpecTEDIntentPolicy
     max_history: 5
-    epochs: 600
+    epochs: 500
   - name: TEDPolicy
     max_history: 5
-    epochs: 600
+    epochs: 500
     constrain_similarities: true

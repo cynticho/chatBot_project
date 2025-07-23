@@ -18,16 +18,23 @@ nlu:
 
 - intent: dossier
   examples: |
-    - quelle est la constitution du [dossier](dossier)
-    - je veux faire le  [dossier](dossier) de pre-inscription
-    - comment faire le [dossiers](dossier) a l'université apres le bac ?
-    - [dossiers](dossier) d'incription
-    - [dossiers](dossier)
-    - constitution du [dossier](dossier) de pre-inscription
-    - comment constituer le  [dossier](dossier) de pre-inscription
-    - quels sont les element du [dossier](dossier) de pre-inscription
-    - comment se fait la constitution du [dossier](dossier) de pre-inscription
-    - quoi mettre dans le [dossier](dossier) de inscription
+    - quelle est la constitution du [dossier](dossier) pour la [fsjp](info)
+    - je veux faire le [dossier](dossier) de pré-inscription pour la [fsjp](info)
+    - comment faire le [dossier](dossier) à l'université après le bac en [fseg](info)
+    - [dossier](dossier) d'inscription pour [flsh](info)
+    - constitution du [dossier](dossier) de pré-inscription pour la [fasa](info)
+    - comment constituer le [dossier](dossier) de pré-inscription pour [ibaf](info)
+    - quels sont les éléments du [dossier](dossier) pour [iut](info)
+    - comment se fait la constitution du [dossier](dossier) en [fmsp](info)
+    - quoi mettre dans le [dossier](dossier) d'inscription pour [fs](info)
+    - quels documents faut-il pour le [dossier](dossier) en [fseg](info)
+    - je veux constituer mon [dossier](dossier) pour la filière [fsjp](info)
+    - informations sur le [dossier](dossier) de pré-inscription pour la [fasa](info)
+    - de quoi est composé le [dossier](dossier) pour [flsh](info)
+    - quels papiers pour [ibaf](info)
+    - quelles sont les pièces requises pour [iut](info)
+    - quelles sont les conditions d'inscription pour [fmsp](info)
+
 
 - intent: fill_form
   examples: |
@@ -80,6 +87,9 @@ nlu:
     - Tu peux m’orienter ?
     - J’ai besoin d’un conseil
     - Bonjour je voudrais des infos !
+    - je suis un nouveau bachelier
+    - je viens d'avoir le bac
+    - je suis un nouveau bachelier, titulaire d'un BACC C
     
 - intent: filiere
   examples: |
@@ -245,21 +255,35 @@ nlu:
 
 - intent: place
   examples: |
-    - où se trouve [quatrième salle entrée campus](destination) ?
+    - Où se situe la [navette](destination)
+    - ou est la [navette](destination) ?
+    - [campus C](destination) ?
+    - [campus A](destination) ?
+    - [amphi 354](destination)
+    - [amphi 1000](destination)
+    - Peux-tu me dire où se trouve l'[amphi 354](destination) ?
+    - Quelle est l'adresse de la [porte 232 b](destination) ?
+    - C'est où [la navette](destination) ?
+    - Comment je vais à la [Porte SN1 106](destination) ?
+    - Donne-moi la localisation de la [salle informatique](destination)
+    - ou peut-on trouver le [restaurant universitaire](destination) ?
+    - L’adresse de la [scolarité](destination) stp
+    - où se trouve la [quatrième salle entrée campus](destination) ?
+    - [Terrain de Football](destination)
     - Montrer le chemin du [Terrain de Football](destination) à partir de [dschang school of agriculture and environmental science](origine)
     - Je veux aller à la [ns1](destination) quittant [Terrain de Football](origine)
-    - Je veux aller à [Boutique Universitaire](destination) Depuis [porte 232 b](origine)
+    - Je veux aller à la [Boutique Universitaire](destination) Depuis la [porte 232 b](origine)
     - Montre-moi le chemin vers [dschang school of agriculture and environmental science](destination)
-    - Comment aller à [Navette](destination) étant  à [Amphi 450](origine)
+    - Comment aller à [Mât du drapeau](destination) étant  à l'[Amphi 450](origine)
     - Donne-moi les étapes pour aller à [ns 5](destination) à partir de la [Porte SN2 101](origine)
-    - Peux-tu me guider vers [Porte 209](destination) en debutant à la [Porte SN1 106](origine)
-    - Quelle est la route pour [Décanat FASA](destination)
-    - Je cherche [Amphi 1000](destination) et je suis au  [Mat du Drapeau](origine)
-    - Où se trouve [Centre Medico Social](destination) en commencant à la [navette](origine)
+    - Peux-tu me guider vers [Porte 209](destination) en d ebutant à la [Porte SN1 106](origine)
+    - Quelle est la route pour le [Décanat FASA](destination)
+    - Je cherche l'[Amphi 1000](destination) et je suis au  [Mât du drapeau](origine)
+    - ou se trouve [Centre Medico Social](destination) en commencant à la [navette](origine)
     - Comment puis-je me rendre à [rectorat de l'université de dschang](destination)
-    - Je dois aller à [salle b3 1](destination) à partir de [Point Orange Money](origine)
+    - Je dois aller à la [salle b3 1](destination) à partir de [Point Orange Money](origine)
     - je cherche la [porte 232 b](destination)
-    - Je suis à [porte 209](origine), je cherche [Amphi 1000](destination)
+    - Je suis à la [porte 209](origine), je cherche l'[Amphi 1000](destination)
     - Je suis à la [Cafetéria](origine), comment aller au [Centre Medico Social](destination) ?
     - Depuis [porte 232 b](origine), montre-moi le chemin vers [ns1](destination)
     - Je suis à [Amphi 450](origine) et je veux aller au [Décanat FASA](destination)
@@ -267,8 +291,9 @@ nlu:
     - Je suis devant [quatrième salle entrée campus](origine), comment aller à [ns 5](destination) ?
     - Depuis [Terrain de Football](origine), je veux aller à [dschang school of agriculture and environmental science](destination)
     - Je suis à [rectorat de l'université de dschang](origine), je cherche [salle b3 1](destination)
-    - Comment aller de [Bibliothèque](origine) à la [Salle SN3 102](destination) ?
-    - Je suis à la [Porte SN2 101](origine), je veux aller au [Salle 1 Bâtiment Japonais](destination)
+    - Comment aller à la [Bibliothèque](destination) ?
+    -  [bibliotheque centale](destination) ?
+    - Je suis à la [Porte SN2 101](origine), je veux aller a la [Salle 1 Bâtiment Japonais](destination)
 
 - intent: ask_info
   examples: |

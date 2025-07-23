@@ -9,6 +9,29 @@
       ]
     },
     {
+      "name": "campus C",
+      "description": "Campus C de l'Université de Dschang",
+      "image": "img_1_entree_campus",
+      "steps": [
+        "img_212_navette_sommet_2",
+        "img_213_entree_decanat_phasa",
+        "img_265_route_decanat_fac_des_sciences_1",
+        "img_251_aller_bibliotheque_phasa_2"
+      ]
+    },
+    {
+      "name": "campus A",
+      "description": "Campus A de l'Université de Dschang",
+      "image": "img_1_entree_campus",
+      "steps": [
+        "img_1_entree_campus",
+         "img_40_mat_du_drapeau_campus_a",
+         "img_174_face_ecole_doctorale_main",
+         "img_173_amphi_1000",
+        "img_131_restaurant_campus_a_main"
+      ]
+    },
+    {
       "name": "Campus A, Université de Dschang",
       "description": "Situé à quelques mètres de l'Entrée campus, Campus A",
       "image": "img_1_entree_campus",
@@ -1107,6 +1130,7 @@
     },
     {
       "name": "Porte 205, Fac de Médecine",
+      "description": "Situé au Campus C, à l'Étage, Décanat Faculté des Médecine",
       "image": "img_164_fac_medecine_porte_205",
       "steps": [
         "img_151_route_fac_medecine_2",
@@ -2704,7 +2728,6 @@
     {
       "name": "Porte 431 B, 4ème Étage, Décanat Faculté des sciences",
       "description": "Situé au Campus C, 4ème Étage, Décanat Faculté des sciences",
-      
       "image": "img_354_porte_431_b_decanat_fac_science",
       "steps": [
         "img_265_route_decanat_fac_des_sciences_1",

@@ -8,6 +8,9 @@
 # This is a simple example for a custom action which utters "Hello World!"
 import json
 from typing import Any, Text, Dict, List
+import unicodedata
+import json
+from unidecode import unidecode
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -37,7 +40,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(current_dir, '../data/formation.json')
 image_path = os.path.join(current_dir, '../data/path/paths.json')
 inscription_path= os.path.join(current_dir, '../data/inscription/procedure_inscription.json')
-dossier_path= os.path.join(current_dir, '../data/inscription/formulaire/form.json')
+dossier_path= os.path.join(current_dir, '../data/inscription/preinscription_uds_filieres.json')
+form_path= os.path.join(current_dir, '../data/inscription/formulaire/form.json')
 
 # class ActionHelloWorld(Action):
 #
@@ -66,6 +70,8 @@ with open(inscription_path, "r", encoding="utf-8") as f:
 with open(dossier_path, "r", encoding="utf-8") as f:
     dossier_data = json.load(f)
 
+with open(form_path, "r", encoding="utf-8") as f:
+    form_data = json.load(f)
 
 
 
@@ -81,25 +87,52 @@ class ActionInscription(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
+        
         inscription = tracker.get_slot("inscription")
+        lien= "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatBot_project/data/inscription/ProcessInscriptionUDS.pdf"
 
         if not inscription:
             dispatcher.utter_message(response="utter_fallback")
             return []
+        
         else:
-            dispatcher.utter_message(text=f"Parfait, pour se pre-inscrire, vous devez:")
-            dispatcher.utter_message(text=f"📚 Université : {inscription_data['universite']}")
-            dispatcher.utter_message(text=f"🌐 Plateforme : {inscription_data['plateforme']}")
+            dispatcher.utter_message(text=f"Parfait, pour se pre-inscrire à  l’Université de Dschang , vous devez:")
+            dispatcher.utter_message(text=f"vous rendre sur le site de  l'Université : {inscription_data['universite']} \n acccesible via la Plateforme : {inscription_data['plateforme']}\npuis suivre les Étapes suivantes")
+
             for etape in inscription_data["processus"]:
-                message = f"🟢 {etape['etape']} - {etape['titre']}/n{etape['description']}"
+                message = f"🟢 {etape['etape']} - {etape['titre']}\n{etape['description']}"
                 dispatcher.utter_message(text=message)
 
-            dispatcher.utter_message(text=f"📌 Remarque : {inscription_data['remarque_finale']}")
+            dispatcher.utter_message(text=f"Remarque : {inscription_data['remarque_finale']}")
+            dispatcher.utter_message(text=f" Telechager le pdf")
+            resources = {
+                "type": "template",
+                "payload": {
+                    "template_type": "generic",
+                    "elements": [
+                        {
+                            "title": f"pre-inscription",
+                            "subtitle": f"procedure pre-inscription",
+                            "image_url": "./logo dschang.PNG",
+                            "buttons": [{
+                                "title": "Telecharger",
+                                "url": f"{lien}",
+                                "type": "web_url"
+                            },
+                                {
+                                    "title": "un autre choix",
+                                    "type": "postback",
+                                    "payload": "/affirm"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+            dispatcher.utter_message(attachment=resources)
             dispatcher.utter_message(response="utter_help")
+
             return []
-
-
 
 
 
@@ -119,38 +152,35 @@ class ActionDossier(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         dossier = tracker.get_slot("dossier")
-        filiere = tracker.get_slot("filiere")
+        filiere = tracker.get_slot("info")
 
-        if not dossier:
-            # dispatcher.utter_message(response="utter_fallback")
+        if not dossier or not filiere:
+            dispatcher.utter_message(text="Merci de préciser la faculté concernée.")
             return []
+
+        match = next((item for item in dossier_data if item["filiere"].lower() == filiere.lower()), None)
+
+        if not match:
+            dispatcher.utter_message(text=f"La faculté '{filiere}' n'existe pas dans mes données.")
+            return []
+
+        message = f"**faculté : {filiere.upper()}** \n"
+        message += f"**Statut :** {match['statut'].capitalize()} \n"
+
+        if match["statut"] == "accessible":
+            message += "**Conditions d'inscription :** \n"
+            for i, cond in enumerate(match["conditions"], 1):
+                message += f"{i}. {cond}\n"
         else:
-            match = next((item for item in dossier_data if item["filiere"].lower() == filiere.lower()), None)
+            message += f"**Conditions :** {match['conditions']} \n"
+            message += f"**Motif :** {match['motif']}\n"
+            message += f"**Prochaine mise à jour :** {match['prochaine_mise_a_jour_estimee']} \n"
 
-            if not match:
-                dispatcher.utter_message(text=f"❌ La filière '{filiere}' n'existe pas dans mes données.")
-                return []
+        message += f"\n Source : {match['source']}"
 
-            message = f"📘 **Filière : {filiere.upper()}**/n"
-            message += f"**Statut :** {match['statut'].capitalize()}/n/n"
-
-            if match["statut"] == "accessible":
-                message += "**📄 Conditions d'inscription :**/n"
-                for i, cond in enumerate(match["conditions"], 1):
-                    message += f"{i}. {cond}/n"
-            else:
-                message += f"**Conditions :** {match['conditions']}/n"
-                message += f"**Motif :** {match['motif']}/n"
-                message += f"**Prochaine mise à jour :** {match['prochaine_mise_a_jour_estimee']}/n"
-
-                message += f"/n🔗 Source : {match['source']}"
-
-                dispatcher.utter_message(text=message)
-
-
-        dispatcher.utter_message(text=f"Parfait, voici la constitution du dossier")
-        dispatcher.utter_message(response="utter_help")
+        dispatcher.utter_message(text=message)
         return []
+
 
 
 
@@ -198,23 +228,23 @@ class ActionFillForm(Action):
             dispatcher.utter_message(response="utter_fallback")
             return []
 
-        dispatcher.utter_message(text="✅ Parfait, voici comment remplir le formulaire étape par étape :")
+        dispatcher.utter_message(text="voici comment remplir le formulaire étape par étape :")
 
         # Base URL des images
         base_url = "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/inscription/formulaire/"
 
         # Liste des étapes
-        items = dossier_data.get("form", [])
+        items = form_data.get("form", [])
 
         for i, item in enumerate(items):
             title = item["name"].capitalize()
             image_name = item["image"]
             image_url = f"{base_url}{image_name}.png"
 
-            dispatcher.utter_message(text=f"📝 Étape {i+1} : {title}")
+            dispatcher.utter_message(text=f" Étape {i+1}: {title}")
             dispatcher.utter_message(image=image_url)
 
-        dispatcher.utter_message(text="✅ Une fois toutes les étapes complétées, vous pouvez finaliser l'inscription.")
+        dispatcher.utter_message(text=" Une fois toutes les étapes complétées, vous pouvez finaliser l'inscription.")
         dispatcher.utter_message(response="utter_help")
 
         return []
@@ -247,23 +277,23 @@ class ActionGivenBac(Action):
         filieres_accessibles = get_filieres_accessibles_par_bac(dataset, bacType)
 
         if not filieres_accessibles:
-            dispatcher.utter_message(text=f"❌ Aucune filière trouvée pour le bac {bacType_upper}. ❌")
+            dispatcher.utter_message(text=f"Aucune filière trouvée pour le bac {bacType_upper}.")
             dispatcher.utter_message(response="utter_help")
             return []
         else:
-            dispatcher.utter_message(text=f"🎓 Voici les filières accessibles avec le bac {bacType_upper} :")
+            dispatcher.utter_message(text=f" Voici les filières accessibles avec le bac {bacType_upper} :")
 
             for filiere in filieres_accessibles:
                 nom = filiere.get("nom", "Nom inconnu")
                 description = filiere.get("description", "Aucune description disponible.")
                 debouches = filiere.get("debouches", [])
 
-                debouches_formattes = "/n".join([f"- ✅ {d}" for d in debouches])
+                debouches_formattes = "\n".join([f"- {d}" for d in debouches])
 
                 message = (
-                    f"/n📘 *{nom}*/n/n"
-                    f"**Description** :/n{description}/n/n"
-                    f"💼 **Débouchés** :/n{debouches_formattes}"
+                    f"\n** *{nom}* **\n \n"
+                    f"**Description** :\n{description}\n "
+                    f"**Débouchés** :\n {debouches_formattes}"
                 )
 
                 dispatcher.utter_message(text=message)
@@ -388,21 +418,21 @@ class ActionFiliere(Action):
 
         if not filieres_accessibles:
             # utter_no_filiere
-            dispatcher.utter_message(text=f"❌ Désolé, Aucune filière trouvée pour le bac {bacType_upper}. ❌")
+            dispatcher.utter_message(text=f"Désolé, Aucune filière trouvée pour le bac {bacType_upper}. ")
         else:
-            dispatcher.utter_message(text=f"🎓 Voici les filières accessibles avec le bac {bacType_upper} :")
+            dispatcher.utter_message(text=f"Voici les filières accessibles avec le bac {bacType_upper} :")
 
             for filiere in filieres_accessibles:
                 nom = filiere.get("nom", "Nom inconnu")
                 description = filiere.get("description", "Aucune description disponible.")
                 debouches = filiere.get("debouches", [])
 
-                debouches_formattes = "/n".join([f"- ✅ {d}" for d in debouches])
+                debouches_formattes = "\n".join([f"- {d}" for d in debouches])
 
                 message = (
-                    f"/n📘 *{nom}*/n/n"
-                    f"**Description** :/n{description}/n/n"
-                    f"💼 **Débouchés** :/n{debouches_formattes}"
+                    f"\n \n ** *{nom}* **\n \n"
+                    f"**Description** :\n {description}\n \n"
+                    f"**Débouchés** : \n{debouches_formattes}"
                 )
 
                 dispatcher.utter_message(text=message)
@@ -443,12 +473,12 @@ class ActionDomain(Action):
 
         if not domaines:
             # utter_no_domain
-            dispatcher.utter_message(text=f"❌ Aucun domaine trouvé pour le bac {bacType}. ❌")
+            dispatcher.utter_message(text=f"Aucun domaine trouvé pour le bac {bacType}. ")
             dispatcher.utter_message(response="utter_help")
             return []
         else:
-            domaines_list = "/n/n".join(f"✅ {domaine}" for domaine in sorted(domaines))
-            dispatcher.utter_message(text=f"📚 Voici les domaines accessibles avec le bac {bacType} :/n/n{domaines_list}")
+            domaines_list = "\n".join(f"- {domaine}" for domaine in sorted(domaines))
+            dispatcher.utter_message(text=f"** Voici quelques domaines accessibles avec le bac {bacType}** :\n \n{domaines_list}")
             dispatcher.utter_message(response="utter_help")
             return []
 
@@ -476,14 +506,15 @@ def est_filiere_accessible(bac: str, terme: str) -> str:
         if nom_match or domaine_match or debouche_match:
             conditions = filiere["conditionAdmission"].upper()
             if bac_upper in conditions:
-                resultats.append(f"✅ Oui, vous pouvez bien faire *{terme}* avec un bac {bac}.")
+                resultats.append(f" Bien sur, vous pouvez bien faire ** *{terme}* ** avec ** un bac {bac} **.")
+                break
             else:
-                resultats.append(f"❌ Non, *{terme}* n'est pas accessible avec un bac {bac}. ❌")
+                resultats.append(f"Non, j'en suis navré mais *{terme}* n'est pas accessible avec ** un bac {bac} **.")
 
     if resultats:
-        return "/n".join(resultats)
+        return "\n".join(resultats)
     else:
-        return f"⚠️ Oops, Aucun profil ne correspondant à **{terme}**. ⚠️"
+        return f" Oops, Aucun profil ne correspondant à **{terme}**. "
 
 
 class ActionBacFiliere(Action):
@@ -502,15 +533,15 @@ class ActionBacFiliere(Action):
 
         if not work:
             # utter_ask_filiere
-            # dispatcher.utter_message(response="utter_ask_filiere")
-            # dispatcher.utter_message(text=" ⚠️ vous parlez de quoi plus precisement ? ⚠️")
+            dispatcher.utter_message(text="Un soucis d'incomprehension Svp, vous parlez de quoi plus precisement ? ")
+            dispatcher.utter_message(response="utter_ask_filiere")
             return []
 
         if not bacType:
             dispatcher.utter_message(response="utter_ask_bac")
             return []
 
-        dispatcher.utter_message(f" vous voulez savoir si le {bac} {bacType} permet d'acceder : **{work}**")
+        dispatcher.utter_message(f" vous voulez savoir si ** un {bac} {bacType} ** permet d'acceder : **{work}**")
         reponse = est_filiere_accessible(bacType, work)
         dispatcher.utter_message(text=reponse)
         dispatcher.utter_message(response="utter_help")
@@ -537,9 +568,12 @@ class ActionAskInfo(Action):
 
         if not info:
             # utter_ask_faculty
-            dispatcher.utter_message(text=" ⚠️ désolé, je n'ai pas bien saisi, pouvez vous rapeller la faculté ? ⚠️")
+            dispatcher.utter_message(text=" désolé, je n'ai pas bien saisi, pouvez vous rapeller la faculté ? ")
             return []
+        
+        
 
+        
         url = {
             "flsh": "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/pdfs_training/flsh.pdf",
             "fseg": "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/pdfs_training/fseg.pdf",
@@ -554,9 +588,21 @@ class ActionAskInfo(Action):
         info = info.lower()
         lien = url.get(info)
 
+
+
+
+
+        
+
+
+
+
+
+
+
         if lien:
-            dispatcher.utter_message(text=f"vous recherchez probablement des infos sur {info}")
-            dispatcher.utter_message(text=f"✅ Voici les infos demandées ci dessous ✅")
+            dispatcher.utter_message(text=f"vous recherchez probablement des infos sur **{info}** \n Vous les trouverez ci dessous:")
+            # dispatcher.utter_message(text=f" Vous les trouverez ci dessous:")
             resources = {
                 "type": "template",
                 "payload": {
@@ -564,10 +610,10 @@ class ActionAskInfo(Action):
                     "elements": [
                         {
                             "title": f"📁{info}",
-                            "subtitle": f"{info} description",
+                            "subtitle": f"infos sur: {info} ",
                             "image_url": "./logo dschang.PNG",
                             "buttons": [{
-                                "title": "📁Telecharger",
+                                "title": "Telecharger",
                                 "url": f"{lien}",
                                 "type": "web_url"
                             },
@@ -586,7 +632,7 @@ class ActionAskInfo(Action):
             return []
         else:
             # utter_no_info
-            dispatcher.utter_message(text=f"❌ Désolé, je n’ai pas trouvé d'info pour {info}. ❌")
+            dispatcher.utter_message(text=f" Désolé, je n’ai pas trouvé d'info pour {info}. ")
             dispatcher.utter_message(response="utter_help")
             return []
 
@@ -607,6 +653,87 @@ def search_strict(term, data):
     return None  # Aucun résultat trouvé
 
 
+def normalize_text(text):
+    text = unicodedata.normalize('NFD', text)
+    return ''.join(ch for ch in text if unicodedata.category(ch) != 'Mn').lower()
+
+def detecter_campus(lieu, data):
+    lieu_norm = normalize_text(lieu)
+    for entite in data["myEntities"]:
+        nom_norm = normalize_text(entite["name"])
+        desc_norm = normalize_text(entite["description"])
+
+        # Cherche lieu dans name ou description
+        if lieu_norm in nom_norm or lieu_norm in desc_norm:
+            if "campus a" in nom_norm or "campus a" in desc_norm:
+                return "Campus A"
+            elif "campus b" in nom_norm or "campus b" in desc_norm:
+                return "Campus B"
+            elif "campus c" in nom_norm or "campus c" in desc_norm:
+                return "Campus C"
+            else:
+                return "Campus inconnu"
+    return "Lieu non trouvé"
+
+def normalize_text(text):
+    text = unicodedata.normalize('NFD', text)
+    return ''.join(ch for ch in text if unicodedata.category(ch) != 'Mn').lower()
+
+
+
+def direction_campus_detail(orig, dest):
+    orig = orig.strip().lower().replace("campus", "").strip().upper()
+    dest = dest.strip().lower().replace("campus", "").strip().upper()
+    
+    valid = {"A": 1, "B": 2, "C": 3}
+    if orig not in valid or dest not in valid:
+        return "Erreur : Ce campus est inconnu"
+    
+    if valid[orig] < valid[dest]:
+        return f"monter au campus {dest}"
+    elif valid[orig] > valid[dest]:
+        return f"descendre au campus {dest}"
+    else:
+        return f"rester au campus {dest}"
+
+def trouver_description(lieu, data):
+    lieu_clean = unidecode(lieu).lower().strip()
+    for item in data["myEntities"]:
+        name = unidecode(item["name"]).lower()
+        desc = unidecode(item["description"]).lower()
+        if lieu_clean in name or lieu_clean in desc:
+            return item["description"]
+    return "Description non trouvée."
+
+def prediction_monter_descendre(orig, dest, data):
+    campus_orig = detecter_campus(orig, data)
+    campus_dest = detecter_campus(dest, data)
+
+    if campus_orig == "lieu non trouvé" or campus_dest == "lieu non trouvé":
+        return "Origine ou destination non reconnue."
+
+    action = direction_campus_detail(campus_orig, campus_dest)
+
+    # Simplifier le verbe
+    if "monter" in action:
+        action_simple = "montez"
+    elif "descendre" in action:
+        action_simple = "descendez"
+    else:
+        action_simple = "restez"
+
+    # Formater proprement le nom du campus
+    campus_orig_letter = campus_orig.strip().lower().replace("campus", "").strip().upper()
+    campus_dest_letter = campus_dest.strip().lower().replace("campus", "").strip().upper()
+
+    # Chercher la description du lieu de destination
+    description_dest = trouver_description(dest, data)
+
+    return (
+        f" Vous êtes situé au campus {campus_orig_letter},\n {action_simple} au campus {campus_dest_letter}\n"
+    )
+
+
 class ActionPlace(Action):
     def name(self) -> str:
         return "action_place"
@@ -617,53 +744,101 @@ class ActionPlace(Action):
 
         # Récupérer la place depuis un slot ou une entité
         # place = tracker.get_slot("place")
-        place = tracker.get_slot("destination")
+        destination = tracker.get_slot("destination")
         origine = tracker.get_slot("origine")
-        work = tracker.get_slot("work")
-        if not place:
-            dispatcher.utter_message(text="⚠️ Désolé, Je n'ai pas compris la place que vous cherchez ⚠️")
+        # dispatcher.utter_message(text=f"origine « {origine} \n destination « {destination}")
+        
+        if not destination:
+            dispatcher.utter_message(text=" Désolé, Je ne reconnais pas le lieu que vous cherchez ")
             return []
 
         # Recherche de la localisation
-        result = search_strict(place, data)
-
+        result = search_strict(destination, data)
         if not result:
             # utter_no_place
-            dispatcher.utter_message(text=f"❌ Aucune localisation pour « {place} » n'a été trouvée. ❌")
+            dispatcher.utter_message(text=f" Aucune localisation pour « {destination} » n'a été trouvée. ")
             dispatcher.utter_message(response="utter_help")
             return []
 
-        # base_url ="file:D:/rasa/chatbot/data/path/images"
-        base_url = "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/path/images/"
-        # base_url = "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/path/images/"
-        steps = result["steps"]
+        if (not origine) and destination:
+            campus=detecter_campus(destination, data)
+            # base_url ="file:D:/rasa/chatbot/data/path/images"
+            base_url = "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/path/images/"
+            # base_url = "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/path/images/"
+            steps = result["steps"]
 
-        # Créer les éléments du carousel
-        elements = []
-        for i, step in enumerate(steps):
-            image_url = f"{base_url}{step}.jpg"
-            elements.append({
-                # "title": f"Étape {i + 1}",
-                "title": result["name"],
-                "image_url": image_url,
-                "subtitle": result["description"],
-                "buttons": [
-                    {
-                        "type": "postback",
-                        "title": "Suivant"
-                    }
-                ]
+            # Créer les éléments du carousel
+            elements = []
+            for i, step in enumerate(steps):
+                image_url = f"{base_url}{step}.jpg"
+                elements.append({
+                    # "title": f"Étape {i + 1}",
+                    "title": destination,
+                    "image_url": image_url,
+                    "subtitle": campus,
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Suivant",
+                            "payload": "/help"
+                        }
+                    ]
+                })
+            name= result["name"]
+            description =result["description"]
+            # Envoyer le carousel de localisation 
+            dispatcher.utter_message(text=f"vous cherchez {name}")
+            dispatcher.utter_message(text=f"le lieu que vous cherchez est {description}")
+            dispatcher.utter_message(attachment={
+                "type": "template",
+                "payload": {
+                    "template_type": "generic",
+                    "elements": elements
+                }
             })
-        name= result["name"]
-        # Envoyer le carousel de localisation ✅
-        dispatcher.utter_message(text=f"✅ parfait, vous chercher {name}")
-        dispatcher.utter_message(text=f"✅ voici comment procéder ✅")
-        dispatcher.utter_message(attachment={
-            "type": "template",
-            "payload": {
-                "template_type": "generic",
-                "elements": elements
-            }
-        })
 
-        return []
+            return []
+        
+
+        if origine and destination:
+            campus=detecter_campus(destination, data)
+            direction=  prediction_monter_descendre(origine, destination, data)
+            
+            # base_url ="file:D:/rasa/chatbot/data/path/images"
+            base_url = "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/path/images/"
+            # base_url = "file:///C:/Users/Lomofouet/Desktop/dicap-rasa/rasa/chatbot/data/path/images/"
+            steps = result["steps"]
+
+            # Créer les éléments du carousel
+            elements = []
+            for i, step in enumerate(steps):
+                image_url = f"{base_url}{step}.jpg"
+                elements.append({
+                    # "title": f"Étape {i + 1}",
+                    "title": "parcours vers "+destination,
+                    "image_url": image_url,
+                    "subtitle": "Niveau: "+campus,
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Suivant",
+                            "payload": "/help"
+                        }
+                    ]
+                })
+            name= result["name"]
+            description =result["description"]
+            # Envoyer le carousel de localisation 
+            dispatcher.utter_message(text=f"vous cherchez {name}")
+            dispatcher.utter_message(text=f"{direction}")
+            dispatcher.utter_message(text=f"le lieu que vous cherchez est {description}")
+            dispatcher.utter_message(attachment={
+                "type": "template",
+                "payload": {
+                    "template_type": "generic",
+                    "elements": elements
+                }
+            })
+
+            return []
+        
